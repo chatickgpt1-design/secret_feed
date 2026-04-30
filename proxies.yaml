@@ -9,7 +9,15 @@ proxies:
   password: lEjtI3pFYfU7O1UYozJcfZV5K6Fwfths
   tls: true
   servername: 64.74.163.118
-- name: 🥇 🇬🇧 75ms | VLESS (1)
+- name: 🥇 🇨🇦 69ms | TROJAN (1)
+  type: trojan
+  server: 172.64.149.54
+  port: 2096
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+- name: 🥇 🇬🇧 75ms | VLESS (2)
   type: vless
   server: 79.141.171.133
   port: 443
@@ -17,14 +25,6 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: 4c3fe585-ac09-41df-b284-888818888188
-- name: 🥇 🇺🇸 91ms | VLESS (2)
-  type: vless
-  server: 95.164.85.33
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
 - name: 🥇 🇩🇪 92ms | TROJAN (3)
   type: trojan
   server: 63.179.8.52
@@ -35,23 +35,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 63.179.8.52
-- name: 🥇 🇩🇪 92ms | VLESS (4)
-  type: vless
-  server: 84.32.100.149
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 8375ce44-d285-40b7-b827-dc62a67fe49f
-- name: 🥇 🇳🇱 93ms | VLESS (6)
-  type: vless
-  server: 130.12.242.122
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 7d87c41f-0fa5-4865-9369-3cc798d97f31
-- name: 🥇 🇩🇪 94ms | TROJAN (7)
+- name: 🥇 🇩🇪 92ms | TROJAN (4)
   type: trojan
   server: 35.158.91.156
   port: 22223
@@ -61,7 +45,23 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 35.158.91.156
-- name: 🥇 🇩🇪 95ms | TROJAN (8)
+- name: 🥇 🇩🇪 93ms | VLESS (5)
+  type: vless
+  server: 84.32.100.149
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 8375ce44-d285-40b7-b827-dc62a67fe49f
+- name: 🥇 🇳🇱 94ms | VLESS (6)
+  type: vless
+  server: 130.12.242.122
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 7d87c41f-0fa5-4865-9369-3cc798d97f31
+- name: 🥇 🇩🇪 95ms | TROJAN (7)
   type: trojan
   server: 35.158.91.156
   port: 22222
@@ -71,15 +71,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 35.158.91.156
-- name: 🥇 🇳🇱 96ms | VLESS (9)
-  type: vless
-  server: 45.15.129.191
-  port: 7443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6589254d-47ee-4d78-9659-41304c755cce
-- name: 🥇 🇳🇱 97ms | VLESS (10)
+- name: 🥇 🇳🇱 97ms | VLESS (8)
   type: vless
   server: 51.158.206.29
   port: 23576
@@ -87,7 +79,7 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- name: 🥇 🇳🇱 98ms | VLESS (11)
+- name: 🥇 🇳🇱 98ms | VLESS (9)
   type: vless
   server: 212.162.152.48
   port: 433
@@ -95,7 +87,7 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: e72f5541-ce48-4e14-b190-dc3ee94cd720
-- name: 🥇 🇮🇹 101ms | VLESS (12)
+- name: 🥇 🇮🇹 101ms | VLESS (10)
   type: vless
   server: 82.118.16.61
   port: 8443
@@ -103,6 +95,22 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: e033ef6e-ab4b-47d4-a523-ff568d2c8dbb
+- name: 🥇 🇳🇱 111ms | VLESS (11)
+  type: vless
+  server: 45.15.129.191
+  port: 7443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6589254d-47ee-4d78-9659-41304c755cce
+- name: 🥇 🇺🇸 116ms | VLESS (12)
+  type: vless
+  server: 95.164.85.33
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
 - name: 🥇 🇩🇪 123ms | TROJAN (13)
   type: trojan
   server: 63.179.8.52
@@ -113,7 +121,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 63.179.8.52
-- name: 🥇 🇯🇵💻 162ms | TROJAN (14)
+- name: 🥇 🇯🇵💻 157ms | TROJAN (15)
   type: trojan
   server: 140.238.43.40
   port: 24534
@@ -123,7 +131,7 @@ proxies:
   password: e136d465-0558-43b9-b50c-b1f45d4cb2c2
   tls: true
   servername: jp2-8sb.6121999.dpdns.org
-- name: 🥇 🇯🇵💻 175ms | TROJAN (16)
+- name: 🥇 🇯🇵💻 161ms | TROJAN (16)
   type: trojan
   server: 140.238.43.40
   port: 24534
@@ -133,16 +141,6 @@ proxies:
   password: e136d465-0558-43b9-b50c-b1f45d4cb2c2
   tls: true
   servername: jp2-8sb.6121999.dpdns.org
-- name: 🥇 🇩🇪💻 500ms | TROJAN (17)
-  type: trojan
-  server: 63.179.8.52
-  port: 22222
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  password: telegram-id-privatevpns
-  tls: true
-  servername: trojan.burgerip.co.uk
 - name: 🥇 🇩🇪💻 500ms | TROJAN (18)
   type: trojan
   server: 63.179.8.52
@@ -152,7 +150,7 @@ proxies:
   network: tcp
   password: telegram-id-privatevpns
   tls: true
-  servername: 63.179.8.52
+  servername: trojan.burgerip.co.uk
 - name: 🥇 🇩🇪💻 500ms | TROJAN (19)
   type: trojan
   server: 63.179.8.52
@@ -182,7 +180,7 @@ proxies:
   network: tcp
   password: telegram-id-privatevpns
   tls: true
-  servername: trojan.burgerip.co.uk
+  servername: 63.179.8.52
 - name: 🥇 🇩🇪💻 500ms | TROJAN (22)
   type: trojan
   server: 63.179.8.52
@@ -192,8 +190,18 @@ proxies:
   network: tcp
   password: telegram-id-privatevpns
   tls: true
+  servername: trojan.burgerip.co.uk
+- name: 🥇 🇩🇪💻 500ms | TROJAN (23)
+  type: trojan
+  server: 63.179.8.52
+  port: 22222
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  password: telegram-id-privatevpns
+  tls: true
   servername: 🔒
-- name: 🥇 🌐 999ms | TROJAN (23)
+- name: 🥇 🌐 999ms | TROJAN (24)
   type: trojan
   server: 15.237.229.47
   port: 22222
@@ -203,7 +211,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 15.237.229.47
-- name: 🥇 🌐 999ms | TROJAN (24)
+- name: 🥇 🌐 999ms | TROJAN (25)
   type: trojan
   server: 3.75.103.136
   port: 22222
@@ -213,7 +221,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 3.75.103.136
-- name: 🥇 🌐 999ms | TROJAN (25)
+- name: 🥇 🌐 999ms | TROJAN (26)
   type: trojan
   server: 13.38.235.130
   port: 22222
@@ -223,7 +231,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 13.38.235.130
-- name: 🥇 🌐 999ms | TROJAN (26)
+- name: 🥇 🌐 999ms | TROJAN (27)
   type: trojan
   server: 35.181.15.157
   port: 22222
@@ -233,7 +241,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 35.181.15.157
-- name: 🥇 🌐 999ms | TROJAN (27)
+- name: 🥇 🌐 999ms | TROJAN (28)
   type: trojan
   server: 15.236.78.92
   port: 22222
@@ -243,7 +251,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 15.236.78.92
-- name: 🥇 🌐 999ms | TROJAN (28)
+- name: 🥇 🌐 999ms | TROJAN (29)
   type: trojan
   server: 13.38.232.205
   port: 22222
@@ -253,7 +261,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 13.38.232.205
-- name: 🥇 🌐 999ms | TROJAN (29)
+- name: 🥇 🌐 999ms | TROJAN (30)
   type: trojan
   server: 13.36.179.38
   port: 22222
@@ -263,7 +271,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 13.36.179.38
-- name: 🥇 🌐 999ms | TROJAN (30)
+- name: 🥇 🌐 999ms | TROJAN (31)
   type: trojan
   server: 13.39.77.217
   port: 22222
@@ -273,7 +281,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 13.39.77.217
-- name: 🥇 🌐 999ms | TROJAN (31)
+- name: 🥇 🌐 999ms | TROJAN (32)
   type: trojan
   server: 3.75.35.234
   port: 22222
@@ -283,7 +291,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 3.75.35.234
-- name: 🥇 🌐 999ms | TROJAN (32)
+- name: 🥇 🌐 999ms | TROJAN (33)
   type: trojan
   server: 15.224.77.136
   port: 22222
@@ -293,7 +301,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 15.224.77.136
-- name: 🥇 🌐 999ms | TROJAN (33)
+- name: 🥇 🌐 999ms | TROJAN (34)
   type: trojan
   server: 15.236.1.234
   port: 22222
@@ -303,7 +311,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 15.236.1.234
-- name: 🥇 🌐 999ms | TROJAN (34)
+- name: 🥇 🌐 999ms | TROJAN (35)
   type: trojan
   server: 63.183.130.255
   port: 22222
@@ -313,7 +321,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 63.183.130.255
-- name: 🥇 🌐 999ms | TROJAN (35)
+- name: 🥇 🌐 999ms | TROJAN (36)
   type: trojan
   server: 13.38.248.91
   port: 22222
@@ -323,7 +331,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 13.38.248.91
-- name: 🥇 🌐 999ms | TROJAN (36)
+- name: 🥇 🌐 999ms | TROJAN (37)
   type: trojan
   server: 51.45.39.44
   port: 22222
@@ -333,7 +341,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 51.45.39.44
-- name: 🥇 🌐 999ms | TROJAN (37)
+- name: 🥇 🌐 999ms | TROJAN (38)
   type: trojan
   server: 52.47.129.194
   port: 22222
@@ -343,7 +351,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 52.47.129.194
-- name: 🥇 🌐 999ms | TROJAN (38)
+- name: 🥇 🌐 999ms | TROJAN (39)
   type: trojan
   server: 3.123.242.84
   port: 22222
@@ -353,7 +361,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 3.123.242.84
-- name: 🥇 🌐 999ms | TROJAN (39)
+- name: 🥇 🌐 999ms | TROJAN (40)
   type: trojan
   server: 13.38.179.226
   port: 22222
@@ -363,7 +371,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 13.38.179.226
-- name: 🥇 🌐 999ms | TROJAN (40)
+- name: 🥇 🌐 999ms | TROJAN (41)
   type: trojan
   server: 35.159.185.219
   port: 22222
@@ -373,7 +381,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 35.159.185.219
-- name: 🥇 🌐 999ms | VLESS (41)
+- name: 🥇 🌐 999ms | VLESS (42)
   type: vless
   server: wow2.preghost2.ir
   port: 47471
@@ -381,7 +389,7 @@ proxies:
   skip-cert-verify: true
   network: grpc
   uuid: eb041b40-e9d1-4a30-a9c5-13f3e2fcc445
-- name: 🥇 🌐 999ms | TROJAN (42)
+- name: 🥇 🌐 999ms | TROJAN (43)
   type: trojan
   server: 15.237.229.47
   port: 22223
@@ -391,7 +399,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 15.237.229.47
-- name: 🥇 🌐 999ms | TROJAN (43)
+- name: 🥇 🌐 999ms | TROJAN (44)
   type: trojan
   server: 3.75.103.136
   port: 22223
@@ -401,7 +409,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 3.75.103.136
-- name: 🥇 🌐 999ms | TROJAN (44)
+- name: 🥇 🌐 999ms | TROJAN (45)
   type: trojan
   server: 13.38.235.130
   port: 22223
@@ -411,7 +419,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 13.38.235.130
-- name: 🥇 🌐 999ms | TROJAN (45)
+- name: 🥇 🌐 999ms | TROJAN (46)
   type: trojan
   server: 35.181.15.157
   port: 22223
@@ -421,7 +429,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 35.181.15.157
-- name: 🥇 🌐 999ms | TROJAN (46)
+- name: 🥇 🌐 999ms | TROJAN (47)
   type: trojan
   server: 15.236.78.92
   port: 22223
@@ -431,7 +439,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 15.236.78.92
-- name: 🥇 🌐 999ms | TROJAN (47)
+- name: 🥇 🌐 999ms | TROJAN (48)
   type: trojan
   server: 13.38.232.205
   port: 22223
@@ -441,7 +449,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 13.38.232.205
-- name: 🥇 🌐 999ms | TROJAN (48)
+- name: 🥇 🌐 999ms | TROJAN (49)
   type: trojan
   server: 13.36.179.38
   port: 22223
@@ -451,7 +459,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 13.36.179.38
-- name: 🥇 🌐 999ms | TROJAN (49)
+- name: 🥇 🌐 999ms | TROJAN (50)
   type: trojan
   server: 13.39.77.217
   port: 22223
@@ -461,7 +469,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 13.39.77.217
-- name: 🥇 🌐 999ms | TROJAN (50)
+- name: 🥇 🌐 999ms | TROJAN (51)
   type: trojan
   server: 3.75.35.234
   port: 22223
@@ -471,7 +479,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 3.75.35.234
-- name: 🥇 🌐 999ms | TROJAN (51)
+- name: 🥇 🌐 999ms | TROJAN (52)
   type: trojan
   server: 15.224.77.136
   port: 22223
@@ -481,7 +489,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 15.224.77.136
-- name: 🥇 🌐 999ms | TROJAN (52)
+- name: 🥇 🌐 999ms | TROJAN (53)
   type: trojan
   server: 15.236.1.234
   port: 22223
@@ -491,7 +499,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 15.236.1.234
-- name: 🥇 🌐 999ms | TROJAN (53)
+- name: 🥇 🌐 999ms | TROJAN (54)
   type: trojan
   server: 63.183.130.255
   port: 22223
@@ -501,7 +509,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 63.183.130.255
-- name: 🥇 🌐 999ms | TROJAN (54)
+- name: 🥇 🌐 999ms | TROJAN (55)
   type: trojan
   server: 13.38.248.91
   port: 22223
@@ -511,7 +519,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 13.38.248.91
-- name: 🥇 🌐 999ms | TROJAN (55)
+- name: 🥇 🌐 999ms | TROJAN (56)
   type: trojan
   server: 51.45.39.44
   port: 22223
@@ -521,7 +529,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 51.45.39.44
-- name: 🥇 🌐 999ms | TROJAN (56)
+- name: 🥇 🌐 999ms | TROJAN (57)
   type: trojan
   server: 52.47.129.194
   port: 22223
@@ -531,7 +539,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 52.47.129.194
-- name: 🥇 🌐 999ms | TROJAN (57)
+- name: 🥇 🌐 999ms | TROJAN (58)
   type: trojan
   server: 3.123.242.84
   port: 22223
@@ -541,7 +549,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 3.123.242.84
-- name: 🥇 🌐 999ms | TROJAN (58)
+- name: 🥇 🌐 999ms | TROJAN (59)
   type: trojan
   server: 13.38.179.226
   port: 22223
@@ -551,7 +559,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 13.38.179.226
-- name: 🥇 🌐 999ms | TROJAN (59)
+- name: 🥇 🌐 999ms | TROJAN (60)
   type: trojan
   server: 35.159.185.219
   port: 22223
@@ -561,7 +569,7 @@ proxies:
   password: telegram-id-directvpn
   tls: true
   servername: 35.159.185.219
-- name: 🥇 🌐 999ms | VLESS (61)
+- name: 🥇 🌐 999ms | VLESS (62)
   type: vless
   server: 37.139.35.53
   port: 8443
@@ -569,7 +577,7 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: c501c66b-c6c2-456b-b604-80393b83d67f
-- name: 🥇 🌐 999ms | TROJAN (62)
+- name: 🥇 🌐 999ms | TROJAN (63)
   type: trojan
   server: melllli.ioap-pajid.org
   port: 443
@@ -579,95 +587,7 @@ proxies:
   password: 37154ae9-0bf1-4d7f-9c6a-d0d7d12f9906
   tls: true
   servername: melllli.ioap-pajid.org
-- name: 🥈 🇮🇷 15ms | VLESS (63)
-  type: vless
-  server: varzesh3.com
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  uuid: dd8c9a33-3643-4c65-99c3-7402cba82718
-  ws-opts:
-    path: /
-    headers:
-      Host: varzesh3.com
-- name: 🥈 🇮🇷 15ms | VLESS (64)
-  type: vless
-  server: snapp.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 8de9dc82-d4c1-46af-976a-dbad92195c33
 - name: 🥈 🇮🇷 15ms | VLESS (65)
-  type: vless
-  server: 185.143.233.166
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 101e9cca-00ea-49f6-98b2-f2f34954c763
-- name: 🥈 🇮🇷 15ms | VLESS (66)
-  type: vless
-  server: snapp.ir
-  port: 2086
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  uuid: a128ad84-9a8e-47b8-8c5b-ef357c93f0d0
-  ws-opts:
-    path: /
-    headers:
-      Host: snapp.ir
-- name: 🥈 🇮🇷 16ms | VLESS (67)
-  type: vless
-  server: snappfood.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 378cf38c-303b-4d66-bc9d-a7a700e22438
-- name: 🥈 🇮🇷 16ms | VLESS (68)
-  type: vless
-  server: camp.nahidapp.com
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 74dd682c-3e81-4ca0-9be0-6ec6b5adbb5a
-- name: 🥈 🇮🇷 16ms | VLESS (69)
-  type: vless
-  server: snapp.ir
-  port: 2086
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 42c107b9-701d-4fb5-9a6e-e3c1251ab2c2
-- name: 🥈 🇮🇷 16ms | VLESS (70)
-  type: vless
-  server: 185.143.233.235
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 615db42a-429e-4c6e-b31e-fa44eb1fae66
-- name: 🥈 🇮🇷 16ms | VLESS (71)
-  type: vless
-  server: 185.143.233.5
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 08e74ba1-435c-4a24-b3b6-d54bee7a89bf
-- name: 🥈 🇮🇷 16ms | VLESS (72)
-  type: vless
-  server: varzesh3.com
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 23096f04-efbb-4cb5-b499-edf5f6a0991d
-- name: 🥈 🇮🇷 17ms | VLESS (73)
   type: vless
   server: red.nahidapp.com
   port: 443
@@ -675,79 +595,23 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: c22d0fb2-155d-4d20-a735-870bb5a9e238
-- name: 🥈 🇮🇷 17ms | VLESS (75)
+- name: 🥈 🇮🇷 16ms | VLESS (66)
   type: vless
-  server: arvancloud.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 3f9f4859-f421-427b-bc09-66a42ad015b9
-- name: 🥈 🇮🇷 17ms | VLESS (76)
-  type: vless
-  server: trex.nahidapp.com
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 3a96afe7-2e0d-4aad-98a3-20d9f1a5b071
-- name: 🥈 🇮🇷 18ms | VLESS (77)
-  type: vless
-  server: gr1.mizbanertebatfarda.ir
+  server: snapp.ir
   port: 8080
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: 66cc8dd6-b0b5-4382-b301-2b298955b2c6
-- name: 🥈 🇮🇷 18ms | VLESS (78)
+  uuid: 434a0fb6-d585-4c13-af66-57793e51efbd
+- name: 🥈 🇮🇷 17ms | VLESS (67)
   type: vless
-  server: trex.nahidapp.com
-  port: 443
+  server: shopcenter.lumavision.ir
+  port: 8080
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: c209fe97-c01d-49a7-a9d4-261278f9f58a
-- name: 🥈 🇮🇷 19ms | VLESS (79)
-  type: vless
-  server: line2.gymplusplus.com
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  uuid: 953d1420-ce8c-4462-9a10-22daea43dc23
-  ws-opts:
-    path: /
-    headers:
-      Host: line2.gymplusplus.com
-- name: 🥈 🇮🇷 19ms | VLESS (80)
-  type: vless
-  server: arvancloud.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  uuid: cf1aeb0d-dcc2-4345-9ade-5cd7abb7c613
-  ws-opts:
-    path: /
-    headers:
-      Host: arvancloud.ir
-- name: 🥈 🇮🇷 19ms | VLESS (81)
-  type: vless
-  server: red.nahidapp.com
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: c33d39ba-e68b-45b3-bb11-a2d29ae6f98d
-- name: 🥈 🇮🇷 19ms | VLESS (82)
-  type: vless
-  server: trex.nahidapp.com
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 58c7391e-2f6c-4aa0-8f80-645501ec46b1
-- name: 🥈 🇮🇷 21ms | VLESS (83)
+  uuid: 11a6d832-cac8-4ce4-a2f9-f0e87c4b6e35
+- name: 🥈 🇮🇷 17ms | VLESS (68)
   type: vless
   server: trex.nahidapp.com
   port: 443
@@ -755,15 +619,55 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: 7e534b97-981e-4e21-9951-a4e3bca85068
-- name: 🥈 🇮🇷 22ms | VLESS (85)
+- name: 🥈 🇮🇷 18ms | VLESS (69)
   type: vless
-  server: new.sordo.store
+  server: snappfood.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 14918be4-162b-4ea9-999f-845d9a64fda6
+- name: 🥈 🇮🇷 18ms | VLESS (70)
+  type: vless
+  server: arvancloud.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 2fbc0304-135b-4fcd-a0cb-d07b5bb7a719
+- name: 🥈 🇮🇷 18ms | VLESS (71)
+  type: vless
+  server: 185.143.233.235
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 95505215-0ad5-41bd-811b-a4c7c414643b
+- name: 🥈 🇮🇷 18ms | VLESS (72)
+  type: vless
+  server: camp.nahidapp.com
   port: 443
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: 7d4f9ad9-060e-4f12-b957-f4bdee8ed62f
-- name: 🥈 🇮🇷 22ms | VLESS (86)
+  uuid: ae6e3622-1e37-47fb-b15e-77b51c03748a
+- name: 🥈 🇮🇷 18ms | VLESS (73)
+  type: vless
+  server: red.nahidapp.com
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: c8cb0c7c-bf54-4291-ad11-fe7b5fdb82bc
+- name: 🥈 🇮🇷 18ms | VLESS (74)
+  type: vless
+  server: red.nahidapp.com
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: c8cb0c7c-bf54-4291-ad11-fe7b5fdb82bc
+- name: 🥈 🇮🇷 19ms | VLESS (75)
   type: vless
   server: mtn.itsazan.info
   port: 2083
@@ -771,23 +675,7 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: 4dbc938a-430e-42d7-a59c-a57d97076125
-- name: 🥈 🇮🇷 22ms | VLESS (87)
-  type: vless
-  server: mtn.itsazan.info
-  port: 2083
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 4dbc938a-430e-42d7-a59c-a57d97076125
-- name: 🥈 🇮🇷 22ms | VLESS (88)
-  type: vless
-  server: mtn.itsazan.info
-  port: 2083
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 4dbc938a-430e-42d7-a59c-a57d97076125
-- name: 🥈 🇮🇷 22ms | VLESS (89)
+- name: 🥈 🇮🇷 19ms | VLESS (76)
   type: vless
   server: snapp.ir
   port: 2086
@@ -799,31 +687,135 @@ proxies:
     path: /
     headers:
       Host: snapp.ir
-- name: 🥈 🇮🇷 22ms | VLESS (90)
+- name: 🥈 🇮🇷 19ms | VLESS (77)
   type: vless
-  server: blubank.sb24.ir
+  server: snapp.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 305e23a9-2fcc-4810-bb23-2ac36148ffff
+- name: 🥈 🇮🇷 19ms | VLESS (78)
+  type: vless
+  server: trex.nahidapp.com
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: c209fe97-c01d-49a7-a9d4-261278f9f58a
+- name: 🥈 🇮🇷 20ms | VLESS (80)
+  type: vless
+  server: mtn.itsazan.info
+  port: 2083
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 4dbc938a-430e-42d7-a59c-a57d97076125
+- name: 🥈 🇮🇷 20ms | VLESS (81)
+  type: vless
+  server: mtn.itsazan.info
+  port: 2083
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 4dbc938a-430e-42d7-a59c-a57d97076125
+- name: 🥈 🇮🇷 20ms | VLESS (82)
+  type: vless
+  server: 185.143.234.235
   port: 8080
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: 3ff87a9a-305d-4723-9c9e-88b8a7796d41
-- name: 🥈 🇮🇷 22ms | VLESS (91)
+  uuid: 0c204be4-e4f3-411e-b46d-1416e8c43280
+- name: 🥈 🇮🇷 21ms | VLESS (83)
+  type: vless
+  server: free.z1q1.cfd
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 3d23b51b-db72-4b4f-b126-a579de7f557b
+- name: 🥈 🇮🇷 22ms | VLESS (85)
   type: vless
   server: varzesh3.com
   port: 80
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: fba80791-8349-482d-a7a4-3b26f704babd
-- name: 🥈 🇮🇷 22ms | VLESS (92)
+  uuid: 23096f04-efbb-4cb5-b499-edf5f6a0991d
+- name: 🥈 🇮🇷 23ms | VLESS (87)
   type: vless
-  server: snapp.ir
-  port: 2052
+  server: new.sordo.store
+  port: 443
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: 1f140f22-5264-6062-a3bb-d5e76e5a3b9e
-- name: 🥈 🇮🇷 23ms | VLESS (93)
+  uuid: 7d4f9ad9-060e-4f12-b957-f4bdee8ed62f
+- name: 🥈 🇮🇷 23ms | VLESS (88)
+  type: vless
+  server: arvancloud.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: fc12abaa-f6b0-4556-9627-dee258415245
+- name: 🥈 🇮🇷 23ms | VLESS (89)
+  type: vless
+  server: abr.superip.ir
+  port: 2082
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 9f023546-f004-444b-93fd-428683a9532d
+- name: 🥈 🇮🇷 27ms | VLESS (90)
+  type: vless
+  server: s01.jangalhayeanbouh.shop
+  port: 8080
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: bb784901-c2a1-4b51-9eb0-3a934362d0cf
+- name: 🥈 🇮🇷 28ms | VLESS (91)
+  type: vless
+  server: red.nahidapp.com
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: c33d39ba-e68b-45b3-bb11-a2d29ae6f98d
+- name: 🥈 🇮🇷 28ms | VLESS (92)
+  type: vless
+  server: red.nahidapp.com
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: c22d0fb2-155d-4d20-a735-870bb5a9e238
+- name: 🥈 🇮🇷 30ms | VLESS (93)
+  type: vless
+  server: trex.nahidapp.com
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 18932b26-269d-434c-a62b-a46ea0fa0612
+- name: 🥈 🇮🇷 31ms | VLESS (94)
+  type: vless
+  server: khan10.tarfandgallery.sbs
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: d170c73c-222f-48c7-8234-e0cd98cf7d8f
+- name: 🥈 🇮🇷 34ms | VLESS (95)
+  type: vless
+  server: camp.nahidapp.com
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 289a306c-9c62-4004-9039-f19444539c07
+- name: 🥈 🇮🇷 34ms | VLESS (96)
   type: vless
   server: line2.gymplusplus.com
   port: 80
@@ -835,163 +827,7 @@ proxies:
     path: /
     headers:
       Host: line2.gymplusplus.com
-- name: 🥈 🇮🇷 23ms | VLESS (94)
-  type: vless
-  server: khan13.tarfandgallery.sbs
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 53a26616-e6cc-4a89-84fc-6da466f16720
-- name: 🥈 🇮🇷 23ms | VLESS (95)
-  type: vless
-  server: trex.nahidapp.com
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 890af818-344f-4895-b2c1-89532387a938
-- name: 🥈 🇮🇷 25ms | VLESS (96)
-  type: vless
-  server: snapp.ir
-  port: 8080
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 88984823-d3ef-4082-9dab-4827a8dfefb5
-- name: 🥈 🇮🇷 25ms | VLESS (97)
-  type: vless
-  server: snapp.ir
-  port: 2052
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 1f144533-5535-69c0-98ea-b9b272228304
-- name: 🥈 🇮🇷 26ms | VLESS (99)
-  type: vless
-  server: emergency-nightgemshop.lezzasevio.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 20e152e1-bb9c-48e4-8bc6-da4f9edaabeb
-- name: 🥈 🇮🇷 28ms | VLESS (100)
-  type: vless
-  server: snapp.ir
-  port: 2086
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  uuid: 37bd572b-8cf1-4ecc-a749-0d439d712028
-  ws-opts:
-    path: /
-    headers:
-      Host: snapp.ir
-- name: 🥈 🇮🇷 28ms | VLESS (101)
-  type: vless
-  server: snapp.ir
-  port: 2086
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  uuid: 6b5efcbd-568b-40dd-afea-139754e2cd7c
-  ws-opts:
-    path: /
-    headers:
-      Host: snapp.ir
-- name: 🥈 🇮🇷 29ms | VLESS (102)
-  type: vless
-  server: snapp.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: efe1451b-fdd2-46a7-bb95-3f82d2b004f2
-- name: 🥈 🇮🇷 29ms | VLESS (103)
-  type: vless
-  server: snapp.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: fe9092c4-404d-4854-88d9-284e2e3a17e1
-- name: 🥈 🇮🇷 30ms | VLESS (104)
-  type: vless
-  server: snapp.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  uuid: 7f630b41-d7a3-4187-9992-10a127178b83
-  ws-opts:
-    path: /
-    headers:
-      Host: snapp.ir
-- name: 🥈 🇮🇷 30ms | VLESS (105)
-  type: vless
-  server: snapp.ir
-  port: 2086
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 85d12a2b-3118-4caf-94d1-90d6f7299589
-- name: 🥈 🇮🇷 32ms | VLESS (106)
-  type: vless
-  server: camp.nahidapp.com
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: e4c0d6d1-2647-4da6-8ec3-231f9951ee2f
-- name: 🥈 🇮🇷 32ms | VLESS (107)
-  type: vless
-  server: red.nahidapp.com
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: c8cb0c7c-bf54-4291-ad11-fe7b5fdb82bc
-- name: 🥈 🇮🇷 33ms | VLESS (108)
-  type: vless
-  server: snapp.ir
-  port: 8880
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: b859b367-0165-420a-8ded-8d3bd66d28e8
-- name: 🥈 🇮🇷 33ms | VLESS (109)
-  type: vless
-  server: snapp.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: b5a1d38d-d220-421a-a996-9198777b2bdc
-- name: 🥈 🇮🇷 33ms | VLESS (110)
-  type: vless
-  server: camp.nahidapp.com
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: ae6e3622-1e37-47fb-b15e-77b51c03748a
-- name: 🥈 🇮🇷 33ms | VLESS (111)
-  type: vless
-  server: trex.nahidapp.com
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 18932b26-269d-434c-a62b-a46ea0fa0612
-- name: 🥈 🇮🇷 34ms | VLESS (112)
-  type: vless
-  server: khan10.tarfandgallery.sbs
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: d170c73c-222f-48c7-8234-e0cd98cf7d8f
-- name: 🥈 🇮🇷 35ms | VLESS (113)
+- name: 🥈 🇮🇷 34ms | VLESS (97)
   type: vless
   server: haikino.nahidapp.com
   port: 443
@@ -999,99 +835,7 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: dc4fa7a3-beab-4298-a20d-38c69aa54a93
-- name: 🥈 🇮🇷 40ms | VLESS (114)
-  type: vless
-  server: 185.143.233.5
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 8014017f-3f40-46e9-b02d-87e6c54d877e
-- name: 🥈 🇮🇷 41ms | VLESS (115)
-  type: vless
-  server: red.nahidapp.com
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: c8cb0c7c-bf54-4291-ad11-fe7b5fdb82bc
-- name: 🥈 🇮🇷 41ms | VLESS (116)
-  type: vless
-  server: snapp.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 305e23a9-2fcc-4810-bb23-2ac36148ffff
-- name: 🥈 🇮🇷 41ms | VLESS (117)
-  type: vless
-  server: snapp.ir
-  port: 8080
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 434a0fb6-d585-4c13-af66-57793e51efbd
-- name: 🥈 🇮🇷 41ms | VLESS (118)
-  type: vless
-  server: trex.nahidapp.com
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: ddde08ac-55d5-433c-92e9-ff5190cf1800
-- name: 🥈 🇮🇷 44ms | VLESS (119)
-  type: vless
-  server: camp.nahidapp.com
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 31d63c45-70c1-4307-a5d1-97a078a2564c
-- name: 🥈 🇮🇷 44ms | VLESS (120)
-  type: vless
-  server: abr.superip.ir
-  port: 2082
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: d81c6d8e-9b0b-4f6e-a270-ee1763a460ff
-- name: 🥈 🇮🇷 44ms | VLESS (121)
-  type: vless
-  server: abr.superip.ir
-  port: 2082
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 34b472a9-667a-4146-bd89-4bced8ed42df
-- name: 🥈 🇮🇷 44ms | VLESS (122)
-  type: vless
-  server: cdn.mizbanertebatfarda.ir
-  port: 2095
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: b1fbc7b5-e6a1-4472-8700-21a7fe79bd2f
-- name: 🥈 🇮🇷 45ms | VLESS (123)
-  type: vless
-  server: s01.jangalhayeanbouh.shop
-  port: 8080
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: bb784901-c2a1-4b51-9eb0-3a934362d0cf
-- name: 🥈 🇮🇷 46ms | VLESS (124)
-  type: vless
-  server: snapp.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  uuid: 584d5818-761a-411d-ab86-7303c91825d5
-  ws-opts:
-    path: /
-    headers:
-      Host: snapp.ir
-- name: 🥈 🇮🇷 65ms | VLESS (133)
+- name: 🥈 🇮🇷 40ms | VLESS (98)
   type: vless
   server: trex.nahidapp.com
   port: 443
@@ -1099,171 +843,19 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: 13a7d852-f1ce-4ea7-8c49-15a09b4df39d
-- name: 🥈 🇮🇷 67ms | VLESS (134)
+- name: 🥈 🇮🇷 65ms | VLESS (107)
   type: vless
   server: snapp.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: c4e5aac3-0f31-4ec1-8aca-bede83bbccfa
-- name: 🥈 🇮🇷 70ms | VLESS (135)
-  type: vless
-  server: snapp.ir
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: ba961848-80bc-4e66-972f-6cf72b63aa39
-- name: 🥈 🇮🇷 71ms | VLESS (136)
-  type: vless
-  server: snapp.ir
-  port: 2086
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: a5d74be3-3c9e-4d2c-8fa3-6cd13d1277d3
-- name: 🥈 🇮🇷 71ms | VLESS (137)
-  type: vless
-  server: snapp.ir
-  port: 2086
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: e5d22ad4-0ba7-4a68-9612-f8d6f07dbcf3
-- name: 🥈 🇮🇷 73ms | VLESS (138)
-  type: vless
-  server: eco.gymplusplus.com
-  port: 2052
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 0905b571-7a90-4077-b186-ea1f5a11053f
-- name: 🥈 🇮🇷 74ms | VLESS (139)
-  type: vless
-  server: varzesh3.com
-  port: 2052
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 8f4d8c9c-2dc1-4683-a5ef-79c031afbde6
-- name: 🥈 🇮🇷 74ms | VLESS (140)
-  type: vless
-  server: snapp.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 0bc1c6c0-cdea-4a90-abf0-cadbe831c18e
-- name: 🥈 🇬🇧 75ms | VLESS (141)
-  type: vless
-  server: 57.129.137.55
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇬🇧 75ms | VLESS (142)
-  type: vless
-  server: 130.78.219.82
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-- name: 🥈 🇬🇧 75ms | VLESS (143)
-  type: vless
-  server: 195.54.161.101
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇬🇧 75ms | VLESS (144)
-  type: vless
-  server: 68.168.31.169
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇮🇷 75ms | VLESS (145)
-  type: vless
-  server: snapp.ir
-  port: 8080
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: acf4f392-fa79-4746-af36-93a8d20ee3ea
-- name: 🥈 🇮🇷 76ms | VLESS (146)
-  type: vless
-  server: snapp.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 771bc433-feba-4922-a916-e278fc8b7984
-- name: 🥈 🇮🇷 76ms | VLESS (147)
-  type: vless
-  server: red.nahidapp.com
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: c22d0fb2-155d-4d20-a735-870bb5a9e238
-- name: 🥈 🇬🇧 77ms | VLESS (149)
-  type: vless
-  server: 82.145.63.59
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇬🇧 77ms | VLESS (150)
-  type: vless
-  server: 134.209.27.216
-  port: 2083
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇮🇷 77ms | VLESS (152)
-  type: vless
-  server: pari.masterdadeh.ir
   port: 80
   udp: true
   skip-cert-verify: true
   network: ws
-  uuid: db389661-a8b6-0ea9-353b-d421956df6c1
+  uuid: c7fb9b7b-802c-460e-a623-a7aba5864fb0
   ws-opts:
     path: /
     headers:
-      Host: pari.masterdadeh.ir
-- name: 🥈 🇮🇷 78ms | VLESS (153)
-  type: vless
-  server: free.z1q1.cfd
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 3d23b51b-db72-4b4f-b126-a579de7f557b
-- name: 🥈 🇬🇧 78ms | VLESS (154)
-  type: vless
-  server: 130.78.219.82
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-- name: 🥈 🇮🇷 80ms | VLESS (156)
-  type: vless
-  server: snapp.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 1f9932eb-c18b-4658-a8bf-deaf14db1f84
-- name: 🥈 🇮🇷 80ms | VLESS (157)
+      Host: snapp.ir
+- name: 🥈 🇮🇷 70ms | VLESS (108)
   type: vless
   server: snapp.ir
   port: 80
@@ -1271,435 +863,23 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: d8084183-ccd6-49d0-81c8-c8663d326b4c
-- name: 🥈 🇳🇱 82ms | VLESS (160)
-  type: vless
-  server: 195.226.194.222
-  port: 2053
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 82ms | VLESS (161)
-  type: vless
-  server: 31.207.44.45
-  port: 8443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇬🇧 82ms | VLESS (162)
-  type: vless
-  server: ukos2.ksnodes.net
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-- name: 🥈 🇮🇷 82ms | VLESS (163)
-  type: vless
-  server: snapp.ir
-  port: 2052
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 1f1434da-1c31-6214-bb66-053236664c04
-- name: 🥈 🇮🇷 84ms | VLESS (171)
-  type: vless
-  server: snapp.ir
-  port: 8080
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 8522db19-147b-420c-aaef-8c484ecb20b4
-- name: 🥈 🇫🇷 86ms | VLESS (172)
-  type: vless
-  server: 162.19.79.211
-  port: 8443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇫🇷 86ms | VLESS (173)
-  type: vless
-  server: 146.59.228.153
-  port: 8443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 86ms | VLESS (174)
-  type: vless
-  server: 78.40.197.85
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 87ms | VLESS (178)
-  type: vless
-  server: 93.183.68.141
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 87ms | VLESS (179)
-  type: vless
-  server: 20.16.105.244
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-- name: 🥈 🇩🇪 88ms | VLESS (180)
-  type: vless
-  server: 193.124.203.126
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇮🇷 88ms | VLESS (181)
-  type: vless
-  server: emergency-nightgemshop.lezzasevio.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 74fd61cf-31fe-4de6-aafe-7dd9383e3ec4
-- name: 🥈 🇳🇱 89ms | VLESS (183)
-  type: vless
-  server: 193.124.49.246
-  port: 2053
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇩🇪 89ms | VLESS (184)
-  type: vless
-  server: 159.65.125.162
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 89ms | VLESS (185)
-  type: vless
-  server: 95.85.47.161
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇩🇪 89ms | VLESS (186)
-  type: vless
-  server: 159.65.125.162
-  port: 2087
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 89ms | VLESS (187)
-  type: vless
-  server: 95.85.44.26
-  port: 2087
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 89ms | VLESS (188)
-  type: vless
-  server: 167.71.65.205
-  port: 8443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-- name: 🥈 🇮🇷 89ms | VLESS (190)
-  type: vless
-  server: varzesh3.com
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 23096f04-efbb-4cb5-b499-edf5f6a0991d
-- name: 🥈 🇮🇷 89ms | VLESS (191)
+- name: 🥈 🇮🇷 71ms | VLESS (109)
   type: vless
   server: snapp.ir
   port: 80
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: 6340ba94-f7cc-4b94-9a57-e6d9a2b769df
-- name: 🥈 🇩🇪 89ms | VLESS (192)
+  uuid: 1f9932eb-c18b-4658-a8bf-deaf14db1f84
+- name: 🥈 🇮🇷 72ms | VLESS (110)
   type: vless
-  server: 162.19.228.119
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
-- name: 🥈 🇳🇱 90ms | VLESS (193)
-  type: vless
-  server: 193.42.110.120
-  port: 8443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 90ms | VLESS (194)
-  type: vless
-  server: 193.169.105.239
-  port: 2053
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 90ms | VLESS (195)
-  type: vless
-  server: 5.101.101.166
+  server: red.nahidapp.com
   port: 443
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 90ms | VLESS (196)
-  type: vless
-  server: 193.161.202.135
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 90ms | VLESS (197)
-  type: vless
-  server: 193.56.8.103
-  port: 8443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇩🇪 90ms | VLESS (198)
-  type: vless
-  server: 57.129.47.29
-  port: 2053
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇮🇷 90ms | VLESS (199)
-  type: vless
-  server: gr1.mizbanertebatfarda.ir
-  port: 8080
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 66cc8dd6-b0b5-4382-b301-2b298955b2c6
-- name: 🥈 🇮🇷 90ms | VLESS (200)
-  type: vless
-  server: snapp.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: d2d347d1-0a53-4ebe-a56a-2dd04be4320f
-- name: 🥈 🇮🇷 90ms | VLESS (201)
-  type: vless
-  server: meli2.masterdadeh.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 953c75b4-75fc-f2ed-5dc3-f751e827a52d
-- name: 🥈 🇮🇷 90ms | VLESS (202)
-  type: vless
-  server: min.oraclego.ir
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 99d8648b-fa04-4c67-a8d0-bfb0bf5616ac
-- name: 🥈 🇩🇪 91ms | VLESS (203)
-  type: vless
-  server: 46.101.201.34
-  port: 2087
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇩🇪 91ms | VLESS (204)
-  type: vless
-  server: 194.76.173.6
-  port: 2053
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇦🇪 91ms | VLESS (205)
-  type: vless
-  server: 31.59.39.125
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-- name: 🥈 🇳🇱 91ms | VLESS (206)
-  type: vless
-  server: 138.124.16.38
-  port: 8443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇩🇪 91ms | VLESS (207)
-  type: vless
-  server: 46.101.254.53
-  port: 2083
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 91ms | VLESS (208)
-  type: vless
-  server: 212.34.130.52
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 91ms | VLESS (209)
-  type: vless
-  server: 138.124.3.201
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 91ms | VLESS (210)
-  type: vless
-  server: 188.226.180.209
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-- name: 🥈 🇮🇷 91ms | VLESS (211)
-  type: vless
-  server: line2.gymplusplus.com
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 4ef93e80-e311-4b38-bc75-c1b46ae00c9c
-- name: 🥈 🇦🇪 91ms | VLESS (212)
-  type: vless
-  server: 31.59.39.125
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-- name: 🥈 🇮🇷 92ms | VLESS (213)
-  type: vless
-  server: snapp.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 0b69e6e7-3bf4-432f-a6bf-0ae060dc53a1
-- name: 🥈 🇮🇷 92ms | VLESS (214)
-  type: vless
-  server: 185.143.234.235
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: b8799fac-622a-4142-aab2-2aa862ad35f2
-- name: 🥈 🇩🇪 92ms | VLESS (215)
-  type: vless
-  server: 35.158.91.156
-  port: 22224
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  ws-opts:
-    path: /
-    headers:
-      Host: 35.158.91.156
-- name: 🥈 🇩🇪 93ms | VLESS (216)
-  type: vless
-  server: 46.101.254.53
-  port: 2053
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇩🇪 93ms | VLESS (217)
-  type: vless
-  server: 46.101.254.53
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇮🇷 93ms | VLESS (218)
-  type: vless
-  server: snapp.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: c4e5aac3-0f31-4ec1-8aca-bede83bbccfa
-- name: 🥈 🇳🇱 94ms | VLESS (219)
-  type: vless
-  server: 31.172.78.208
-  port: 8443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 94ms | VLESS (220)
-  type: vless
-  server: 5.34.180.231
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇩🇪 94ms | VLESS (221)
-  type: vless
-  server: 165.22.80.22
-  port: 8443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇮🇷 94ms | VLESS (222)
-  type: vless
-  server: golden.alisecvice.ir
-  port: 8080
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 58f676d0-f2fb-4cba-923b-8769f29a6e28
-- name: 🥈 🇩🇪 95ms | VLESS (223)
-  type: vless
-  server: 37.1.192.96
-  port: 2053
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 96ms | VLESS (225)
-  type: vless
-  server: 209.38.101.190
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇬🇧 96ms | VLESS (226)
+  uuid: c8cb0c7c-bf54-4291-ad11-fe7b5fdb82bc
+- name: 🥈 🇬🇧 74ms | VLESS (111)
   type: vless
   server: 57.128.181.24
   port: 8443
@@ -1707,83 +887,39 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇮🇷 96ms | VLESS (227)
+- name: 🥈 🇮🇷 74ms | VLESS (112)
   type: vless
-  server: snapp.ir
-  port: 2086
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  uuid: 8c71e31d-fdcb-403b-9d81-1240fae32c23
-  ws-opts:
-    path: /
-    headers:
-      Host: snapp.ir
-- name: 🥈 🇩🇪 96ms | VLESS (228)
-  type: vless
-  server: 138.124.32.188
-  port: 30047
+  server: pari.masterdadeh.ir
+  port: 80
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: 595ae3f9-5a91-4eaa-82a3-28a221cf8f7f
-- name: 🥈 🇳🇱 97ms | VLESS (229)
+  uuid: 2ee79b8d-7bc7-b497-96aa-260f0200c4d9
+- name: 🥈 🇬🇧 75ms | VLESS (113)
   type: vless
-  server: 95.179.132.188
+  server: 195.54.161.101
   port: 443
   udp: true
   skip-cert-verify: true
   network: tcp
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 98ms | VLESS (230)
+- name: 🥈 🇬🇧 75ms | VLESS (114)
   type: vless
-  server: 193.169.105.239
-  port: 8443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇳🇱 98ms | VLESS (231)
-  type: vless
-  server: 195.93.253.207
-  port: 2053
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇩🇪 98ms | VLESS (232)
-  type: vless
-  server: 138.124.32.78
+  server: 68.168.31.169
   port: 443
   udp: true
   skip-cert-verify: true
   network: tcp
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇮🇷 98ms | VLESS (233)
+- name: 🥈 🇮🇷 75ms | VLESS (115)
   type: vless
-  server: s3.tehranionliine.ir
-  port: 80
+  server: trex.nahidapp.com
+  port: 443
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: 4672f725-d38d-4848-8dd0-4a59847ae6d8
-- name: 🥈 🇮🇷 98ms | VLESS (234)
-  type: vless
-  server: snapp.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 110a7be5-20a0-40a5-8c12-bc485c2f8e4f
-- name: 🥈 🇩🇪 98ms | VLESS (235)
-  type: vless
-  server: ov-germany1.09vpn.com
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
-- name: 🥈 🇮🇷 98ms | VLESS (236)
+  uuid: 51fe02b3-cf13-4edc-b91c-9e47feaa67ef
+- name: 🥈 🇮🇷 75ms | VLESS (116)
   type: vless
   server: trex.nahidapp.com
   port: 443
@@ -1791,303 +927,143 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: 2f55f3de-d062-42de-8fe6-0c2c26e020da
-- name: 🥈 🇳🇱 98ms | VLESS (237)
-  type: vless
-  server: 45.92.1.37
-  port: 30047
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 595ae3f9-5a91-4eaa-82a3-28a221cf8f7f
-- name: 🥈 🇮🇷 99ms | VLESS (238)
-  type: vless
-  server: varzesh3.com
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  uuid: b1058fae-d792-4a47-ab3f-7947089b499f
-  ws-opts:
-    path: /
-    headers:
-      Host: varzesh3.com
-- name: 🥈 🇮🇷 99ms | VLESS (239)
-  type: vless
-  server: vipsenter2.phynanc.ir
-  port: 8443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 9a6adfe5-3924-4b82-a195-d710ca34f483
-- name: 🥈 🇮🇷 99ms | VLESS (240)
-  type: vless
-  server: 94.74.157.248
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-- name: 🥈 🇮🇷 99ms | VLESS (241)
-  type: vless
-  server: mochi-d1bdb57cd7-kalak.apps.ir-central1.arvancaas.ir
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: c7201267-8439-4ba6-8c41-fc0ecd5472b3
-- name: 🥈 🇩🇪 100ms | VLESS (242)
-  type: vless
-  server: 148.253.210.141
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇮🇷 100ms | VLESS (243)
-  type: vless
-  server: www.vinatech.ir
-  port: 8880
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 405f0726-89dc-6729-5bd6-a1464e61b6ea
-- name: 🥈 🇮🇷 100ms | VLESS (244)
-  type: vless
-  server: arvan.mizbanertebatfarda.ir
-  port: 8080
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 7133859b-a56e-4d08-9eeb-c1e8ce641219
-- name: 🥈 🇮🇷 101ms | VLESS (245)
-  type: vless
-  server: cn1.psp1gram.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  uuid: 0110d015-d127-4b60-9fce-a1488775ea23
-  ws-opts:
-    path: /
-    headers:
-      Host: cn1.psp1gram.ir
-- name: 🥈 🇮🇷 101ms | VLESS (246)
-  type: vless
-  server: golden.alisecvice.ir
-  port: 8080
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 58f676d0-f2fb-4cba-923b-8769f29a6e28
-- name: 🥈 🇮🇷 101ms | VLESS (247)
-  type: vless
-  server: parbam.baaq-yas.ir
-  port: 8443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: fb68a8ec-82f3-47d9-874c-7c76b51d3388
-- name: 🥈 🇮🇷 101ms | VLESS (248)
-  type: vless
-  server: varzesh3.com
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  uuid: efd07b64-7333-4ef7-a750-c225a8d3e0e4
-  ws-opts:
-    path: /
-    headers:
-      Host: varzesh3.com
-- name: 🥈 🇮🇷 101ms | VLESS (249)
-  type: vless
-  server: snapp.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 1de6f95e-b50c-44cd-97e8-ef38e15a8f55
-- name: 🥈 🇮🇷 101ms | VLESS (250)
-  type: vless
-  server: 121.cafe-august.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  uuid: 1a6b40f2-cf13-49f6-a762-a9504f4b5d65
-  ws-opts:
-    path: /
-    headers:
-      Host: 121.cafe-august.ir
-- name: 🥈 🇮🇷 101ms | VLESS (251)
-  type: vless
-  server: emergency-nightgemshop.lezzasevio.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 20e152e1-bb9c-48e4-8bc6-da4f9edaabeb
-- name: 🥈 🇮🇷 102ms | VLESS (252)
-  type: vless
-  server: api1.iramsmartkeyka.ir
-  port: 2095
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  uuid: ce871f8f-5f02-435b-b1db-e0739969aa02
-  ws-opts:
-    path: /
-    headers:
-      Host: api1.iramsmartkeyka.ir
-- name: 🥈 🇮🇷 102ms | VLESS (253)
-  type: vless
-  server: cdn2.whitepol4.ir
-  port: 2095
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  uuid: c6b38b33-ab08-43fb-b8c0-6c577346777a
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn2.whitepol4.ir
-- name: 🥈 🇮🇷 102ms | VLESS (254)
-  type: vless
-  server: cia.parsincharm.ir
-  port: 2052
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 5708a873-c7d8-4e6e-8ae5-d1d447f10bd8
-- name: 🥈 🇮🇷 102ms | VLESS (255)
-  type: vless
-  server: snapp.ir
-  port: 2052
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 1f14348e-a12b-60f6-9ba7-9d7aa7e60350
-- name: 🥈 🇮🇷 102ms | VLESS (256)
-  type: vless
-  server: arvan1.un1ty.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: be0bff33-a095-4f82-9edb-9073c3ba08af
-- name: 🥈 🇮🇷 102ms | VLESS (257)
-  type: vless
-  server: s1.tehranionliine.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 45488c15-cf24-4f8b-8a13-d37c580b8984
-- name: 🥈 🇮🇷 102ms | VLESS (258)
-  type: vless
-  server: shopcenter.lumavision.ir
-  port: 8080
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 11a6d832-cac8-4ce4-a2f9-f0e87c4b6e35
-- name: 🥈 🇮🇷 102ms | VLESS (259)
-  type: vless
-  server: orixcraft.ir
-  port: 2095
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 217242f1-cd3d-4afd-b109-b2bf1cd5b741
-- name: 🥈 🇮🇷 102ms | VLESS (260)
+- name: 🥈 🇮🇷 75ms | VLESS (117)
   type: vless
   server: arvancloud.ir
   port: 80
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: 2b389638-3a18-4a35-bb00-66dd8e1223d5
-- name: 🥈 🇮🇷 102ms | VLESS (261)
+  uuid: 24a367b6-51f7-4a2f-9e8e-b1af4abf4a50
+- name: 🥈 🇮🇷 75ms | VLESS (118)
   type: vless
-  server: s2.tehranionliine.ir
+  server: snappfood.ir
   port: 80
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: b1ac23fb-b336-4d37-a3c0-64b29c4ef3a4
-- name: 🥈 🇮🇷 103ms | VLESS (262)
+  uuid: ff943148-d5db-46df-a419-81536ed1ad9e
+- name: 🥈 🇮🇷 75ms | VLESS (119)
   type: vless
-  server: gr1.mizbanertebatfarda.ir
-  port: 8080
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 66cc8dd6-b0b5-4382-b301-2b298955b2c6
-- name: 🥈 🇮🇷 103ms | VLESS (263)
-  type: vless
-  server: badboybi2.yeksancloud.ir
+  server: snapp.ir
   port: 80
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: f20b416b-bf52-4b4e-bddb-41132f24cd62
-- name: 🥈 🇮🇷 103ms | VLESS (264)
+  uuid: 5556361a-be4d-444d-b354-ef796efbc1d0
+- name: 🥈 🇮🇷 75ms | VLESS (120)
   type: vless
-  server: meli.masterdadeh.ir
-  port: 80
+  server: snapp.ir
+  port: 2052
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: e35de7a5-0b04-fc4b-8887-9cf917b0f364
-- name: 🥈 🇩🇪 104ms | VLESS (265)
+  uuid: 1f143107-870d-671c-a350-f9c23cb3f43a
+- name: 🥈 🇬🇧 76ms | VLESS (122)
   type: vless
-  server: 139.28.96.83
-  port: 8443
+  server: 130.78.219.82
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+- name: 🥈 🇮🇷 77ms | VLESS (123)
+  type: vless
+  server: snapp.ir
+  port: 2052
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 1f1434da-1c31-6214-bb66-053236664c04
+- name: 🥈 🇮🇷 77ms | VLESS (124)
+  type: vless
+  server: snapp.ir
+  port: 2086
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 1bd4a892-3ddf-42c8-beb0-25cc705d1cc2
+- name: 🥈 🇬🇧 78ms | VLESS (125)
+  type: vless
+  server: 82.145.63.59
+  port: 443
   udp: true
   skip-cert-verify: true
   network: tcp
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇮🇷 104ms | VLESS (266)
+- name: 🥈 🇬🇧 78ms | VLESS (126)
   type: vless
-  server: iliya.8ib.ir
+  server: 134.209.27.216
+  port: 2083
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇮🇷 78ms | VLESS (127)
+  type: vless
+  server: snapp.ir
+  port: 2086
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: d6705577-e855-4368-a7e7-7d478682808f
+- name: 🥈 🇨🇦 81ms | VLESS (131)
+  type: vless
+  server: 162.159.12.151
   port: 443
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: 31c5b6e8-922d-46f4-a664-8e2b37b3e8a0
-- name: 🥈 🇮🇷 106ms | VLESS (267)
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇳🇱 82ms | VLESS (132)
   type: vless
-  server: blubank.sb24.ir
-  port: 8080
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 3ff87a9a-305d-4723-9c9e-88b8a7796d41
-- name: 🥈 🇩🇪 108ms | VLESS (269)
-  type: vless
-  server: 91.107.240.177
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 1c3b5f09-d3f4-44cc-adfc-5d74a71d33f2
-- name: 🥈 🇩🇪 110ms | VLESS (270)
-  type: vless
-  server: 88.99.60.34
+  server: 195.226.194.222
   port: 2053
   udp: true
   skip-cert-verify: true
   network: tcp
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇮🇷 110ms | VLESS (271)
+- name: 🥈 🇳🇱 82ms | VLESS (133)
   type: vless
-  server: s1.elmovipservice.ir
-  port: 80
+  server: 31.207.44.45
+  port: 8443
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: f271d667-1d94-4f25-b17c-f627e6191e6d
-- name: 🥈 🇫🇷 113ms | VLESS (275)
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇬🇧 84ms | VLESS (136)
+  type: vless
+  server: ukos2.ksnodes.net
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+- name: 🥈 🇳🇱 86ms | VLESS (137)
+  type: vless
+  server: 193.124.49.246
+  port: 2053
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇫🇷 86ms | VLESS (138)
+  type: vless
+  server: 162.19.79.211
+  port: 8443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇳🇱 86ms | VLESS (139)
+  type: vless
+  server: 20.16.105.244
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+- name: 🥈 🇫🇷 86ms | VLESS (140)
   type: vless
   server: 37.59.97.139
   port: 8443
@@ -2095,47 +1071,115 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇩🇪 113ms | VLESS (276)
+- name: 🥈 🇩🇪 87ms | VLESS (141)
   type: vless
-  server: 91.107.150.171
-  port: 2000
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-- name: 🥈 🇮🇷 114ms | VLESS (278)
-  type: vless
-  server: pg.nexorainnovationhub.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: c343fa39-def5-4dd0-bfbe-eb0bbae0eba2
-- name: 🥈 🇮🇷 116ms | VLESS (279)
-  type: vless
-  server: fl1bot-ws.headerip.com
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: b91b84f5-b1e4-4c21-bc12-4c1dca6b4dde
-- name: 🥈 🇳🇱 126ms | VLESS (282)
-  type: vless
-  server: 85.92.108.39
+  server: 46.101.254.53
   port: 443
   udp: true
   skip-cert-verify: true
   network: tcp
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- name: 🥈 🇮🇷 130ms | VLESS (283)
+- name: 🥈 🇳🇱 87ms | VLESS (142)
   type: vless
-  server: meli2.masterdadeh.ir
+  server: 78.40.197.85
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇳🇱 87ms | VLESS (143)
+  type: vless
+  server: 95.85.44.26
+  port: 2087
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇮🇷 87ms | VLESS (144)
+  type: vless
+  server: badboybi2.yeksancloud.ir
   port: 80
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: 953c75b4-75fc-f2ed-5dc3-f751e827a52d
-- name: 🥈 🇮🇷 137ms | VLESS (284)
+  uuid: f20b416b-bf52-4b4e-bddb-41132f24cd62
+- name: 🥈 🇩🇪 88ms | VLESS (145)
+  type: vless
+  server: 159.65.125.162
+  port: 2087
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇮🇷 88ms | VLESS (147)
+  type: vless
+  server: gr1.mizbanertebatfarda.ir
+  port: 8080
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 66cc8dd6-b0b5-4382-b301-2b298955b2c6
+- name: 🥈 🇮🇷 88ms | VLESS (148)
+  type: vless
+  server: emergency-nightgemshop.lezzasevio.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 20e152e1-bb9c-48e4-8bc6-da4f9edaabeb
+- name: 🥈 🇮🇷 88ms | VLESS (149)
+  type: vless
+  server: snapp.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  uuid: 4ed5f1ec-27b1-4e27-969d-4e9e0297793a
+  ws-opts:
+    path: /
+    headers:
+      Host: snapp.ir
+- name: 🥈 🇬🇧 89ms | VLESS (150)
+  type: vless
+  server: 130.78.219.82
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+- name: 🥈 🇩🇪 89ms | VLESS (151)
+  type: vless
+  server: 159.65.125.162
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇳🇱 89ms | VLESS (152)
+  type: vless
+  server: 167.71.65.205
+  port: 8443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+- name: 🥈 🇮🇷 89ms | VLESS (153)
+  type: vless
+  server: parbam.baaq-yas.ir
+  port: 8443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: fb68a8ec-82f3-47d9-874c-7c76b51d3388
+- name: 🥈 🇮🇷 89ms | VLESS (154)
+  type: vless
+  server: arvan1.un1ty.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: be0bff33-a095-4f82-9edb-9073c3ba08af
+- name: 🥈 🇮🇷 89ms | VLESS (155)
   type: vless
   server: anten.ir
   port: 8080
@@ -2147,103 +1191,7 @@ proxies:
     path: /
     headers:
       Host: anten.ir
-- name: 🥈 🇮🇷 140ms | VLESS (285)
-  type: vless
-  server: ger1bot-ws.headerip.com
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: a1ec68df-d4d2-4fe3-b715-103468b434aa
-- name: 🥈 🇮🇷 144ms | VLESS (286)
-  type: vless
-  server: emg2.mohimobileservice.ir
-  port: 2095
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: e0fe708e-21d8-4050-903b-931f90e4e941
-- name: 🥈 🇮🇷 151ms | VLESS (291)
-  type: vless
-  server: ss1.elmovipservice.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: f271d667-1d94-4f25-b17c-f627e6191e6d
-- name: 🥈 🇮🇷 158ms | VLESS (294)
-  type: vless
-  server: snapp.ir
-  port: 2052
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 1f14348b-ecaa-69bc-a735-99df5f9c3f83
-- name: 🥈 🇩🇰 173ms | VLESS (298)
-  type: vless
-  server: 24dc5c91924c5346.freestly.sapienza-mahan.ir
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: d230f0f7-6826-4f8e-8dbb-69ee2c837358
-- name: 🥈 🇮🇷 173ms | VLESS (299)
-  type: vless
-  server: snapp.ir
-  port: 8080
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 8522db19-147b-420c-aaef-8c484ecb20b4
-- name: 🥈 🇮🇷 174ms | VLESS (300)
-  type: vless
-  server: vip-nightgemshop.lezzasevio.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: a981e190-4ee9-457b-a925-49a20bcf5b81
-- name: 🥈 🇮🇷 176ms | VLESS (303)
-  type: vless
-  server: snappfood.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 14918be4-162b-4ea9-999f-845d9a64fda6
-- name: 🥈 🇮🇷 176ms | VLESS (304)
-  type: vless
-  server: abr.superip.ir
-  port: 2082
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: e387d5d7-58aa-4cb7-aa5c-bce96428e757
-- name: 🥈 🇮🇷 178ms | VLESS (308)
-  type: vless
-  server: pari.masterdadeh.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 39aa26dd-0d3e-32a7-69af-bf6efc91f880
-- name: 🥈 🇮🇷 178ms | VLESS (309)
-  type: vless
-  server: meli3.masterdadeh.ir
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 8bf8d4bd-9273-c6e0-2588-3698911313cc
-- name: 🥈 🇮🇷 179ms | VLESS (314)
-  type: vless
-  server: min.oraclego.ir
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 99d8648b-fa04-4c67-a8d0-bfb0bf5616ac
-- name: 🥈 🇮🇷 181ms | VLESS (318)
+- name: 🥈 🇮🇷 89ms | VLESS (156)
   type: vless
   server: zir.alihapps3.aghanami.ir
   port: 80
@@ -2251,31 +1199,487 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: 730c633b-ae43-4089-b442-81510ccfd834
-- name: 🥈 🇮🇷 183ms | VLESS (322)
+- name: 🥈 🇮🇷 89ms | VLESS (157)
   type: vless
-  server: s3.tehranionliine.ir
+  server: snapp.ir
   port: 80
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: 4672f725-d38d-4848-8dd0-4a59847ae6d8
-- name: 🥈 🇮🇷 191ms | VLESS (334)
+  uuid: 422781be-eea9-45e7-b658-411b337f62ab
+- name: 🥈 🇳🇱 90ms | VLESS (163)
+  type: vless
+  server: 193.42.110.120
+  port: 8443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇳🇱 90ms | VLESS (164)
+  type: vless
+  server: 5.101.101.166
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇳🇱 90ms | VLESS (165)
+  type: vless
+  server: 95.179.132.188
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇩🇪 90ms | VLESS (166)
+  type: vless
+  server: 46.101.254.53
+  port: 2083
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇳🇱 90ms | VLESS (167)
+  type: vless
+  server: 95.85.47.161
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇩🇪 90ms | VLESS (168)
+  type: vless
+  server: 165.22.80.22
+  port: 8443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇩🇪 90ms | VLESS (169)
+  type: vless
+  server: 139.28.96.83
+  port: 8443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇮🇷 90ms | VLESS (170)
+  type: vless
+  server: gr1.mizbanertebatfarda.ir
+  port: 8080
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 66cc8dd6-b0b5-4382-b301-2b298955b2c6
+- name: 🥈 🇳🇱 91ms | VLESS (172)
+  type: vless
+  server: 212.34.130.52
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇳🇱 91ms | VLESS (173)
+  type: vless
+  server: 193.56.8.103
+  port: 8443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇳🇱 91ms | VLESS (174)
+  type: vless
+  server: 138.124.3.201
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇩🇪 91ms | VLESS (175)
+  type: vless
+  server: 193.124.203.126
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇳🇱 91ms | VLESS (176)
+  type: vless
+  server: 188.226.180.209
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+- name: 🥈 🇳🇱 91ms | VLESS (177)
+  type: vless
+  server: 45.92.1.37
+  port: 30047
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 595ae3f9-5a91-4eaa-82a3-28a221cf8f7f
+- name: 🥈 🇦🇪 91ms | VLESS (178)
+  type: vless
+  server: 31.59.39.125
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+- name: 🥈 🇮🇷 91ms | VLESS (179)
+  type: vless
+  server: it.golden98.ir
+  port: 8880
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: d3340df9-4cc2-489b-854a-e306d7285d1f
+- name: 🥈 🇩🇪 92ms | VLESS (180)
+  type: vless
+  server: 194.76.173.6
+  port: 2053
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇩🇪 92ms | VLESS (181)
+  type: vless
+  server: 46.101.254.53
+  port: 2053
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇳🇱 92ms | VLESS (182)
+  type: vless
+  server: 5.34.180.231
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇳🇱 92ms | VLESS (183)
+  type: vless
+  server: 209.38.101.190
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇩🇪 92ms | VLESS (184)
+  type: vless
+  server: 57.129.47.29
+  port: 2053
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇩🇪 93ms | VLESS (186)
+  type: vless
+  server: 46.101.201.34
+  port: 2087
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇮🇷 93ms | VLESS (187)
+  type: vless
+  server: 185.143.234.235
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 04fa65ad-5178-49c0-b679-a5442e3bfe78
+- name: 🥈 🇩🇪 93ms | VLESS (188)
+  type: vless
+  server: 162.19.228.119
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+- name: 🥈 🇳🇱 94ms | VLESS (190)
+  type: vless
+  server: 31.172.78.208
+  port: 8443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇩🇪 94ms | VLESS (191)
+  type: vless
+  server: 138.124.32.78
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇮🇷 94ms | VLESS (192)
+  type: vless
+  server: snapp.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 305e23a9-2fcc-4810-bb23-2ac36148ffff
+- name: 🥈 🇮🇷 94ms | VLESS (193)
+  type: vless
+  server: min.oraclego.ir
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 99d8648b-fa04-4c67-a8d0-bfb0bf5616ac
+- name: 🥈 🇩🇪 94ms | VLESS (194)
+  type: vless
+  server: 35.158.91.156
+  port: 22224
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  ws-opts:
+    path: /
+    headers:
+      Host: 35.158.91.156
+- name: 🥈 🇳🇱 95ms | VLESS (195)
+  type: vless
+  server: 193.169.105.239
+  port: 2053
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇩🇪 95ms | VLESS (196)
+  type: vless
+  server: 37.1.192.96
+  port: 2053
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇮🇷 95ms | VLESS (197)
+  type: vless
+  server: abr.superip.ir
+  port: 2095
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: e387d5d7-58aa-4cb7-aa5c-bce96428e757
+- name: 🥈 🇮🇷 95ms | VLESS (198)
   type: vless
   server: abr.superip.ir
   port: 2082
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: 9e8d2012-bafc-4f43-8baf-94ac4de60784
-- name: 🥈 🇮🇷 194ms | VLESS (341)
+  uuid: d81c6d8e-9b0b-4f6e-a270-ee1763a460ff
+- name: 🥈 🇮🇷 95ms | VLESS (199)
   type: vless
-  server: khamenei.ir
+  server: abr.superip.ir
+  port: 2095
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 4afe244e-5553-44c8-8216-e3ef33ac9765
+- name: 🥈 🇮🇷 95ms | VLESS (200)
+  type: vless
+  server: abr.superip.ir
+  port: 2086
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 4afe244e-5553-44c8-8216-e3ef33ac9765
+- name: 🥈 🇮🇷 95ms | VLESS (201)
+  type: vless
+  server: abr.superip.ir
+  port: 2095
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 5535619d-9ba2-492d-996e-8c88a3572e28
+- name: 🥈 🇮🇷 95ms | VLESS (202)
+  type: vless
+  server: abr.superip.ir
+  port: 2095
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: fbc9770d-92d6-4578-a245-ae00752f7d05
+- name: 🥈 🇮🇷 96ms | VLESS (204)
+  type: vless
+  server: arvan.mizbanertebatfarda.ir
+  port: 8080
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 7133859b-a56e-4d08-9eeb-c1e8ce641219
+- name: 🥈 🇮🇷 96ms | VLESS (205)
+  type: vless
+  server: abr.superip.ir
+  port: 2086
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: eed64110-dfd3-4881-b78c-7234a40e69aa
+- name: 🥈 🇮🇷 96ms | VLESS (206)
+  type: vless
+  server: abr.superip.ir
+  port: 2082
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 34b472a9-667a-4146-bd89-4bced8ed42df
+- name: 🥈 🇳🇱 97ms | VLESS (208)
+  type: vless
+  server: 193.161.202.135
   port: 443
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: 47d149e3-8ba6-07d0-b91f-3dd9771fa7cc
-- name: 🥈 🇮🇷 198ms | VLESS (354)
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇮🇷 97ms | VLESS (209)
+  type: vless
+  server: 94.74.157.248
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+- name: 🥈 🇳🇱 98ms | VLESS (210)
+  type: vless
+  server: 193.169.105.239
+  port: 8443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇫🇷 98ms | VLESS (211)
+  type: vless
+  server: 146.59.228.153
+  port: 8443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇬🇧 98ms | VLESS (212)
+  type: vless
+  server: 57.129.137.55
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇳🇱 98ms | VLESS (213)
+  type: vless
+  server: 195.93.253.207
+  port: 2053
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇩🇪 98ms | VLESS (214)
+  type: vless
+  server: 138.124.32.188
+  port: 30047
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 595ae3f9-5a91-4eaa-82a3-28a221cf8f7f
+- name: 🥈 🇦🇪 99ms | VLESS (215)
+  type: vless
+  server: 31.59.39.125
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+- name: 🥈 🇳🇱 99ms | VLESS (216)
+  type: vless
+  server: 138.124.16.38
+  port: 8443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇮🇷 99ms | VLESS (217)
+  type: vless
+  server: golden.alisecvice.ir
+  port: 8080
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 58f676d0-f2fb-4cba-923b-8769f29a6e28
+- name: 🥈 🇮🇷 99ms | VLESS (218)
+  type: vless
+  server: pg.nexorainnovationhub.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: c343fa39-def5-4dd0-bfbe-eb0bbae0eba2
+- name: 🥈 🇩🇪 100ms | VLESS (219)
+  type: vless
+  server: 148.253.210.141
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇮🇷 100ms | VLESS (220)
+  type: vless
+  server: pari.masterdadeh.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 39aa26dd-0d3e-32a7-69af-bf6efc91f880
+- name: 🥈 🇮🇷 100ms | VLESS (221)
+  type: vless
+  server: cdn2.whitepol4.ir
+  port: 2095
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  uuid: c6b38b33-ab08-43fb-b8c0-6c577346777a
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn2.whitepol4.ir
+- name: 🥈 🇩🇪 100ms | VLESS (222)
+  type: vless
+  server: ov-germany1.09vpn.com
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
+- name: 🥈 🇮🇷 100ms | VLESS (223)
+  type: vless
+  server: orixcraft.ir
+  port: 2095
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 217242f1-cd3d-4afd-b109-b2bf1cd5b741
+- name: 🥈 🇩🇰 100ms | VLESS (224)
+  type: vless
+  server: 24dc5c91924c5346.freestly.sapienza-mahan.ir
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: d230f0f7-6826-4f8e-8dbb-69ee2c837358
+- name: 🥈 🇮🇷 101ms | VLESS (225)
+  type: vless
+  server: emergency-nightgemshop.lezzasevio.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 74fd61cf-31fe-4de6-aafe-7dd9383e3ec4
+- name: 🥈 🇮🇷 101ms | VLESS (226)
   type: vless
   server: yasinpanel.pointspeed.ir
   port: 80
@@ -2287,15 +1691,171 @@ proxies:
     path: /
     headers:
       Host: yasinpanel.pointspeed.ir
-- name: 🥈 🇮🇷 208ms | VLESS (388)
+- name: 🥈 🇮🇷 102ms | VLESS (228)
   type: vless
-  server: abr.superip.ir
-  port: 2082
+  server: eco.gymplusplus.com
+  port: 2052
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: eed64110-dfd3-4881-b78c-7234a40e69aa
-- name: 🥈 🇮🇷 219ms | VLESS (427)
+  uuid: 0905b571-7a90-4077-b186-ea1f5a11053f
+- name: 🥈 🇮🇷 102ms | VLESS (229)
+  type: vless
+  server: s2.tehranionliine.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: b1ac23fb-b336-4d37-a3c0-64b29c4ef3a4
+- name: 🥈 🇮🇷 102ms | VLESS (230)
+  type: vless
+  server: mochi-d1bdb57cd7-kalak.apps.ir-central1.arvancaas.ir
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: c7201267-8439-4ba6-8c41-fc0ecd5472b3
+- name: 🥈 🇮🇷 103ms | VLESS (231)
+  type: vless
+  server: s1.tehranionliine.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 45488c15-cf24-4f8b-8a13-d37c580b8984
+- name: 🥈 🇮🇷 103ms | VLESS (232)
+  type: vless
+  server: meli.masterdadeh.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: e35de7a5-0b04-fc4b-8887-9cf917b0f364
+- name: 🥈 🇮🇷 105ms | VLESS (233)
+  type: vless
+  server: blubank.sb24.ir
+  port: 8080
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 3ff87a9a-305d-4723-9c9e-88b8a7796d41
+- name: 🥈 🇮🇷 107ms | VLESS (234)
+  type: vless
+  server: s3.tehranionliine.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 4672f725-d38d-4848-8dd0-4a59847ae6d8
+- name: 🥈 🇮🇷 107ms | VLESS (235)
+  type: vless
+  server: emg2.mohimobileservice.ir
+  port: 2095
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: e0fe708e-21d8-4050-903b-931f90e4e941
+- name: 🥈 🇮🇷 107ms | VLESS (236)
+  type: vless
+  server: fl1bot-ws.headerip.com
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: b91b84f5-b1e4-4c21-bc12-4c1dca6b4dde
+- name: 🥈 🇮🇷 108ms | VLESS (237)
+  type: vless
+  server: vip-nightgemshop.lezzasevio.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: a981e190-4ee9-457b-a925-49a20bcf5b81
+- name: 🥈 🇮🇷 109ms | VLESS (238)
+  type: vless
+  server: api1.iramsmartkeyka.ir
+  port: 2095
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  uuid: ce871f8f-5f02-435b-b1db-e0739969aa02
+  ws-opts:
+    path: /
+    headers:
+      Host: api1.iramsmartkeyka.ir
+- name: 🥈 🇩🇪 110ms | VLESS (239)
+  type: vless
+  server: 88.99.60.34
+  port: 2053
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇩🇪 110ms | VLESS (240)
+  type: vless
+  server: 91.107.150.171
+  port: 2000
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+- name: 🥈 🇮🇷 110ms | VLESS (241)
+  type: vless
+  server: ger1bot-ws.headerip.com
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: a1ec68df-d4d2-4fe3-b715-103468b434aa
+- name: 🥈 🇮🇷 111ms | VLESS (243)
+  type: vless
+  server: meli2.masterdadeh.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 953c75b4-75fc-f2ed-5dc3-f751e827a52d
+- name: 🥈 🇮🇷 111ms | VLESS (244)
+  type: vless
+  server: gr1.mizbanertebatfarda.ir
+  port: 8080
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 66cc8dd6-b0b5-4382-b301-2b298955b2c6
+- name: 🥈 🇩🇪 112ms | VLESS (247)
+  type: vless
+  server: 91.107.240.177
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 1c3b5f09-d3f4-44cc-adfc-5d74a71d33f2
+- name: 🥈 🇮🇷 114ms | VLESS (249)
+  type: vless
+  server: s3.tehranionliine.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 4672f725-d38d-4848-8dd0-4a59847ae6d8
+- name: 🥈 🇮🇷 114ms | VLESS (250)
+  type: vless
+  server: khan13.tarfandgallery.sbs
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 53a26616-e6cc-4a89-84fc-6da466f16720
+- name: 🥈 🇮🇷 115ms | VLESS (252)
+  type: vless
+  server: badboybi2.yeksancloud.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: f20b416b-bf52-4b4e-bddb-41132f24cd62
+- name: 🥈 🇮🇷 115ms | VLESS (253)
   type: vless
   server: badboybi2.yeksancloud.ir
   port: 80
@@ -2303,7 +1863,135 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: 4d1625d9-6a0c-4fc3-8745-3bda1aa62145
-- name: 🥈 🇭🇰💻 225ms | VLESS (446)
+- name: 🥈 🇳🇱 116ms | VLESS (254)
+  type: vless
+  server: 93.183.68.141
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇳🇱 119ms | VLESS (256)
+  type: vless
+  server: 85.92.108.39
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🥈 🇮🇷 148ms | VLESS (262)
+  type: vless
+  server: blubank.sb24.ir
+  port: 8080
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 3ff87a9a-305d-4723-9c9e-88b8a7796d41
+- name: 🥈 🇮🇷 169ms | VLESS (268)
+  type: vless
+  server: cn1.psp1gram.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  uuid: 0110d015-d127-4b60-9fce-a1488775ea23
+  ws-opts:
+    path: /
+    headers:
+      Host: cn1.psp1gram.ir
+- name: 🥈 🇮🇷 171ms | VLESS (269)
+  type: vless
+  server: www.vinatech.ir
+  port: 8880
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 405f0726-89dc-6729-5bd6-a1464e61b6ea
+- name: 🥈 🇮🇷 171ms | VLESS (270)
+  type: vless
+  server: iliya.8ib.ir
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 31c5b6e8-922d-46f4-a664-8e2b37b3e8a0
+- name: 🥈 🇮🇷 181ms | VLESS (277)
+  type: vless
+  server: meli2.masterdadeh.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 953c75b4-75fc-f2ed-5dc3-f751e827a52d
+- name: 🥈 🇮🇷 183ms | VLESS (279)
+  type: vless
+  server: meli3.masterdadeh.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 8bf8d4bd-9273-c6e0-2588-3698911313cc
+- name: 🥈 🇮🇷 183ms | VLESS (280)
+  type: vless
+  server: ss1.elmovipservice.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: f271d667-1d94-4f25-b17c-f627e6191e6d
+- name: 🥈 🇮🇷 184ms | VLESS (281)
+  type: vless
+  server: min.oraclego.ir
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 99d8648b-fa04-4c67-a8d0-bfb0bf5616ac
+- name: 🥈 🇮🇷 186ms | VLESS (287)
+  type: vless
+  server: 121.cafe-august.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  uuid: 1a6b40f2-cf13-49f6-a762-a9504f4b5d65
+  ws-opts:
+    path: /
+    headers:
+      Host: 121.cafe-august.ir
+- name: 🥈 🇮🇷 187ms | VLESS (293)
+  type: vless
+  server: abr.superip.ir
+  port: 2082
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 9e8d2012-bafc-4f43-8baf-94ac4de60784
+- name: 🥈 🇮🇷 194ms | VLESS (309)
+  type: vless
+  server: cdn.mizbanertebatfarda.ir
+  port: 2095
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: b1fbc7b5-e6a1-4472-8700-21a7fe79bd2f
+- name: 🥈 🇮🇷 196ms | VLESS (316)
+  type: vless
+  server: s1.elmovipservice.ir
+  port: 80
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: f271d667-1d94-4f25-b17c-f627e6191e6d
+- name: 🥈 🇮🇷 199ms | VLESS (324)
+  type: vless
+  server: vipsenter2.phynanc.ir
+  port: 8443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 9a6adfe5-3924-4b82-a195-d710ca34f483
+- name: 🥈 🇭🇰💻 201ms | VLESS (331)
   type: vless
   server: 154.37.216.151
   port: 45482
@@ -2311,15 +1999,23 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: 45bbf56b-2d92-4618-a14d-66bef7287c4d
-- name: 🥈 🇺🇸 241ms | VLESS (476)
+- name: 🥈 🇮🇷 237ms | VLESS (443)
   type: vless
-  server: free08.tunnely.ru
-  port: 8080
+  server: cia.parsincharm.ir
+  port: 2052
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: 95280107-6e11-4cf5-8836-6271fcbfafe7
-- name: 🥈 🇮🇷 260ms | VLESS (493)
+  uuid: 5708a873-c7d8-4e6e-8ae5-d1d447f10bd8
+- name: 🥈 🇮🇷 245ms | VLESS (456)
+  type: vless
+  server: khamenei.ir
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 47d149e3-8ba6-07d0-b91f-3dd9771fa7cc
+- name: 🥈 🇮🇷 269ms | VLESS (473)
   type: vless
   server: iri.hosmci.ir
   port: 41473
@@ -2332,27 +2028,27 @@ proxy-groups:
   type: select
   proxies:
   - 🥇 🇨🇦💻 15ms | TROJAN (0)
-  - 🥇 🇬🇧 75ms | VLESS (1)
-  - 🥇 🇺🇸 91ms | VLESS (2)
+  - 🥇 🇨🇦 69ms | TROJAN (1)
+  - 🥇 🇬🇧 75ms | VLESS (2)
   - 🥇 🇩🇪 92ms | TROJAN (3)
-  - 🥇 🇩🇪 92ms | VLESS (4)
-  - 🥇 🇳🇱 93ms | VLESS (6)
-  - 🥇 🇩🇪 94ms | TROJAN (7)
-  - 🥇 🇩🇪 95ms | TROJAN (8)
-  - 🥇 🇳🇱 96ms | VLESS (9)
-  - 🥇 🇳🇱 97ms | VLESS (10)
-  - 🥇 🇳🇱 98ms | VLESS (11)
-  - 🥇 🇮🇹 101ms | VLESS (12)
+  - 🥇 🇩🇪 92ms | TROJAN (4)
+  - 🥇 🇩🇪 93ms | VLESS (5)
+  - 🥇 🇳🇱 94ms | VLESS (6)
+  - 🥇 🇩🇪 95ms | TROJAN (7)
+  - 🥇 🇳🇱 97ms | VLESS (8)
+  - 🥇 🇳🇱 98ms | VLESS (9)
+  - 🥇 🇮🇹 101ms | VLESS (10)
+  - 🥇 🇳🇱 111ms | VLESS (11)
+  - 🥇 🇺🇸 116ms | VLESS (12)
   - 🥇 🇩🇪 123ms | TROJAN (13)
-  - 🥇 🇯🇵💻 162ms | TROJAN (14)
-  - 🥇 🇯🇵💻 175ms | TROJAN (16)
-  - 🥇 🇩🇪💻 500ms | TROJAN (17)
+  - 🥇 🇯🇵💻 157ms | TROJAN (15)
+  - 🥇 🇯🇵💻 161ms | TROJAN (16)
   - 🥇 🇩🇪💻 500ms | TROJAN (18)
   - 🥇 🇩🇪💻 500ms | TROJAN (19)
   - 🥇 🇩🇪💻 500ms | TROJAN (20)
   - 🥇 🇩🇪💻 500ms | TROJAN (21)
   - 🥇 🇩🇪💻 500ms | TROJAN (22)
-  - 🥇 🌐 999ms | TROJAN (23)
+  - 🥇 🇩🇪💻 500ms | TROJAN (23)
   - 🥇 🌐 999ms | TROJAN (24)
   - 🥇 🌐 999ms | TROJAN (25)
   - 🥇 🌐 999ms | TROJAN (26)
@@ -2370,8 +2066,8 @@ proxy-groups:
   - 🥇 🌐 999ms | TROJAN (38)
   - 🥇 🌐 999ms | TROJAN (39)
   - 🥇 🌐 999ms | TROJAN (40)
-  - 🥇 🌐 999ms | VLESS (41)
-  - 🥇 🌐 999ms | TROJAN (42)
+  - 🥇 🌐 999ms | TROJAN (41)
+  - 🥇 🌐 999ms | VLESS (42)
   - 🥇 🌐 999ms | TROJAN (43)
   - 🥇 🌐 999ms | TROJAN (44)
   - 🥇 🌐 999ms | TROJAN (45)
@@ -2389,246 +2085,213 @@ proxy-groups:
   - 🥇 🌐 999ms | TROJAN (57)
   - 🥇 🌐 999ms | TROJAN (58)
   - 🥇 🌐 999ms | TROJAN (59)
-  - 🥇 🌐 999ms | VLESS (61)
-  - 🥇 🌐 999ms | TROJAN (62)
+  - 🥇 🌐 999ms | TROJAN (60)
+  - 🥇 🌐 999ms | VLESS (62)
+  - 🥇 🌐 999ms | TROJAN (63)
 - name: 🥈 Tier 2
   type: select
   proxies:
-  - 🥈 🇮🇷 15ms | VLESS (63)
-  - 🥈 🇮🇷 15ms | VLESS (64)
   - 🥈 🇮🇷 15ms | VLESS (65)
-  - 🥈 🇮🇷 15ms | VLESS (66)
-  - 🥈 🇮🇷 16ms | VLESS (67)
-  - 🥈 🇮🇷 16ms | VLESS (68)
-  - 🥈 🇮🇷 16ms | VLESS (69)
-  - 🥈 🇮🇷 16ms | VLESS (70)
-  - 🥈 🇮🇷 16ms | VLESS (71)
-  - 🥈 🇮🇷 16ms | VLESS (72)
-  - 🥈 🇮🇷 17ms | VLESS (73)
-  - 🥈 🇮🇷 17ms | VLESS (75)
-  - 🥈 🇮🇷 17ms | VLESS (76)
-  - 🥈 🇮🇷 18ms | VLESS (77)
-  - 🥈 🇮🇷 18ms | VLESS (78)
-  - 🥈 🇮🇷 19ms | VLESS (79)
-  - 🥈 🇮🇷 19ms | VLESS (80)
-  - 🥈 🇮🇷 19ms | VLESS (81)
-  - 🥈 🇮🇷 19ms | VLESS (82)
+  - 🥈 🇮🇷 16ms | VLESS (66)
+  - 🥈 🇮🇷 17ms | VLESS (67)
+  - 🥈 🇮🇷 17ms | VLESS (68)
+  - 🥈 🇮🇷 18ms | VLESS (69)
+  - 🥈 🇮🇷 18ms | VLESS (70)
+  - 🥈 🇮🇷 18ms | VLESS (71)
+  - 🥈 🇮🇷 18ms | VLESS (72)
+  - 🥈 🇮🇷 18ms | VLESS (73)
+  - 🥈 🇮🇷 18ms | VLESS (74)
+  - 🥈 🇮🇷 19ms | VLESS (75)
+  - 🥈 🇮🇷 19ms | VLESS (76)
+  - 🥈 🇮🇷 19ms | VLESS (77)
+  - 🥈 🇮🇷 19ms | VLESS (78)
+  - 🥈 🇮🇷 20ms | VLESS (80)
+  - 🥈 🇮🇷 20ms | VLESS (81)
+  - 🥈 🇮🇷 20ms | VLESS (82)
   - 🥈 🇮🇷 21ms | VLESS (83)
   - 🥈 🇮🇷 22ms | VLESS (85)
-  - 🥈 🇮🇷 22ms | VLESS (86)
-  - 🥈 🇮🇷 22ms | VLESS (87)
-  - 🥈 🇮🇷 22ms | VLESS (88)
-  - 🥈 🇮🇷 22ms | VLESS (89)
-  - 🥈 🇮🇷 22ms | VLESS (90)
-  - 🥈 🇮🇷 22ms | VLESS (91)
-  - 🥈 🇮🇷 22ms | VLESS (92)
-  - 🥈 🇮🇷 23ms | VLESS (93)
-  - 🥈 🇮🇷 23ms | VLESS (94)
-  - 🥈 🇮🇷 23ms | VLESS (95)
-  - 🥈 🇮🇷 25ms | VLESS (96)
-  - 🥈 🇮🇷 25ms | VLESS (97)
-  - 🥈 🇮🇷 26ms | VLESS (99)
-  - 🥈 🇮🇷 28ms | VLESS (100)
-  - 🥈 🇮🇷 28ms | VLESS (101)
-  - 🥈 🇮🇷 29ms | VLESS (102)
-  - 🥈 🇮🇷 29ms | VLESS (103)
-  - 🥈 🇮🇷 30ms | VLESS (104)
-  - 🥈 🇮🇷 30ms | VLESS (105)
-  - 🥈 🇮🇷 32ms | VLESS (106)
-  - 🥈 🇮🇷 32ms | VLESS (107)
-  - 🥈 🇮🇷 33ms | VLESS (108)
-  - 🥈 🇮🇷 33ms | VLESS (109)
-  - 🥈 🇮🇷 33ms | VLESS (110)
-  - 🥈 🇮🇷 33ms | VLESS (111)
-  - 🥈 🇮🇷 34ms | VLESS (112)
-  - 🥈 🇮🇷 35ms | VLESS (113)
-  - 🥈 🇮🇷 40ms | VLESS (114)
-  - 🥈 🇮🇷 41ms | VLESS (115)
-  - 🥈 🇮🇷 41ms | VLESS (116)
-  - 🥈 🇮🇷 41ms | VLESS (117)
-  - 🥈 🇮🇷 41ms | VLESS (118)
-  - 🥈 🇮🇷 44ms | VLESS (119)
-  - 🥈 🇮🇷 44ms | VLESS (120)
-  - 🥈 🇮🇷 44ms | VLESS (121)
-  - 🥈 🇮🇷 44ms | VLESS (122)
-  - 🥈 🇮🇷 45ms | VLESS (123)
-  - 🥈 🇮🇷 46ms | VLESS (124)
-  - 🥈 🇮🇷 65ms | VLESS (133)
-  - 🥈 🇮🇷 67ms | VLESS (134)
-  - 🥈 🇮🇷 70ms | VLESS (135)
-  - 🥈 🇮🇷 71ms | VLESS (136)
-  - 🥈 🇮🇷 71ms | VLESS (137)
-  - 🥈 🇮🇷 73ms | VLESS (138)
-  - 🥈 🇮🇷 74ms | VLESS (139)
-  - 🥈 🇮🇷 74ms | VLESS (140)
-  - 🥈 🇬🇧 75ms | VLESS (141)
-  - 🥈 🇬🇧 75ms | VLESS (142)
-  - 🥈 🇬🇧 75ms | VLESS (143)
-  - 🥈 🇬🇧 75ms | VLESS (144)
-  - 🥈 🇮🇷 75ms | VLESS (145)
-  - 🥈 🇮🇷 76ms | VLESS (146)
-  - 🥈 🇮🇷 76ms | VLESS (147)
-  - 🥈 🇬🇧 77ms | VLESS (149)
-  - 🥈 🇬🇧 77ms | VLESS (150)
-  - 🥈 🇮🇷 77ms | VLESS (152)
-  - 🥈 🇮🇷 78ms | VLESS (153)
-  - 🥈 🇬🇧 78ms | VLESS (154)
-  - 🥈 🇮🇷 80ms | VLESS (156)
-  - 🥈 🇮🇷 80ms | VLESS (157)
-  - 🥈 🇳🇱 82ms | VLESS (160)
-  - 🥈 🇳🇱 82ms | VLESS (161)
-  - 🥈 🇬🇧 82ms | VLESS (162)
-  - 🥈 🇮🇷 82ms | VLESS (163)
-  - 🥈 🇮🇷 84ms | VLESS (171)
-  - 🥈 🇫🇷 86ms | VLESS (172)
-  - 🥈 🇫🇷 86ms | VLESS (173)
-  - 🥈 🇳🇱 86ms | VLESS (174)
-  - 🥈 🇳🇱 87ms | VLESS (178)
-  - 🥈 🇳🇱 87ms | VLESS (179)
-  - 🥈 🇩🇪 88ms | VLESS (180)
-  - 🥈 🇮🇷 88ms | VLESS (181)
-  - 🥈 🇳🇱 89ms | VLESS (183)
-  - 🥈 🇩🇪 89ms | VLESS (184)
-  - 🥈 🇳🇱 89ms | VLESS (185)
-  - 🥈 🇩🇪 89ms | VLESS (186)
-  - 🥈 🇳🇱 89ms | VLESS (187)
-  - 🥈 🇳🇱 89ms | VLESS (188)
-  - 🥈 🇮🇷 89ms | VLESS (190)
-  - 🥈 🇮🇷 89ms | VLESS (191)
-  - 🥈 🇩🇪 89ms | VLESS (192)
-  - 🥈 🇳🇱 90ms | VLESS (193)
-  - 🥈 🇳🇱 90ms | VLESS (194)
-  - 🥈 🇳🇱 90ms | VLESS (195)
-  - 🥈 🇳🇱 90ms | VLESS (196)
-  - 🥈 🇳🇱 90ms | VLESS (197)
-  - 🥈 🇩🇪 90ms | VLESS (198)
-  - 🥈 🇮🇷 90ms | VLESS (199)
-  - 🥈 🇮🇷 90ms | VLESS (200)
-  - 🥈 🇮🇷 90ms | VLESS (201)
-  - 🥈 🇮🇷 90ms | VLESS (202)
-  - 🥈 🇩🇪 91ms | VLESS (203)
-  - 🥈 🇩🇪 91ms | VLESS (204)
-  - 🥈 🇦🇪 91ms | VLESS (205)
-  - 🥈 🇳🇱 91ms | VLESS (206)
-  - 🥈 🇩🇪 91ms | VLESS (207)
-  - 🥈 🇳🇱 91ms | VLESS (208)
-  - 🥈 🇳🇱 91ms | VLESS (209)
-  - 🥈 🇳🇱 91ms | VLESS (210)
-  - 🥈 🇮🇷 91ms | VLESS (211)
-  - 🥈 🇦🇪 91ms | VLESS (212)
-  - 🥈 🇮🇷 92ms | VLESS (213)
-  - 🥈 🇮🇷 92ms | VLESS (214)
-  - 🥈 🇩🇪 92ms | VLESS (215)
-  - 🥈 🇩🇪 93ms | VLESS (216)
-  - 🥈 🇩🇪 93ms | VLESS (217)
-  - 🥈 🇮🇷 93ms | VLESS (218)
-  - 🥈 🇳🇱 94ms | VLESS (219)
-  - 🥈 🇳🇱 94ms | VLESS (220)
-  - 🥈 🇩🇪 94ms | VLESS (221)
-  - 🥈 🇮🇷 94ms | VLESS (222)
-  - 🥈 🇩🇪 95ms | VLESS (223)
-  - 🥈 🇳🇱 96ms | VLESS (225)
-  - 🥈 🇬🇧 96ms | VLESS (226)
-  - 🥈 🇮🇷 96ms | VLESS (227)
-  - 🥈 🇩🇪 96ms | VLESS (228)
-  - 🥈 🇳🇱 97ms | VLESS (229)
-  - 🥈 🇳🇱 98ms | VLESS (230)
-  - 🥈 🇳🇱 98ms | VLESS (231)
-  - 🥈 🇩🇪 98ms | VLESS (232)
-  - 🥈 🇮🇷 98ms | VLESS (233)
-  - 🥈 🇮🇷 98ms | VLESS (234)
-  - 🥈 🇩🇪 98ms | VLESS (235)
-  - 🥈 🇮🇷 98ms | VLESS (236)
-  - 🥈 🇳🇱 98ms | VLESS (237)
-  - 🥈 🇮🇷 99ms | VLESS (238)
-  - 🥈 🇮🇷 99ms | VLESS (239)
-  - 🥈 🇮🇷 99ms | VLESS (240)
-  - 🥈 🇮🇷 99ms | VLESS (241)
-  - 🥈 🇩🇪 100ms | VLESS (242)
-  - 🥈 🇮🇷 100ms | VLESS (243)
-  - 🥈 🇮🇷 100ms | VLESS (244)
-  - 🥈 🇮🇷 101ms | VLESS (245)
-  - 🥈 🇮🇷 101ms | VLESS (246)
-  - 🥈 🇮🇷 101ms | VLESS (247)
-  - 🥈 🇮🇷 101ms | VLESS (248)
-  - 🥈 🇮🇷 101ms | VLESS (249)
-  - 🥈 🇮🇷 101ms | VLESS (250)
-  - 🥈 🇮🇷 101ms | VLESS (251)
-  - 🥈 🇮🇷 102ms | VLESS (252)
-  - 🥈 🇮🇷 102ms | VLESS (253)
-  - 🥈 🇮🇷 102ms | VLESS (254)
-  - 🥈 🇮🇷 102ms | VLESS (255)
-  - 🥈 🇮🇷 102ms | VLESS (256)
-  - 🥈 🇮🇷 102ms | VLESS (257)
-  - 🥈 🇮🇷 102ms | VLESS (258)
-  - 🥈 🇮🇷 102ms | VLESS (259)
-  - 🥈 🇮🇷 102ms | VLESS (260)
-  - 🥈 🇮🇷 102ms | VLESS (261)
-  - 🥈 🇮🇷 103ms | VLESS (262)
-  - 🥈 🇮🇷 103ms | VLESS (263)
-  - 🥈 🇮🇷 103ms | VLESS (264)
-  - 🥈 🇩🇪 104ms | VLESS (265)
-  - 🥈 🇮🇷 104ms | VLESS (266)
-  - 🥈 🇮🇷 106ms | VLESS (267)
-  - 🥈 🇩🇪 108ms | VLESS (269)
-  - 🥈 🇩🇪 110ms | VLESS (270)
-  - 🥈 🇮🇷 110ms | VLESS (271)
-  - 🥈 🇫🇷 113ms | VLESS (275)
-  - 🥈 🇩🇪 113ms | VLESS (276)
-  - 🥈 🇮🇷 114ms | VLESS (278)
-  - 🥈 🇮🇷 116ms | VLESS (279)
-  - 🥈 🇳🇱 126ms | VLESS (282)
-  - 🥈 🇮🇷 130ms | VLESS (283)
-  - 🥈 🇮🇷 137ms | VLESS (284)
-  - 🥈 🇮🇷 140ms | VLESS (285)
-  - 🥈 🇮🇷 144ms | VLESS (286)
-  - 🥈 🇮🇷 151ms | VLESS (291)
-  - 🥈 🇮🇷 158ms | VLESS (294)
-  - 🥈 🇩🇰 173ms | VLESS (298)
-  - 🥈 🇮🇷 173ms | VLESS (299)
-  - 🥈 🇮🇷 174ms | VLESS (300)
-  - 🥈 🇮🇷 176ms | VLESS (303)
-  - 🥈 🇮🇷 176ms | VLESS (304)
-  - 🥈 🇮🇷 178ms | VLESS (308)
-  - 🥈 🇮🇷 178ms | VLESS (309)
-  - 🥈 🇮🇷 179ms | VLESS (314)
-  - 🥈 🇮🇷 181ms | VLESS (318)
-  - 🥈 🇮🇷 183ms | VLESS (322)
-  - 🥈 🇮🇷 191ms | VLESS (334)
-  - 🥈 🇮🇷 194ms | VLESS (341)
-  - 🥈 🇮🇷 198ms | VLESS (354)
-  - 🥈 🇮🇷 208ms | VLESS (388)
-  - 🥈 🇮🇷 219ms | VLESS (427)
-  - 🥈 🇭🇰💻 225ms | VLESS (446)
-  - 🥈 🇺🇸 241ms | VLESS (476)
-  - 🥈 🇮🇷 260ms | VLESS (493)
+  - 🥈 🇮🇷 23ms | VLESS (87)
+  - 🥈 🇮🇷 23ms | VLESS (88)
+  - 🥈 🇮🇷 23ms | VLESS (89)
+  - 🥈 🇮🇷 27ms | VLESS (90)
+  - 🥈 🇮🇷 28ms | VLESS (91)
+  - 🥈 🇮🇷 28ms | VLESS (92)
+  - 🥈 🇮🇷 30ms | VLESS (93)
+  - 🥈 🇮🇷 31ms | VLESS (94)
+  - 🥈 🇮🇷 34ms | VLESS (95)
+  - 🥈 🇮🇷 34ms | VLESS (96)
+  - 🥈 🇮🇷 34ms | VLESS (97)
+  - 🥈 🇮🇷 40ms | VLESS (98)
+  - 🥈 🇮🇷 65ms | VLESS (107)
+  - 🥈 🇮🇷 70ms | VLESS (108)
+  - 🥈 🇮🇷 71ms | VLESS (109)
+  - 🥈 🇮🇷 72ms | VLESS (110)
+  - 🥈 🇬🇧 74ms | VLESS (111)
+  - 🥈 🇮🇷 74ms | VLESS (112)
+  - 🥈 🇬🇧 75ms | VLESS (113)
+  - 🥈 🇬🇧 75ms | VLESS (114)
+  - 🥈 🇮🇷 75ms | VLESS (115)
+  - 🥈 🇮🇷 75ms | VLESS (116)
+  - 🥈 🇮🇷 75ms | VLESS (117)
+  - 🥈 🇮🇷 75ms | VLESS (118)
+  - 🥈 🇮🇷 75ms | VLESS (119)
+  - 🥈 🇮🇷 75ms | VLESS (120)
+  - 🥈 🇬🇧 76ms | VLESS (122)
+  - 🥈 🇮🇷 77ms | VLESS (123)
+  - 🥈 🇮🇷 77ms | VLESS (124)
+  - 🥈 🇬🇧 78ms | VLESS (125)
+  - 🥈 🇬🇧 78ms | VLESS (126)
+  - 🥈 🇮🇷 78ms | VLESS (127)
+  - 🥈 🇨🇦 81ms | VLESS (131)
+  - 🥈 🇳🇱 82ms | VLESS (132)
+  - 🥈 🇳🇱 82ms | VLESS (133)
+  - 🥈 🇬🇧 84ms | VLESS (136)
+  - 🥈 🇳🇱 86ms | VLESS (137)
+  - 🥈 🇫🇷 86ms | VLESS (138)
+  - 🥈 🇳🇱 86ms | VLESS (139)
+  - 🥈 🇫🇷 86ms | VLESS (140)
+  - 🥈 🇩🇪 87ms | VLESS (141)
+  - 🥈 🇳🇱 87ms | VLESS (142)
+  - 🥈 🇳🇱 87ms | VLESS (143)
+  - 🥈 🇮🇷 87ms | VLESS (144)
+  - 🥈 🇩🇪 88ms | VLESS (145)
+  - 🥈 🇮🇷 88ms | VLESS (147)
+  - 🥈 🇮🇷 88ms | VLESS (148)
+  - 🥈 🇮🇷 88ms | VLESS (149)
+  - 🥈 🇬🇧 89ms | VLESS (150)
+  - 🥈 🇩🇪 89ms | VLESS (151)
+  - 🥈 🇳🇱 89ms | VLESS (152)
+  - 🥈 🇮🇷 89ms | VLESS (153)
+  - 🥈 🇮🇷 89ms | VLESS (154)
+  - 🥈 🇮🇷 89ms | VLESS (155)
+  - 🥈 🇮🇷 89ms | VLESS (156)
+  - 🥈 🇮🇷 89ms | VLESS (157)
+  - 🥈 🇳🇱 90ms | VLESS (163)
+  - 🥈 🇳🇱 90ms | VLESS (164)
+  - 🥈 🇳🇱 90ms | VLESS (165)
+  - 🥈 🇩🇪 90ms | VLESS (166)
+  - 🥈 🇳🇱 90ms | VLESS (167)
+  - 🥈 🇩🇪 90ms | VLESS (168)
+  - 🥈 🇩🇪 90ms | VLESS (169)
+  - 🥈 🇮🇷 90ms | VLESS (170)
+  - 🥈 🇳🇱 91ms | VLESS (172)
+  - 🥈 🇳🇱 91ms | VLESS (173)
+  - 🥈 🇳🇱 91ms | VLESS (174)
+  - 🥈 🇩🇪 91ms | VLESS (175)
+  - 🥈 🇳🇱 91ms | VLESS (176)
+  - 🥈 🇳🇱 91ms | VLESS (177)
+  - 🥈 🇦🇪 91ms | VLESS (178)
+  - 🥈 🇮🇷 91ms | VLESS (179)
+  - 🥈 🇩🇪 92ms | VLESS (180)
+  - 🥈 🇩🇪 92ms | VLESS (181)
+  - 🥈 🇳🇱 92ms | VLESS (182)
+  - 🥈 🇳🇱 92ms | VLESS (183)
+  - 🥈 🇩🇪 92ms | VLESS (184)
+  - 🥈 🇩🇪 93ms | VLESS (186)
+  - 🥈 🇮🇷 93ms | VLESS (187)
+  - 🥈 🇩🇪 93ms | VLESS (188)
+  - 🥈 🇳🇱 94ms | VLESS (190)
+  - 🥈 🇩🇪 94ms | VLESS (191)
+  - 🥈 🇮🇷 94ms | VLESS (192)
+  - 🥈 🇮🇷 94ms | VLESS (193)
+  - 🥈 🇩🇪 94ms | VLESS (194)
+  - 🥈 🇳🇱 95ms | VLESS (195)
+  - 🥈 🇩🇪 95ms | VLESS (196)
+  - 🥈 🇮🇷 95ms | VLESS (197)
+  - 🥈 🇮🇷 95ms | VLESS (198)
+  - 🥈 🇮🇷 95ms | VLESS (199)
+  - 🥈 🇮🇷 95ms | VLESS (200)
+  - 🥈 🇮🇷 95ms | VLESS (201)
+  - 🥈 🇮🇷 95ms | VLESS (202)
+  - 🥈 🇮🇷 96ms | VLESS (204)
+  - 🥈 🇮🇷 96ms | VLESS (205)
+  - 🥈 🇮🇷 96ms | VLESS (206)
+  - 🥈 🇳🇱 97ms | VLESS (208)
+  - 🥈 🇮🇷 97ms | VLESS (209)
+  - 🥈 🇳🇱 98ms | VLESS (210)
+  - 🥈 🇫🇷 98ms | VLESS (211)
+  - 🥈 🇬🇧 98ms | VLESS (212)
+  - 🥈 🇳🇱 98ms | VLESS (213)
+  - 🥈 🇩🇪 98ms | VLESS (214)
+  - 🥈 🇦🇪 99ms | VLESS (215)
+  - 🥈 🇳🇱 99ms | VLESS (216)
+  - 🥈 🇮🇷 99ms | VLESS (217)
+  - 🥈 🇮🇷 99ms | VLESS (218)
+  - 🥈 🇩🇪 100ms | VLESS (219)
+  - 🥈 🇮🇷 100ms | VLESS (220)
+  - 🥈 🇮🇷 100ms | VLESS (221)
+  - 🥈 🇩🇪 100ms | VLESS (222)
+  - 🥈 🇮🇷 100ms | VLESS (223)
+  - 🥈 🇩🇰 100ms | VLESS (224)
+  - 🥈 🇮🇷 101ms | VLESS (225)
+  - 🥈 🇮🇷 101ms | VLESS (226)
+  - 🥈 🇮🇷 102ms | VLESS (228)
+  - 🥈 🇮🇷 102ms | VLESS (229)
+  - 🥈 🇮🇷 102ms | VLESS (230)
+  - 🥈 🇮🇷 103ms | VLESS (231)
+  - 🥈 🇮🇷 103ms | VLESS (232)
+  - 🥈 🇮🇷 105ms | VLESS (233)
+  - 🥈 🇮🇷 107ms | VLESS (234)
+  - 🥈 🇮🇷 107ms | VLESS (235)
+  - 🥈 🇮🇷 107ms | VLESS (236)
+  - 🥈 🇮🇷 108ms | VLESS (237)
+  - 🥈 🇮🇷 109ms | VLESS (238)
+  - 🥈 🇩🇪 110ms | VLESS (239)
+  - 🥈 🇩🇪 110ms | VLESS (240)
+  - 🥈 🇮🇷 110ms | VLESS (241)
+  - 🥈 🇮🇷 111ms | VLESS (243)
+  - 🥈 🇮🇷 111ms | VLESS (244)
+  - 🥈 🇩🇪 112ms | VLESS (247)
+  - 🥈 🇮🇷 114ms | VLESS (249)
+  - 🥈 🇮🇷 114ms | VLESS (250)
+  - 🥈 🇮🇷 115ms | VLESS (252)
+  - 🥈 🇮🇷 115ms | VLESS (253)
+  - 🥈 🇳🇱 116ms | VLESS (254)
+  - 🥈 🇳🇱 119ms | VLESS (256)
+  - 🥈 🇮🇷 148ms | VLESS (262)
+  - 🥈 🇮🇷 169ms | VLESS (268)
+  - 🥈 🇮🇷 171ms | VLESS (269)
+  - 🥈 🇮🇷 171ms | VLESS (270)
+  - 🥈 🇮🇷 181ms | VLESS (277)
+  - 🥈 🇮🇷 183ms | VLESS (279)
+  - 🥈 🇮🇷 183ms | VLESS (280)
+  - 🥈 🇮🇷 184ms | VLESS (281)
+  - 🥈 🇮🇷 186ms | VLESS (287)
+  - 🥈 🇮🇷 187ms | VLESS (293)
+  - 🥈 🇮🇷 194ms | VLESS (309)
+  - 🥈 🇮🇷 196ms | VLESS (316)
+  - 🥈 🇮🇷 199ms | VLESS (324)
+  - 🥈 🇭🇰💻 201ms | VLESS (331)
+  - 🥈 🇮🇷 237ms | VLESS (443)
+  - 🥈 🇮🇷 245ms | VLESS (456)
+  - 🥈 🇮🇷 269ms | VLESS (473)
 - name: 🌍 GLOBAL
   type: select
   proxies:
   - 🥇 Tier 1
   - 🥈 Tier 2
   - 🥇 🇨🇦💻 15ms | TROJAN (0)
-  - 🥇 🇬🇧 75ms | VLESS (1)
-  - 🥇 🇺🇸 91ms | VLESS (2)
+  - 🥇 🇨🇦 69ms | TROJAN (1)
+  - 🥇 🇬🇧 75ms | VLESS (2)
   - 🥇 🇩🇪 92ms | TROJAN (3)
-  - 🥇 🇩🇪 92ms | VLESS (4)
-  - 🥇 🇳🇱 93ms | VLESS (6)
-  - 🥇 🇩🇪 94ms | TROJAN (7)
-  - 🥇 🇩🇪 95ms | TROJAN (8)
-  - 🥇 🇳🇱 96ms | VLESS (9)
-  - 🥇 🇳🇱 97ms | VLESS (10)
-  - 🥇 🇳🇱 98ms | VLESS (11)
-  - 🥇 🇮🇹 101ms | VLESS (12)
+  - 🥇 🇩🇪 92ms | TROJAN (4)
+  - 🥇 🇩🇪 93ms | VLESS (5)
+  - 🥇 🇳🇱 94ms | VLESS (6)
+  - 🥇 🇩🇪 95ms | TROJAN (7)
+  - 🥇 🇳🇱 97ms | VLESS (8)
+  - 🥇 🇳🇱 98ms | VLESS (9)
+  - 🥇 🇮🇹 101ms | VLESS (10)
+  - 🥇 🇳🇱 111ms | VLESS (11)
+  - 🥇 🇺🇸 116ms | VLESS (12)
   - 🥇 🇩🇪 123ms | TROJAN (13)
-  - 🥇 🇯🇵💻 162ms | TROJAN (14)
-  - 🥇 🇯🇵💻 175ms | TROJAN (16)
-  - 🥇 🇩🇪💻 500ms | TROJAN (17)
+  - 🥇 🇯🇵💻 157ms | TROJAN (15)
+  - 🥇 🇯🇵💻 161ms | TROJAN (16)
   - 🥇 🇩🇪💻 500ms | TROJAN (18)
   - 🥇 🇩🇪💻 500ms | TROJAN (19)
   - 🥇 🇩🇪💻 500ms | TROJAN (20)
   - 🥇 🇩🇪💻 500ms | TROJAN (21)
   - 🥇 🇩🇪💻 500ms | TROJAN (22)
-  - 🥇 🌐 999ms | TROJAN (23)
+  - 🥇 🇩🇪💻 500ms | TROJAN (23)
   - 🥇 🌐 999ms | TROJAN (24)
   - 🥇 🌐 999ms | TROJAN (25)
   - 🥇 🌐 999ms | TROJAN (26)
@@ -2646,8 +2309,8 @@ proxy-groups:
   - 🥇 🌐 999ms | TROJAN (38)
   - 🥇 🌐 999ms | TROJAN (39)
   - 🥇 🌐 999ms | TROJAN (40)
-  - 🥇 🌐 999ms | VLESS (41)
-  - 🥇 🌐 999ms | TROJAN (42)
+  - 🥇 🌐 999ms | TROJAN (41)
+  - 🥇 🌐 999ms | VLESS (42)
   - 🥇 🌐 999ms | TROJAN (43)
   - 🥇 🌐 999ms | TROJAN (44)
   - 🥇 🌐 999ms | TROJAN (45)
@@ -2665,215 +2328,182 @@ proxy-groups:
   - 🥇 🌐 999ms | TROJAN (57)
   - 🥇 🌐 999ms | TROJAN (58)
   - 🥇 🌐 999ms | TROJAN (59)
-  - 🥇 🌐 999ms | VLESS (61)
-  - 🥇 🌐 999ms | TROJAN (62)
-  - 🥈 🇮🇷 15ms | VLESS (63)
-  - 🥈 🇮🇷 15ms | VLESS (64)
+  - 🥇 🌐 999ms | TROJAN (60)
+  - 🥇 🌐 999ms | VLESS (62)
+  - 🥇 🌐 999ms | TROJAN (63)
   - 🥈 🇮🇷 15ms | VLESS (65)
-  - 🥈 🇮🇷 15ms | VLESS (66)
-  - 🥈 🇮🇷 16ms | VLESS (67)
-  - 🥈 🇮🇷 16ms | VLESS (68)
-  - 🥈 🇮🇷 16ms | VLESS (69)
-  - 🥈 🇮🇷 16ms | VLESS (70)
-  - 🥈 🇮🇷 16ms | VLESS (71)
-  - 🥈 🇮🇷 16ms | VLESS (72)
-  - 🥈 🇮🇷 17ms | VLESS (73)
-  - 🥈 🇮🇷 17ms | VLESS (75)
-  - 🥈 🇮🇷 17ms | VLESS (76)
-  - 🥈 🇮🇷 18ms | VLESS (77)
-  - 🥈 🇮🇷 18ms | VLESS (78)
-  - 🥈 🇮🇷 19ms | VLESS (79)
-  - 🥈 🇮🇷 19ms | VLESS (80)
-  - 🥈 🇮🇷 19ms | VLESS (81)
-  - 🥈 🇮🇷 19ms | VLESS (82)
+  - 🥈 🇮🇷 16ms | VLESS (66)
+  - 🥈 🇮🇷 17ms | VLESS (67)
+  - 🥈 🇮🇷 17ms | VLESS (68)
+  - 🥈 🇮🇷 18ms | VLESS (69)
+  - 🥈 🇮🇷 18ms | VLESS (70)
+  - 🥈 🇮🇷 18ms | VLESS (71)
+  - 🥈 🇮🇷 18ms | VLESS (72)
+  - 🥈 🇮🇷 18ms | VLESS (73)
+  - 🥈 🇮🇷 18ms | VLESS (74)
+  - 🥈 🇮🇷 19ms | VLESS (75)
+  - 🥈 🇮🇷 19ms | VLESS (76)
+  - 🥈 🇮🇷 19ms | VLESS (77)
+  - 🥈 🇮🇷 19ms | VLESS (78)
+  - 🥈 🇮🇷 20ms | VLESS (80)
+  - 🥈 🇮🇷 20ms | VLESS (81)
+  - 🥈 🇮🇷 20ms | VLESS (82)
   - 🥈 🇮🇷 21ms | VLESS (83)
   - 🥈 🇮🇷 22ms | VLESS (85)
-  - 🥈 🇮🇷 22ms | VLESS (86)
-  - 🥈 🇮🇷 22ms | VLESS (87)
-  - 🥈 🇮🇷 22ms | VLESS (88)
-  - 🥈 🇮🇷 22ms | VLESS (89)
-  - 🥈 🇮🇷 22ms | VLESS (90)
-  - 🥈 🇮🇷 22ms | VLESS (91)
-  - 🥈 🇮🇷 22ms | VLESS (92)
-  - 🥈 🇮🇷 23ms | VLESS (93)
-  - 🥈 🇮🇷 23ms | VLESS (94)
-  - 🥈 🇮🇷 23ms | VLESS (95)
-  - 🥈 🇮🇷 25ms | VLESS (96)
-  - 🥈 🇮🇷 25ms | VLESS (97)
-  - 🥈 🇮🇷 26ms | VLESS (99)
-  - 🥈 🇮🇷 28ms | VLESS (100)
-  - 🥈 🇮🇷 28ms | VLESS (101)
-  - 🥈 🇮🇷 29ms | VLESS (102)
-  - 🥈 🇮🇷 29ms | VLESS (103)
-  - 🥈 🇮🇷 30ms | VLESS (104)
-  - 🥈 🇮🇷 30ms | VLESS (105)
-  - 🥈 🇮🇷 32ms | VLESS (106)
-  - 🥈 🇮🇷 32ms | VLESS (107)
-  - 🥈 🇮🇷 33ms | VLESS (108)
-  - 🥈 🇮🇷 33ms | VLESS (109)
-  - 🥈 🇮🇷 33ms | VLESS (110)
-  - 🥈 🇮🇷 33ms | VLESS (111)
-  - 🥈 🇮🇷 34ms | VLESS (112)
-  - 🥈 🇮🇷 35ms | VLESS (113)
-  - 🥈 🇮🇷 40ms | VLESS (114)
-  - 🥈 🇮🇷 41ms | VLESS (115)
-  - 🥈 🇮🇷 41ms | VLESS (116)
-  - 🥈 🇮🇷 41ms | VLESS (117)
-  - 🥈 🇮🇷 41ms | VLESS (118)
-  - 🥈 🇮🇷 44ms | VLESS (119)
-  - 🥈 🇮🇷 44ms | VLESS (120)
-  - 🥈 🇮🇷 44ms | VLESS (121)
-  - 🥈 🇮🇷 44ms | VLESS (122)
-  - 🥈 🇮🇷 45ms | VLESS (123)
-  - 🥈 🇮🇷 46ms | VLESS (124)
-  - 🥈 🇮🇷 65ms | VLESS (133)
-  - 🥈 🇮🇷 67ms | VLESS (134)
-  - 🥈 🇮🇷 70ms | VLESS (135)
-  - 🥈 🇮🇷 71ms | VLESS (136)
-  - 🥈 🇮🇷 71ms | VLESS (137)
-  - 🥈 🇮🇷 73ms | VLESS (138)
-  - 🥈 🇮🇷 74ms | VLESS (139)
-  - 🥈 🇮🇷 74ms | VLESS (140)
-  - 🥈 🇬🇧 75ms | VLESS (141)
-  - 🥈 🇬🇧 75ms | VLESS (142)
-  - 🥈 🇬🇧 75ms | VLESS (143)
-  - 🥈 🇬🇧 75ms | VLESS (144)
-  - 🥈 🇮🇷 75ms | VLESS (145)
-  - 🥈 🇮🇷 76ms | VLESS (146)
-  - 🥈 🇮🇷 76ms | VLESS (147)
-  - 🥈 🇬🇧 77ms | VLESS (149)
-  - 🥈 🇬🇧 77ms | VLESS (150)
-  - 🥈 🇮🇷 77ms | VLESS (152)
-  - 🥈 🇮🇷 78ms | VLESS (153)
-  - 🥈 🇬🇧 78ms | VLESS (154)
-  - 🥈 🇮🇷 80ms | VLESS (156)
-  - 🥈 🇮🇷 80ms | VLESS (157)
-  - 🥈 🇳🇱 82ms | VLESS (160)
-  - 🥈 🇳🇱 82ms | VLESS (161)
-  - 🥈 🇬🇧 82ms | VLESS (162)
-  - 🥈 🇮🇷 82ms | VLESS (163)
-  - 🥈 🇮🇷 84ms | VLESS (171)
-  - 🥈 🇫🇷 86ms | VLESS (172)
-  - 🥈 🇫🇷 86ms | VLESS (173)
-  - 🥈 🇳🇱 86ms | VLESS (174)
-  - 🥈 🇳🇱 87ms | VLESS (178)
-  - 🥈 🇳🇱 87ms | VLESS (179)
-  - 🥈 🇩🇪 88ms | VLESS (180)
-  - 🥈 🇮🇷 88ms | VLESS (181)
-  - 🥈 🇳🇱 89ms | VLESS (183)
-  - 🥈 🇩🇪 89ms | VLESS (184)
-  - 🥈 🇳🇱 89ms | VLESS (185)
-  - 🥈 🇩🇪 89ms | VLESS (186)
-  - 🥈 🇳🇱 89ms | VLESS (187)
-  - 🥈 🇳🇱 89ms | VLESS (188)
-  - 🥈 🇮🇷 89ms | VLESS (190)
-  - 🥈 🇮🇷 89ms | VLESS (191)
-  - 🥈 🇩🇪 89ms | VLESS (192)
-  - 🥈 🇳🇱 90ms | VLESS (193)
-  - 🥈 🇳🇱 90ms | VLESS (194)
-  - 🥈 🇳🇱 90ms | VLESS (195)
-  - 🥈 🇳🇱 90ms | VLESS (196)
-  - 🥈 🇳🇱 90ms | VLESS (197)
-  - 🥈 🇩🇪 90ms | VLESS (198)
-  - 🥈 🇮🇷 90ms | VLESS (199)
-  - 🥈 🇮🇷 90ms | VLESS (200)
-  - 🥈 🇮🇷 90ms | VLESS (201)
-  - 🥈 🇮🇷 90ms | VLESS (202)
-  - 🥈 🇩🇪 91ms | VLESS (203)
-  - 🥈 🇩🇪 91ms | VLESS (204)
-  - 🥈 🇦🇪 91ms | VLESS (205)
-  - 🥈 🇳🇱 91ms | VLESS (206)
-  - 🥈 🇩🇪 91ms | VLESS (207)
-  - 🥈 🇳🇱 91ms | VLESS (208)
-  - 🥈 🇳🇱 91ms | VLESS (209)
-  - 🥈 🇳🇱 91ms | VLESS (210)
-  - 🥈 🇮🇷 91ms | VLESS (211)
-  - 🥈 🇦🇪 91ms | VLESS (212)
-  - 🥈 🇮🇷 92ms | VLESS (213)
-  - 🥈 🇮🇷 92ms | VLESS (214)
-  - 🥈 🇩🇪 92ms | VLESS (215)
-  - 🥈 🇩🇪 93ms | VLESS (216)
-  - 🥈 🇩🇪 93ms | VLESS (217)
-  - 🥈 🇮🇷 93ms | VLESS (218)
-  - 🥈 🇳🇱 94ms | VLESS (219)
-  - 🥈 🇳🇱 94ms | VLESS (220)
-  - 🥈 🇩🇪 94ms | VLESS (221)
-  - 🥈 🇮🇷 94ms | VLESS (222)
-  - 🥈 🇩🇪 95ms | VLESS (223)
-  - 🥈 🇳🇱 96ms | VLESS (225)
-  - 🥈 🇬🇧 96ms | VLESS (226)
-  - 🥈 🇮🇷 96ms | VLESS (227)
-  - 🥈 🇩🇪 96ms | VLESS (228)
-  - 🥈 🇳🇱 97ms | VLESS (229)
-  - 🥈 🇳🇱 98ms | VLESS (230)
-  - 🥈 🇳🇱 98ms | VLESS (231)
-  - 🥈 🇩🇪 98ms | VLESS (232)
-  - 🥈 🇮🇷 98ms | VLESS (233)
-  - 🥈 🇮🇷 98ms | VLESS (234)
-  - 🥈 🇩🇪 98ms | VLESS (235)
-  - 🥈 🇮🇷 98ms | VLESS (236)
-  - 🥈 🇳🇱 98ms | VLESS (237)
-  - 🥈 🇮🇷 99ms | VLESS (238)
-  - 🥈 🇮🇷 99ms | VLESS (239)
-  - 🥈 🇮🇷 99ms | VLESS (240)
-  - 🥈 🇮🇷 99ms | VLESS (241)
-  - 🥈 🇩🇪 100ms | VLESS (242)
-  - 🥈 🇮🇷 100ms | VLESS (243)
-  - 🥈 🇮🇷 100ms | VLESS (244)
-  - 🥈 🇮🇷 101ms | VLESS (245)
-  - 🥈 🇮🇷 101ms | VLESS (246)
-  - 🥈 🇮🇷 101ms | VLESS (247)
-  - 🥈 🇮🇷 101ms | VLESS (248)
-  - 🥈 🇮🇷 101ms | VLESS (249)
-  - 🥈 🇮🇷 101ms | VLESS (250)
-  - 🥈 🇮🇷 101ms | VLESS (251)
-  - 🥈 🇮🇷 102ms | VLESS (252)
-  - 🥈 🇮🇷 102ms | VLESS (253)
-  - 🥈 🇮🇷 102ms | VLESS (254)
-  - 🥈 🇮🇷 102ms | VLESS (255)
-  - 🥈 🇮🇷 102ms | VLESS (256)
-  - 🥈 🇮🇷 102ms | VLESS (257)
-  - 🥈 🇮🇷 102ms | VLESS (258)
-  - 🥈 🇮🇷 102ms | VLESS (259)
-  - 🥈 🇮🇷 102ms | VLESS (260)
-  - 🥈 🇮🇷 102ms | VLESS (261)
-  - 🥈 🇮🇷 103ms | VLESS (262)
-  - 🥈 🇮🇷 103ms | VLESS (263)
-  - 🥈 🇮🇷 103ms | VLESS (264)
-  - 🥈 🇩🇪 104ms | VLESS (265)
-  - 🥈 🇮🇷 104ms | VLESS (266)
-  - 🥈 🇮🇷 106ms | VLESS (267)
-  - 🥈 🇩🇪 108ms | VLESS (269)
-  - 🥈 🇩🇪 110ms | VLESS (270)
-  - 🥈 🇮🇷 110ms | VLESS (271)
-  - 🥈 🇫🇷 113ms | VLESS (275)
-  - 🥈 🇩🇪 113ms | VLESS (276)
-  - 🥈 🇮🇷 114ms | VLESS (278)
-  - 🥈 🇮🇷 116ms | VLESS (279)
-  - 🥈 🇳🇱 126ms | VLESS (282)
-  - 🥈 🇮🇷 130ms | VLESS (283)
-  - 🥈 🇮🇷 137ms | VLESS (284)
-  - 🥈 🇮🇷 140ms | VLESS (285)
-  - 🥈 🇮🇷 144ms | VLESS (286)
-  - 🥈 🇮🇷 151ms | VLESS (291)
-  - 🥈 🇮🇷 158ms | VLESS (294)
-  - 🥈 🇩🇰 173ms | VLESS (298)
-  - 🥈 🇮🇷 173ms | VLESS (299)
-  - 🥈 🇮🇷 174ms | VLESS (300)
-  - 🥈 🇮🇷 176ms | VLESS (303)
-  - 🥈 🇮🇷 176ms | VLESS (304)
-  - 🥈 🇮🇷 178ms | VLESS (308)
-  - 🥈 🇮🇷 178ms | VLESS (309)
-  - 🥈 🇮🇷 179ms | VLESS (314)
-  - 🥈 🇮🇷 181ms | VLESS (318)
-  - 🥈 🇮🇷 183ms | VLESS (322)
-  - 🥈 🇮🇷 191ms | VLESS (334)
-  - 🥈 🇮🇷 194ms | VLESS (341)
-  - 🥈 🇮🇷 198ms | VLESS (354)
-  - 🥈 🇮🇷 208ms | VLESS (388)
-  - 🥈 🇮🇷 219ms | VLESS (427)
-  - 🥈 🇭🇰💻 225ms | VLESS (446)
-  - 🥈 🇺🇸 241ms | VLESS (476)
-  - 🥈 🇮🇷 260ms | VLESS (493)
+  - 🥈 🇮🇷 23ms | VLESS (87)
+  - 🥈 🇮🇷 23ms | VLESS (88)
+  - 🥈 🇮🇷 23ms | VLESS (89)
+  - 🥈 🇮🇷 27ms | VLESS (90)
+  - 🥈 🇮🇷 28ms | VLESS (91)
+  - 🥈 🇮🇷 28ms | VLESS (92)
+  - 🥈 🇮🇷 30ms | VLESS (93)
+  - 🥈 🇮🇷 31ms | VLESS (94)
+  - 🥈 🇮🇷 34ms | VLESS (95)
+  - 🥈 🇮🇷 34ms | VLESS (96)
+  - 🥈 🇮🇷 34ms | VLESS (97)
+  - 🥈 🇮🇷 40ms | VLESS (98)
+  - 🥈 🇮🇷 65ms | VLESS (107)
+  - 🥈 🇮🇷 70ms | VLESS (108)
+  - 🥈 🇮🇷 71ms | VLESS (109)
+  - 🥈 🇮🇷 72ms | VLESS (110)
+  - 🥈 🇬🇧 74ms | VLESS (111)
+  - 🥈 🇮🇷 74ms | VLESS (112)
+  - 🥈 🇬🇧 75ms | VLESS (113)
+  - 🥈 🇬🇧 75ms | VLESS (114)
+  - 🥈 🇮🇷 75ms | VLESS (115)
+  - 🥈 🇮🇷 75ms | VLESS (116)
+  - 🥈 🇮🇷 75ms | VLESS (117)
+  - 🥈 🇮🇷 75ms | VLESS (118)
+  - 🥈 🇮🇷 75ms | VLESS (119)
+  - 🥈 🇮🇷 75ms | VLESS (120)
+  - 🥈 🇬🇧 76ms | VLESS (122)
+  - 🥈 🇮🇷 77ms | VLESS (123)
+  - 🥈 🇮🇷 77ms | VLESS (124)
+  - 🥈 🇬🇧 78ms | VLESS (125)
+  - 🥈 🇬🇧 78ms | VLESS (126)
+  - 🥈 🇮🇷 78ms | VLESS (127)
+  - 🥈 🇨🇦 81ms | VLESS (131)
+  - 🥈 🇳🇱 82ms | VLESS (132)
+  - 🥈 🇳🇱 82ms | VLESS (133)
+  - 🥈 🇬🇧 84ms | VLESS (136)
+  - 🥈 🇳🇱 86ms | VLESS (137)
+  - 🥈 🇫🇷 86ms | VLESS (138)
+  - 🥈 🇳🇱 86ms | VLESS (139)
+  - 🥈 🇫🇷 86ms | VLESS (140)
+  - 🥈 🇩🇪 87ms | VLESS (141)
+  - 🥈 🇳🇱 87ms | VLESS (142)
+  - 🥈 🇳🇱 87ms | VLESS (143)
+  - 🥈 🇮🇷 87ms | VLESS (144)
+  - 🥈 🇩🇪 88ms | VLESS (145)
+  - 🥈 🇮🇷 88ms | VLESS (147)
+  - 🥈 🇮🇷 88ms | VLESS (148)
+  - 🥈 🇮🇷 88ms | VLESS (149)
+  - 🥈 🇬🇧 89ms | VLESS (150)
+  - 🥈 🇩🇪 89ms | VLESS (151)
+  - 🥈 🇳🇱 89ms | VLESS (152)
+  - 🥈 🇮🇷 89ms | VLESS (153)
+  - 🥈 🇮🇷 89ms | VLESS (154)
+  - 🥈 🇮🇷 89ms | VLESS (155)
+  - 🥈 🇮🇷 89ms | VLESS (156)
+  - 🥈 🇮🇷 89ms | VLESS (157)
+  - 🥈 🇳🇱 90ms | VLESS (163)
+  - 🥈 🇳🇱 90ms | VLESS (164)
+  - 🥈 🇳🇱 90ms | VLESS (165)
+  - 🥈 🇩🇪 90ms | VLESS (166)
+  - 🥈 🇳🇱 90ms | VLESS (167)
+  - 🥈 🇩🇪 90ms | VLESS (168)
+  - 🥈 🇩🇪 90ms | VLESS (169)
+  - 🥈 🇮🇷 90ms | VLESS (170)
+  - 🥈 🇳🇱 91ms | VLESS (172)
+  - 🥈 🇳🇱 91ms | VLESS (173)
+  - 🥈 🇳🇱 91ms | VLESS (174)
+  - 🥈 🇩🇪 91ms | VLESS (175)
+  - 🥈 🇳🇱 91ms | VLESS (176)
+  - 🥈 🇳🇱 91ms | VLESS (177)
+  - 🥈 🇦🇪 91ms | VLESS (178)
+  - 🥈 🇮🇷 91ms | VLESS (179)
+  - 🥈 🇩🇪 92ms | VLESS (180)
+  - 🥈 🇩🇪 92ms | VLESS (181)
+  - 🥈 🇳🇱 92ms | VLESS (182)
+  - 🥈 🇳🇱 92ms | VLESS (183)
+  - 🥈 🇩🇪 92ms | VLESS (184)
+  - 🥈 🇩🇪 93ms | VLESS (186)
+  - 🥈 🇮🇷 93ms | VLESS (187)
+  - 🥈 🇩🇪 93ms | VLESS (188)
+  - 🥈 🇳🇱 94ms | VLESS (190)
+  - 🥈 🇩🇪 94ms | VLESS (191)
+  - 🥈 🇮🇷 94ms | VLESS (192)
+  - 🥈 🇮🇷 94ms | VLESS (193)
+  - 🥈 🇩🇪 94ms | VLESS (194)
+  - 🥈 🇳🇱 95ms | VLESS (195)
+  - 🥈 🇩🇪 95ms | VLESS (196)
+  - 🥈 🇮🇷 95ms | VLESS (197)
+  - 🥈 🇮🇷 95ms | VLESS (198)
+  - 🥈 🇮🇷 95ms | VLESS (199)
+  - 🥈 🇮🇷 95ms | VLESS (200)
+  - 🥈 🇮🇷 95ms | VLESS (201)
+  - 🥈 🇮🇷 95ms | VLESS (202)
+  - 🥈 🇮🇷 96ms | VLESS (204)
+  - 🥈 🇮🇷 96ms | VLESS (205)
+  - 🥈 🇮🇷 96ms | VLESS (206)
+  - 🥈 🇳🇱 97ms | VLESS (208)
+  - 🥈 🇮🇷 97ms | VLESS (209)
+  - 🥈 🇳🇱 98ms | VLESS (210)
+  - 🥈 🇫🇷 98ms | VLESS (211)
+  - 🥈 🇬🇧 98ms | VLESS (212)
+  - 🥈 🇳🇱 98ms | VLESS (213)
+  - 🥈 🇩🇪 98ms | VLESS (214)
+  - 🥈 🇦🇪 99ms | VLESS (215)
+  - 🥈 🇳🇱 99ms | VLESS (216)
+  - 🥈 🇮🇷 99ms | VLESS (217)
+  - 🥈 🇮🇷 99ms | VLESS (218)
+  - 🥈 🇩🇪 100ms | VLESS (219)
+  - 🥈 🇮🇷 100ms | VLESS (220)
+  - 🥈 🇮🇷 100ms | VLESS (221)
+  - 🥈 🇩🇪 100ms | VLESS (222)
+  - 🥈 🇮🇷 100ms | VLESS (223)
+  - 🥈 🇩🇰 100ms | VLESS (224)
+  - 🥈 🇮🇷 101ms | VLESS (225)
+  - 🥈 🇮🇷 101ms | VLESS (226)
+  - 🥈 🇮🇷 102ms | VLESS (228)
+  - 🥈 🇮🇷 102ms | VLESS (229)
+  - 🥈 🇮🇷 102ms | VLESS (230)
+  - 🥈 🇮🇷 103ms | VLESS (231)
+  - 🥈 🇮🇷 103ms | VLESS (232)
+  - 🥈 🇮🇷 105ms | VLESS (233)
+  - 🥈 🇮🇷 107ms | VLESS (234)
+  - 🥈 🇮🇷 107ms | VLESS (235)
+  - 🥈 🇮🇷 107ms | VLESS (236)
+  - 🥈 🇮🇷 108ms | VLESS (237)
+  - 🥈 🇮🇷 109ms | VLESS (238)
+  - 🥈 🇩🇪 110ms | VLESS (239)
+  - 🥈 🇩🇪 110ms | VLESS (240)
+  - 🥈 🇮🇷 110ms | VLESS (241)
+  - 🥈 🇮🇷 111ms | VLESS (243)
+  - 🥈 🇮🇷 111ms | VLESS (244)
+  - 🥈 🇩🇪 112ms | VLESS (247)
+  - 🥈 🇮🇷 114ms | VLESS (249)
+  - 🥈 🇮🇷 114ms | VLESS (250)
+  - 🥈 🇮🇷 115ms | VLESS (252)
+  - 🥈 🇮🇷 115ms | VLESS (253)
+  - 🥈 🇳🇱 116ms | VLESS (254)
+  - 🥈 🇳🇱 119ms | VLESS (256)
+  - 🥈 🇮🇷 148ms | VLESS (262)
+  - 🥈 🇮🇷 169ms | VLESS (268)
+  - 🥈 🇮🇷 171ms | VLESS (269)
+  - 🥈 🇮🇷 171ms | VLESS (270)
+  - 🥈 🇮🇷 181ms | VLESS (277)
+  - 🥈 🇮🇷 183ms | VLESS (279)
+  - 🥈 🇮🇷 183ms | VLESS (280)
+  - 🥈 🇮🇷 184ms | VLESS (281)
+  - 🥈 🇮🇷 186ms | VLESS (287)
+  - 🥈 🇮🇷 187ms | VLESS (293)
+  - 🥈 🇮🇷 194ms | VLESS (309)
+  - 🥈 🇮🇷 196ms | VLESS (316)
+  - 🥈 🇮🇷 199ms | VLESS (324)
+  - 🥈 🇭🇰💻 201ms | VLESS (331)
+  - 🥈 🇮🇷 237ms | VLESS (443)
+  - 🥈 🇮🇷 245ms | VLESS (456)
+  - 🥈 🇮🇷 269ms | VLESS (473)
 rules:
 - MATCH,🌍 GLOBAL
