@@ -22,20 +22,6 @@ dns:
   - 1.1.1.1
   - 8.8.4.4
 proxies:
-- name: "\U0001F947 \U0001F1EB\U0001F1EE \U0001F4F6 Trojan | 303KB/s (#1)"
-  type: trojan
-  server: "144.31.27.48"
-  port: 2087
-  udp: true
-  skip-cert-verify: true
-  password: "LN8x95baqueFriHJLnFuDQ"
-  tls: true
-  servername: "vpn.vergevsky.ru"
-  network: ws
-  ws-opts:
-    path: "/ba0ca9ffa1d4"
-    headers:
-      Host: "144.31.27.48"
 - name: "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 270KB/s (#2)"
   type: trojan
   server: "35.181.10.177"
@@ -88,20 +74,6 @@ proxies:
   tls: true
   servername: "trojan.burgerip.co.uk"
   network: tcp
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 254KB/s (#7)"
-  type: trojan
-  server: "199.107.164.105"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "8GXLP3dEzm7T8wP5Jx0Ufg"
-  tls: true
-  servername: "quictest.burncommunity.ru"
-  network: ws
-  ws-opts:
-    path: "/"
-    headers:
-      Host: "quictest.burncommunity.ru"
 - name: "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 253KB/s (#8)"
   type: vless
   server: "51.250.19.254"
@@ -142,20 +114,6 @@ proxies:
   tls: true
   servername: "www.mesaly.click"
   network: tcp
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 238KB/s (#11)"
-  type: trojan
-  server: "198.62.62.23"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  tls: true
-  servername: "www.calmlunch.com"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.calmlunch.com"
 - name: "\U0001F947 \U0001F1E6\U0001F1F9 \U0001F4F6 VLESS | 236KB/s (#12)"
   type: vless
   server: "185.104.63.75"
@@ -198,7 +156,7 @@ proxies:
     public-key: "vrBTRg3Wz1K_fxfk8B-lWS7ZUGwxCbeBUgTcWOkSqRY"
     short-id: "0fdfdcf08722a04f"
   network: tcp
-- name: "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 VLESS | 215KB/s (#15)"
+- name: "\U0001F947 \U0001F1EC\U0001F1E7 \U0001F4F6 VLESS | 215KB/s (#15)"
   type: vless
   server: "germ-node.datamove.online"
   port: 2040
@@ -257,34 +215,6 @@ proxies:
     public-key: "vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0"
     short-id: "b318242471ba4f5b"
   network: tcp
-- name: "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 195KB/s (#19)"
-  type: trojan
-  server: "81.255.155.10"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  tls: true
-  servername: "www.creationlong.org"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.creationlong.org"
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 192KB/s (#20)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  tls: true
-  servername: "www.calmloud.com"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.calmloud.com"
 - name: "\U0001F947 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 185KB/s (#21)"
   type: trojan
   server: "185.126.236.44"
@@ -295,20 +225,6 @@ proxies:
   tls: true
   servername: "www.mesaly.click"
   network: tcp
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 154KB/s (#22)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  tls: true
-  servername: "www.calmloud.com"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.calmloud.com"
 - name: "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 151KB/s (#23)"
   type: vless
   server: "178.236.17.86"
@@ -324,20 +240,6 @@ proxies:
     public-key: "vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0"
     short-id: "b318242471ba4f5b"
   network: tcp
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 142KB/s (#24)"
-  type: trojan
-  server: "216.24.57.1"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  tls: true
-  servername: "www.calmloud.com"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.calmloud.com"
 - name: "\U0001F947 \U0001F1EC\U0001F1F7 \U0001F4F6 Trojan | 141KB/s (#25)"
   type: trojan
   server: "185.126.238.78"
@@ -358,20 +260,6 @@ proxies:
   tls: true
   servername: "www.archiveselector.click"
   network: tcp
-- name: "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 136KB/s (#27)"
-  type: trojan
-  server: "81.255.155.10"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  tls: true
-  servername: "www.creationlong.org"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.creationlong.org"
 - name: "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 130KB/s (#28)"
   type: vless
   server: "raff-vpn-kz-server1.ru"
@@ -402,34 +290,6 @@ proxies:
     public-key: "vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0"
     short-id: "b318242471ba4f5b"
   network: tcp
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 118KB/s (#30)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  tls: true
-  servername: "www.calmloud.com"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.calmloud.com"
-- name: "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 118KB/s (#31)"
-  type: trojan
-  server: "81.255.155.10"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  tls: true
-  servername: "www.creationlong.org"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.creationlong.org"
 - name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 108KB/s (#32)"
   type: hysteria2
   server: "73.210.24.148"
@@ -470,20 +330,6 @@ proxies:
     public-key: "3LUIM_6cYceTgNt6LWnR8YSVrenpLsh-FIGDrmfjjwc"
     short-id: "5e841fab"
   network: tcp
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 106KB/s (#35)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  tls: true
-  servername: "www.calmloud.com"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.calmloud.com"
 - name: "\U0001F947 \U0001F1F3\U0001F1F1 \U0001F4F6 VLESS | 103KB/s (#36)"
   type: vless
   server: "62.238.32.25"
@@ -498,20 +344,6 @@ proxies:
     public-key: "3LUIM_6cYceTgNt6LWnR8YSVrenpLsh-FIGDrmfjjwc"
     short-id: "5e841fab"
   network: tcp
-- name: "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 103KB/s (#37)"
-  type: trojan
-  server: "81.255.155.10"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  tls: true
-  servername: "www.creationlong.org"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.creationlong.org"
 - name: "\U0001F947 \U0001F1F3\U0001F1F1 \U0001F4F6 VLESS | 101KB/s (#38)"
   type: vless
   server: "62.238.32.25"
@@ -565,20 +397,6 @@ proxies:
   - h3
   fast-open: true
   sni: "173.249.208.148"
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 94KB/s (#42)"
-  type: trojan
-  server: "141.193.213.10"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "6b7f37af-a853-4f01-a031-5fa4eca4f5bf"
-  tls: true
-  servername: "ads.ruangguru.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/in-do"
-    headers:
-      Host: "ads.ruangguru.com.cyylr.eu.cc"
 - name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 88KB/s (#43)"
   type: vless
   server: "67.216.204.136"
@@ -606,20 +424,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: "db"
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 86KB/s (#45)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "386bd471-4e29-4e79-9a3c-6bc6076ce4b6"
-  tls: true
-  servername: "edu.ruangguru.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-tksi"
-    headers:
-      Host: "edu.ruangguru.com.cyylr.eu.cc"
 - name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 85KB/s (#46)"
   type: trojan
   server: "134.195.101.59"
@@ -632,20 +436,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: "db"
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 84KB/s (#47)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "386bd471-4e29-4e79-9a3c-6bc6076ce4b6"
-  tls: true
-  servername: "edu.ruangguru.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-tksi"
-    headers:
-      Host: "edu.ruangguru.com.cyylr.eu.cc"
 - name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 83KB/s (#48)"
   type: trojan
   server: "134.195.101.67"
@@ -658,76 +448,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: "db"
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 82KB/s (#49)"
-  type: trojan
-  server: "198.62.62.23"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  tls: true
-  servername: "www.calmlunch.com"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.calmlunch.com"
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 82KB/s (#50)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "386bd471-4e29-4e79-9a3c-6bc6076ce4b6"
-  tls: true
-  servername: "edu.ruangguru.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-tksi"
-    headers:
-      Host: "edu.ruangguru.com.cyylr.eu.cc"
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 82KB/s (#51)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "386bd471-4e29-4e79-9a3c-6bc6076ce4b6"
-  tls: true
-  servername: "edu.ruangguru.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-tksi"
-    headers:
-      Host: "edu.ruangguru.com.cyylr.eu.cc"
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 81KB/s (#52)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "386bd471-4e29-4e79-9a3c-6bc6076ce4b6"
-  tls: true
-  servername: "edu.ruangguru.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-tksi"
-    headers:
-      Host: "edu.ruangguru.com.cyylr.eu.cc"
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 81KB/s (#53)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "386bd471-4e29-4e79-9a3c-6bc6076ce4b6"
-  tls: true
-  servername: "edu.ruangguru.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-tksi"
-    headers:
-      Host: "edu.ruangguru.com.cyylr.eu.cc"
 - name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 81KB/s (#54)"
   type: hysteria2
   server: "129.153.126.254"
@@ -767,20 +487,6 @@ proxies:
     public-key: "vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0"
     short-id: "b318242471ba4f5b"
   network: tcp
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 79KB/s (#57)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "386bd471-4e29-4e79-9a3c-6bc6076ce4b6"
-  tls: true
-  servername: "edu.ruangguru.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-tksi"
-    headers:
-      Host: "edu.ruangguru.com.cyylr.eu.cc"
 - name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 78KB/s (#58)"
   type: hysteria2
   server: "129.153.207.22"
@@ -820,34 +526,6 @@ proxies:
   - h3
   fast-open: true
   sni: "www.bing.com"
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 76KB/s (#61)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  tls: true
-  servername: "www.calmloud.com"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.calmloud.com"
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 75KB/s (#62)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "386bd471-4e29-4e79-9a3c-6bc6076ce4b6"
-  tls: true
-  servername: "edu.ruangguru.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-tksi"
-    headers:
-      Host: "edu.ruangguru.com.cyylr.eu.cc"
 - name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 74KB/s (#63)"
   type: vless
   server: "38.14.232.201"
@@ -877,34 +555,6 @@ proxies:
     public-key: "L4kWgoTxqQc4kAGLrF_ARMRVMPy3_WInhjwt_8OPenU"
     short-id: "c19de8fa"
   network: tcp
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 73KB/s (#65)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "386bd471-4e29-4e79-9a3c-6bc6076ce4b6"
-  tls: true
-  servername: "edu.ruangguru.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-tksi"
-    headers:
-      Host: "edu.ruangguru.com.cyylr.eu.cc"
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 72KB/s (#66)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "386bd471-4e29-4e79-9a3c-6bc6076ce4b6"
-  tls: true
-  servername: "edu.ruangguru.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-tksi"
-    headers:
-      Host: "edu.ruangguru.com.cyylr.eu.cc"
 - name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 71KB/s (#67)"
   type: hysteria2
   server: "ush1-connect-253qts6v.node.cross666.top"
@@ -953,20 +603,6 @@ proxies:
   - h3
   fast-open: true
   sni: "is1-ssl.mzstatic.com"
-- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 64KB/s (#71)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  tls: true
-  servername: "www.calmloud.com"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.calmloud.com"
 - name: "\U0001F947 \U0001F1F9\U0001F1FC \U0001F4F6 Trojan | 59KB/s (#72)"
   type: trojan
   server: "60.249.14.96"
@@ -1047,328 +683,6 @@ proxies:
     public-key: "eNxDsVVIsWFYlD2-wdwdDNe1jOWCBoLUzctbJJdnFyk"
     short-id: "c19de8fa"
   network: tcp
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 398KB/s (#78)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 389KB/s (#79)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 386KB/s (#80)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 376KB/s (#81)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 376KB/s (#82)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 372KB/s (#83)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 364KB/s (#84)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 360KB/s (#85)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 360KB/s (#86)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1F5\U0001F1F1 \U0001F4F6 VLESS | 354KB/s (#87)"
-  type: vless
-  server: "144.31.0.59"
-  port: 10443
-  udp: true
-  skip-cert-verify: true
-  uuid: "b68ab9f0-60a2-43bb-befb-ea72cc9400b2"
-  tls: true
-  servername: "h2nexus-p.ydns.eu"
-  network: ws
-  ws-opts:
-    path: "/Video-data"
-    headers:
-      Host: "144.31.0.59"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 353KB/s (#88)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 352KB/s (#89)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 351KB/s (#90)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 343KB/s (#91)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 342KB/s (#92)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 340KB/s (#93)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 332KB/s (#94)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 328KB/s (#95)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 318KB/s (#96)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 291KB/s (#97)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 283KB/s (#98)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 258KB/s (#99)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-  tls: true
-  servername: "octopusss4.com"
-  network: ws
-  ws-opts:
-    path: "/tsghdws"
-    headers:
-      Host: "octopusss4.com"
-- name: "\U0001F948 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 216KB/s (#100)"
-  type: vless
-  server: "185.242.19.249"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "882e17c8-b013-4e99-9774-36e26e5001ff"
-  tls: true
-  servername: "top707762634.mwscdn.ru"
-  network: ws
-  ws-opts:
-    path: "/livestreamcontent/"
-    headers:
-      Host: "top707762634.mwscdn.ru"
 - name: "\U0001F948 \U0001F1E9\U0001F1EA \U0001F4F6 VLESS | 212KB/s (#101)"
   type: vless
   server: "87.120.126.205"
@@ -1380,20 +694,6 @@ proxies:
   tls: true
   servername: "sub.sbrf-cdn342.ru"
   network: tcp
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 108KB/s (#102)"
-  type: vless
-  server: "216.24.57.1"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "1a5b24bc-6180-4fa7-922d-ba7ee8a7a2b7"
-  tls: true
-  servername: "support.zoom.us.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-pusat"
-    headers:
-      Host: "support.zoom.us.cyylr.eu.cc"
 - name: "\U0001F948 \U0001F310 \U0001F4F6 VMESS | 93KB/s (#103)"
   type: vmess
   server: "35.212.254.80"
@@ -1408,104 +708,6 @@ proxies:
     path: "49c2b855-1269-4cb9-bc7f-53fd248f8620-vm"
     headers:
       Host: "www.bing.com"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 89KB/s (#105)"
-  type: vless
-  server: "216.24.57.1"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "5dbfed06-dd62-48c0-8e39-b4835defcdb0"
-  tls: true
-  servername: "investors.spotify.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/sg-amz"
-    headers:
-      Host: "investors.spotify.com.cyylr.eu.cc"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 88KB/s (#106)"
-  type: vless
-  server: "216.24.57.1"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "5dbfed06-dd62-48c0-8e39-b4835defcdb0"
-  tls: true
-  servername: "investors.spotify.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/sg-amz"
-    headers:
-      Host: "investors.spotify.com.cyylr.eu.cc"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 88KB/s (#107)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "2dc797c8-9588-48a6-bc4a-265c23d87cd6"
-  tls: true
-  servername: "ava.game.naver.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-pusat"
-    headers:
-      Host: "ava.game.naver.com.cyylr.eu.cc"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 87KB/s (#108)"
-  type: vless
-  server: "216.24.57.1"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "5dbfed06-dd62-48c0-8e39-b4835defcdb0"
-  tls: true
-  servername: "investors.spotify.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/sg-amz"
-    headers:
-      Host: "investors.spotify.com.cyylr.eu.cc"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 86KB/s (#109)"
-  type: vless
-  server: "216.24.57.1"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "5dbfed06-dd62-48c0-8e39-b4835defcdb0"
-  tls: true
-  servername: "investors.spotify.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/sg-amz"
-    headers:
-      Host: "investors.spotify.com.cyylr.eu.cc"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 84KB/s (#110)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "2dc797c8-9588-48a6-bc4a-265c23d87cd6"
-  tls: true
-  servername: "ava.game.naver.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-pusat"
-    headers:
-      Host: "ava.game.naver.com.cyylr.eu.cc"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 75KB/s (#111)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "28f79470-c550-40b0-9e46-834a46ac8da8"
-  tls: true
-  servername: "help.viu.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-pusat"
-    headers:
-      Host: "help.viu.com.cyylr.eu.cc"
 - name: "\U0001F948 \U0001F1EF\U0001F1F5 \U0001F4F6 VLESS | 75KB/s (#112)"
   type: vless
   server: "43.133.167.153"
@@ -1517,20 +719,6 @@ proxies:
   tls: true
   servername: "r.bing.com"
   network: tcp
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 70KB/s (#113)"
-  type: vless
-  server: "216.24.57.1"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "565b50d4-604d-4a60-9fc2-d9d3dac0aec6"
-  tls: true
-  servername: "dl.cvs.freefiremobile.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-pusat"
-    headers:
-      Host: "dl.cvs.freefiremobile.com.cyylr.eu.cc"
 - name: "\U0001F948 \U0001F310 \U0001F4F6 VMESS | 69KB/s (#114)"
   type: vmess
   server: "ppio-ren.asuscomm.com"
@@ -1563,34 +751,6 @@ proxies:
   tls: true
   servername: "sub.sbrf-cdn342.ru"
   network: tcp
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 59KB/s (#118)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "28f79470-c550-40b0-9e46-834a46ac8da8"
-  tls: true
-  servername: "help.viu.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-pusat"
-    headers:
-      Host: "help.viu.com.cyylr.eu.cc"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 59KB/s (#119)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "28f79470-c550-40b0-9e46-834a46ac8da8"
-  tls: true
-  servername: "help.viu.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-pusat"
-    headers:
-      Host: "help.viu.com.cyylr.eu.cc"
 - name: "\U0001F948 \U0001F1E9\U0001F1EA \U0001F4F6 VLESS | 59KB/s (#120)"
   type: vless
   server: "87.120.126.205"
@@ -1613,90 +773,6 @@ proxies:
   tls: true
   servername: "sub.sbrf-cdn342.ru"
   network: tcp
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 57KB/s (#122)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "2dc797c8-9588-48a6-bc4a-265c23d87cd6"
-  tls: true
-  servername: "ava.game.naver.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-pusat"
-    headers:
-      Host: "ava.game.naver.com.cyylr.eu.cc"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 56KB/s (#123)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "2dc797c8-9588-48a6-bc4a-265c23d87cd6"
-  tls: true
-  servername: "ava.game.naver.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-pusat"
-    headers:
-      Host: "ava.game.naver.com.cyylr.eu.cc"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 55KB/s (#124)"
-  type: vless
-  server: "216.24.57.1"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "565b50d4-604d-4a60-9fc2-d9d3dac0aec6"
-  tls: true
-  servername: "dl.cvs.freefiremobile.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-pusat"
-    headers:
-      Host: "dl.cvs.freefiremobile.com.cyylr.eu.cc"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 54KB/s (#125)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "28f79470-c550-40b0-9e46-834a46ac8da8"
-  tls: true
-  servername: "help.viu.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-pusat"
-    headers:
-      Host: "help.viu.com.cyylr.eu.cc"
-- name: "\U0001F948 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 50KB/s (#127)"
-  type: vless
-  server: "185.242.19.249"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "cfb70000-ed61-4a7e-89a3-2b9c2caa6001"
-  tls: true
-  servername: "top707762634.mwscdn.ru"
-  network: ws
-  ws-opts:
-    path: "/livestreamcontent/"
-    headers:
-      Host: "top707762634.mwscdn.ru"
-- name: "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 50KB/s (#128)"
-  type: vless
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  uuid: "2dc797c8-9588-48a6-bc4a-265c23d87cd6"
-  tls: true
-  servername: "ava.game.naver.com.cyylr.eu.cc"
-  network: ws
-  ws-opts:
-    path: "/id-pusat"
-    headers:
-      Host: "ava.game.naver.com.cyylr.eu.cc"
 - name: "\U0001F949 \U0001F1EB\U0001F1EE \U0001F4F6 Shadowsocks | 452KB/s (#129)"
   type: ss
   server: "195.133.2.2"
@@ -1704,30 +780,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: "Psodqx8CE55F5EQ30jlKBy"
   udp: true
-- name: "\U0001F949 \U0001F1EC\U0001F1E7 \U0001F4F6 VLESS | 376KB/s (#130)"
-  type: vless
-  server: "217.163.76.118"
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  uuid: "7e9c4b55-ca30-4b4b-a8ab-19d74b57eba8"
-  network: ws
-  ws-opts:
-    path: "/"
-    headers:
-      Host: "xU.aSaCO.sTorE"
-- name: "\U0001F949 \U0001F1EC\U0001F1E7 \U0001F4F6 VLESS | 368KB/s (#131)"
-  type: vless
-  server: "217.163.76.118"
-  port: 80
-  udp: true
-  skip-cert-verify: true
-  uuid: "7e9c4b55-ca30-4b4b-a8ab-19d74b57eba8"
-  network: ws
-  ws-opts:
-    path: "/"
-    headers:
-      Host: "xU.aSaCO.sTorE"
 - name: "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 305KB/s (#132)"
   type: ss
   server: "108.181.58.239"
@@ -1808,18 +860,6 @@ proxies:
   udp: true
   skip-cert-verify: true
   password: "BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL"
-- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 227KB/s (#143)"
-  type: trojan
-  server: "198.62.62.23"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.calmlunch.com"
 - name: "\U0001F949 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 224KB/s (#144)"
   type: trojan
   server: "185.126.236.44"
@@ -1844,18 +884,6 @@ proxies:
   skip-cert-verify: true
   password: "BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL"
   network: tcp
-- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 181KB/s (#147)"
-  type: trojan
-  server: "198.62.62.23"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.calmlunch.com"
 - name: "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 168KB/s (#148)"
   type: ss
   server: "108.181.58.239"
@@ -2035,30 +1063,6 @@ proxies:
   cipher: aes-256-gcm
   password: "7ad7df5a-23bd-459b-9bef-c428f26fff4a"
   udp: true
-- name: "\U0001F949 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 120KB/s (#171)"
-  type: trojan
-  server: "81.255.155.10"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.creationlong.org"
-- name: "\U0001F949 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 117KB/s (#172)"
-  type: trojan
-  server: "81.255.155.10"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.creationlong.org"
 - name: "\U0001F949 \U0001F1EC\U0001F1F7 \U0001F4F6 Trojan | 117KB/s (#173)"
   type: trojan
   server: "185.126.238.78"
@@ -2145,30 +1149,6 @@ proxies:
   cipher: aes-256-gcm
   password: "0767dc96-e68a-43ac-a929-68b664700267"
   udp: true
-- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 92KB/s (#185)"
-  type: trojan
-  server: "141.193.213.10"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "6b7f37af-a853-4f01-a031-5fa4eca4f5bf"
-  network: ws
-  ws-opts:
-    path: "/in-do"
-    headers:
-      Host: "ads.ruangguru.com.cyylr.eu.cc"
-- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 89KB/s (#186)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.calmloud.com"
 - name: "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 89KB/s (#187)"
   type: ss
   server: "192.142.18.127"
@@ -2254,18 +1234,6 @@ proxies:
   cipher: aes-256-gcm
   password: "d5df4e78-729f-4362-86d1-8ddc6ade665a"
   udp: true
-- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 72KB/s (#199)"
-  type: trojan
-  server: "208.103.161.170"
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  password: "humanity"
-  network: ws
-  ws-opts:
-    path: "/assignment"
-    headers:
-      Host: "www.calmloud.com"
 - name: "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 72KB/s (#200)"
   type: ss
   server: "192.142.18.127"
@@ -2481,134 +1449,66 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - "\U0001F947 \U0001F1EB\U0001F1EE \U0001F4F6 Trojan | 303KB/s (#1)"
   - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 270KB/s (#2)"
   - "\U0001F947 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 269KB/s (#3)"
   - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 268KB/s (#4)"
   - "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 Hysteria2 | 266KB/s (#5)"
   - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 264KB/s (#6)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 254KB/s (#7)"
   - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 253KB/s (#8)"
   - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 251KB/s (#9)"
   - "\U0001F947 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 247KB/s (#10)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 238KB/s (#11)"
   - "\U0001F947 \U0001F1E6\U0001F1F9 \U0001F4F6 VLESS | 236KB/s (#12)"
   - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 235KB/s (#13)"
   - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 225KB/s (#14)"
-  - "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 VLESS | 215KB/s (#15)"
+  - "\U0001F947 \U0001F1EC\U0001F1E7 \U0001F4F6 VLESS | 215KB/s (#15)"
   - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 214KB/s (#16)"
   - "\U0001F947 \U0001F1EE\U0001F1EA \U0001F4F6 VLESS | 213KB/s (#17)"
   - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 195KB/s (#18)"
-  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 195KB/s (#19)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 192KB/s (#20)"
   - "\U0001F947 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 185KB/s (#21)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 154KB/s (#22)"
   - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 151KB/s (#23)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 142KB/s (#24)"
   - "\U0001F947 \U0001F1EC\U0001F1F7 \U0001F4F6 Trojan | 141KB/s (#25)"
   - "\U0001F947 \U0001F1EC\U0001F1F7 \U0001F4F6 Trojan | 139KB/s (#26)"
-  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 136KB/s (#27)"
   - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 130KB/s (#28)"
   - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 127KB/s (#29)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 118KB/s (#30)"
-  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 118KB/s (#31)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 108KB/s (#32)"
   - "\U0001F947 \U0001F1F3\U0001F1F1 \U0001F4F6 VLESS | 108KB/s (#33)"
   - "\U0001F947 \U0001F1F3\U0001F1F1 \U0001F4F6 VLESS | 107KB/s (#34)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 106KB/s (#35)"
   - "\U0001F947 \U0001F1F3\U0001F1F1 \U0001F4F6 VLESS | 103KB/s (#36)"
-  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 103KB/s (#37)"
   - "\U0001F947 \U0001F1F3\U0001F1F1 \U0001F4F6 VLESS | 101KB/s (#38)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 98KB/s (#39)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 95KB/s (#40)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 94KB/s (#41)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 94KB/s (#42)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 88KB/s (#43)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 87KB/s (#44)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 86KB/s (#45)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 85KB/s (#46)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 84KB/s (#47)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 83KB/s (#48)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 82KB/s (#49)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 82KB/s (#50)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 82KB/s (#51)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 81KB/s (#52)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 81KB/s (#53)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 81KB/s (#54)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 80KB/s (#55)"
   - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 79KB/s (#56)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 79KB/s (#57)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 78KB/s (#58)"
   - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 77KB/s (#59)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 76KB/s (#60)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 76KB/s (#61)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 75KB/s (#62)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 74KB/s (#63)"
   - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 73KB/s (#64)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 73KB/s (#65)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 72KB/s (#66)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 71KB/s (#67)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 69KB/s (#68)"
   - "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Hysteria2 | 68KB/s (#69)"
   - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 65KB/s (#70)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 64KB/s (#71)"
   - "\U0001F947 \U0001F1F9\U0001F1FC \U0001F4F6 Trojan | 59KB/s (#72)"
   - "\U0001F947 \U0001F1F9\U0001F1FC \U0001F4F6 Trojan | 58KB/s (#73)"
   - "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 VLESS | 56KB/s (#74)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 56KB/s (#75)"
   - "\U0001F947 \U0001F1F9\U0001F1ED \U0001F4F6 VLESS | 56KB/s (#76)"
   - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 VLESS | 50KB/s (#77)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 398KB/s (#78)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 389KB/s (#79)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 386KB/s (#80)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 376KB/s (#81)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 376KB/s (#82)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 372KB/s (#83)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 364KB/s (#84)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 360KB/s (#85)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 360KB/s (#86)"
-  - "\U0001F948 \U0001F1F5\U0001F1F1 \U0001F4F6 VLESS | 354KB/s (#87)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 353KB/s (#88)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 352KB/s (#89)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 351KB/s (#90)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 343KB/s (#91)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 342KB/s (#92)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 340KB/s (#93)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 332KB/s (#94)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 328KB/s (#95)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 318KB/s (#96)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 291KB/s (#97)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 283KB/s (#98)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 258KB/s (#99)"
-  - "\U0001F948 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 216KB/s (#100)"
   - "\U0001F948 \U0001F1E9\U0001F1EA \U0001F4F6 VLESS | 212KB/s (#101)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 108KB/s (#102)"
   - "\U0001F948 \U0001F310 \U0001F4F6 VMESS | 93KB/s (#103)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 89KB/s (#105)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 88KB/s (#106)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 88KB/s (#107)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 87KB/s (#108)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 86KB/s (#109)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 84KB/s (#110)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 75KB/s (#111)"
   - "\U0001F948 \U0001F1EF\U0001F1F5 \U0001F4F6 VLESS | 75KB/s (#112)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 70KB/s (#113)"
   - "\U0001F948 \U0001F310 \U0001F4F6 VMESS | 69KB/s (#114)"
   - "\U0001F948 \U0001F1EF\U0001F1F5 \U0001F4F6 VLESS | 66KB/s (#115)"
   - "\U0001F948 \U0001F1E9\U0001F1EA \U0001F4F6 VLESS | 59KB/s (#117)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 59KB/s (#118)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 59KB/s (#119)"
   - "\U0001F948 \U0001F1E9\U0001F1EA \U0001F4F6 VLESS | 59KB/s (#120)"
   - "\U0001F948 \U0001F1E9\U0001F1EA \U0001F4F6 VLESS | 57KB/s (#121)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 57KB/s (#122)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 56KB/s (#123)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 55KB/s (#124)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 54KB/s (#125)"
-  - "\U0001F948 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 50KB/s (#127)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 50KB/s (#128)"
   - "\U0001F949 \U0001F1EB\U0001F1EE \U0001F4F6 Shadowsocks | 452KB/s (#129)"
-  - "\U0001F949 \U0001F1EC\U0001F1E7 \U0001F4F6 VLESS | 376KB/s (#130)"
-  - "\U0001F949 \U0001F1EC\U0001F1E7 \U0001F4F6 VLESS | 368KB/s (#131)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 305KB/s (#132)"
   - "\U0001F949 \U0001F1EE\U0001F1F9 \U0001F4F6 Shadowsocks | 304KB/s (#133)"
   - "\U0001F949 \U0001F1EE\U0001F1F9 \U0001F4F6 Shadowsocks | 296KB/s (#134)"
@@ -2620,11 +1520,9 @@ proxy-groups:
   - "\U0001F949 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 242KB/s (#140)"
   - "\U0001F949 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 237KB/s (#141)"
   - "\U0001F949 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 230KB/s (#142)"
-  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 227KB/s (#143)"
   - "\U0001F949 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 224KB/s (#144)"
   - "\U0001F949 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 223KB/s (#145)"
   - "\U0001F949 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 212KB/s (#146)"
-  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 181KB/s (#147)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 168KB/s (#148)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 157KB/s (#149)"
   - "\U0001F949 \U0001F1EC\U0001F1F7 \U0001F4F6 Trojan | 154KB/s (#150)"
@@ -2648,8 +1546,6 @@ proxy-groups:
   - "\U0001F949 \U0001F1EC\U0001F1F7 \U0001F4F6 Trojan | 124KB/s (#168)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 122KB/s (#169)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 121KB/s (#170)"
-  - "\U0001F949 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 120KB/s (#171)"
-  - "\U0001F949 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 117KB/s (#172)"
   - "\U0001F949 \U0001F1EC\U0001F1F7 \U0001F4F6 Trojan | 117KB/s (#173)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 114KB/s (#174)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 110KB/s (#175)"
@@ -2662,8 +1558,6 @@ proxy-groups:
   - "\U0001F949 \U0001F1EB\U0001F1EE \U0001F4F6 Shadowsocks | 97KB/s (#182)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 96KB/s (#183)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 94KB/s (#184)"
-  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 92KB/s (#185)"
-  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 89KB/s (#186)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 89KB/s (#187)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 87KB/s (#188)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 86KB/s (#189)"
@@ -2676,7 +1570,6 @@ proxy-groups:
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 77KB/s (#196)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 77KB/s (#197)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 73KB/s (#198)"
-  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 72KB/s (#199)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 72KB/s (#200)"
   - "\U0001F949 \U0001F1E7\U0001F1F7 \U0001F4F6 Shadowsocks | 71KB/s (#201)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 70KB/s (#202)"
@@ -2710,134 +1603,66 @@ proxy-groups:
   type: select
   proxies:
   - 🚀 AUTO-BEST
-  - "\U0001F947 \U0001F1EB\U0001F1EE \U0001F4F6 Trojan | 303KB/s (#1)"
   - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 270KB/s (#2)"
   - "\U0001F947 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 269KB/s (#3)"
   - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 268KB/s (#4)"
   - "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 Hysteria2 | 266KB/s (#5)"
   - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 264KB/s (#6)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 254KB/s (#7)"
   - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 253KB/s (#8)"
   - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 251KB/s (#9)"
   - "\U0001F947 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 247KB/s (#10)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 238KB/s (#11)"
   - "\U0001F947 \U0001F1E6\U0001F1F9 \U0001F4F6 VLESS | 236KB/s (#12)"
   - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 235KB/s (#13)"
   - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 225KB/s (#14)"
-  - "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 VLESS | 215KB/s (#15)"
+  - "\U0001F947 \U0001F1EC\U0001F1E7 \U0001F4F6 VLESS | 215KB/s (#15)"
   - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 214KB/s (#16)"
   - "\U0001F947 \U0001F1EE\U0001F1EA \U0001F4F6 VLESS | 213KB/s (#17)"
   - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 195KB/s (#18)"
-  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 195KB/s (#19)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 192KB/s (#20)"
   - "\U0001F947 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 185KB/s (#21)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 154KB/s (#22)"
   - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 151KB/s (#23)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 142KB/s (#24)"
   - "\U0001F947 \U0001F1EC\U0001F1F7 \U0001F4F6 Trojan | 141KB/s (#25)"
   - "\U0001F947 \U0001F1EC\U0001F1F7 \U0001F4F6 Trojan | 139KB/s (#26)"
-  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 136KB/s (#27)"
   - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 130KB/s (#28)"
   - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 127KB/s (#29)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 118KB/s (#30)"
-  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 118KB/s (#31)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 108KB/s (#32)"
   - "\U0001F947 \U0001F1F3\U0001F1F1 \U0001F4F6 VLESS | 108KB/s (#33)"
   - "\U0001F947 \U0001F1F3\U0001F1F1 \U0001F4F6 VLESS | 107KB/s (#34)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 106KB/s (#35)"
   - "\U0001F947 \U0001F1F3\U0001F1F1 \U0001F4F6 VLESS | 103KB/s (#36)"
-  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 103KB/s (#37)"
   - "\U0001F947 \U0001F1F3\U0001F1F1 \U0001F4F6 VLESS | 101KB/s (#38)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 98KB/s (#39)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 95KB/s (#40)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 94KB/s (#41)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 94KB/s (#42)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 88KB/s (#43)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 87KB/s (#44)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 86KB/s (#45)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 85KB/s (#46)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 84KB/s (#47)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 83KB/s (#48)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 82KB/s (#49)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 82KB/s (#50)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 82KB/s (#51)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 81KB/s (#52)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 81KB/s (#53)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 81KB/s (#54)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 80KB/s (#55)"
   - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 79KB/s (#56)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 79KB/s (#57)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 78KB/s (#58)"
   - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 77KB/s (#59)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 76KB/s (#60)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 76KB/s (#61)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 75KB/s (#62)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 74KB/s (#63)"
   - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 73KB/s (#64)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 73KB/s (#65)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 72KB/s (#66)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 71KB/s (#67)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 69KB/s (#68)"
   - "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Hysteria2 | 68KB/s (#69)"
   - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 65KB/s (#70)"
-  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 64KB/s (#71)"
   - "\U0001F947 \U0001F1F9\U0001F1FC \U0001F4F6 Trojan | 59KB/s (#72)"
   - "\U0001F947 \U0001F1F9\U0001F1FC \U0001F4F6 Trojan | 58KB/s (#73)"
   - "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 VLESS | 56KB/s (#74)"
   - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 56KB/s (#75)"
   - "\U0001F947 \U0001F1F9\U0001F1ED \U0001F4F6 VLESS | 56KB/s (#76)"
   - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 VLESS | 50KB/s (#77)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 398KB/s (#78)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 389KB/s (#79)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 386KB/s (#80)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 376KB/s (#81)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 376KB/s (#82)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 372KB/s (#83)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 364KB/s (#84)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 360KB/s (#85)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 360KB/s (#86)"
-  - "\U0001F948 \U0001F1F5\U0001F1F1 \U0001F4F6 VLESS | 354KB/s (#87)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 353KB/s (#88)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 352KB/s (#89)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 351KB/s (#90)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 343KB/s (#91)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 342KB/s (#92)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 340KB/s (#93)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 332KB/s (#94)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 328KB/s (#95)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 318KB/s (#96)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 291KB/s (#97)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 283KB/s (#98)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 258KB/s (#99)"
-  - "\U0001F948 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 216KB/s (#100)"
   - "\U0001F948 \U0001F1E9\U0001F1EA \U0001F4F6 VLESS | 212KB/s (#101)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 108KB/s (#102)"
   - "\U0001F948 \U0001F310 \U0001F4F6 VMESS | 93KB/s (#103)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 89KB/s (#105)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 88KB/s (#106)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 88KB/s (#107)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 87KB/s (#108)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 86KB/s (#109)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 84KB/s (#110)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 75KB/s (#111)"
   - "\U0001F948 \U0001F1EF\U0001F1F5 \U0001F4F6 VLESS | 75KB/s (#112)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 70KB/s (#113)"
   - "\U0001F948 \U0001F310 \U0001F4F6 VMESS | 69KB/s (#114)"
   - "\U0001F948 \U0001F1EF\U0001F1F5 \U0001F4F6 VLESS | 66KB/s (#115)"
   - "\U0001F948 \U0001F1E9\U0001F1EA \U0001F4F6 VLESS | 59KB/s (#117)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 59KB/s (#118)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 59KB/s (#119)"
   - "\U0001F948 \U0001F1E9\U0001F1EA \U0001F4F6 VLESS | 59KB/s (#120)"
   - "\U0001F948 \U0001F1E9\U0001F1EA \U0001F4F6 VLESS | 57KB/s (#121)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 57KB/s (#122)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 56KB/s (#123)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 55KB/s (#124)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 54KB/s (#125)"
-  - "\U0001F948 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 50KB/s (#127)"
-  - "\U0001F948 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 50KB/s (#128)"
   - "\U0001F949 \U0001F1EB\U0001F1EE \U0001F4F6 Shadowsocks | 452KB/s (#129)"
-  - "\U0001F949 \U0001F1EC\U0001F1E7 \U0001F4F6 VLESS | 376KB/s (#130)"
-  - "\U0001F949 \U0001F1EC\U0001F1E7 \U0001F4F6 VLESS | 368KB/s (#131)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 305KB/s (#132)"
   - "\U0001F949 \U0001F1EE\U0001F1F9 \U0001F4F6 Shadowsocks | 304KB/s (#133)"
   - "\U0001F949 \U0001F1EE\U0001F1F9 \U0001F4F6 Shadowsocks | 296KB/s (#134)"
@@ -2849,11 +1674,9 @@ proxy-groups:
   - "\U0001F949 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 242KB/s (#140)"
   - "\U0001F949 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 237KB/s (#141)"
   - "\U0001F949 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 230KB/s (#142)"
-  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 227KB/s (#143)"
   - "\U0001F949 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 224KB/s (#144)"
   - "\U0001F949 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 223KB/s (#145)"
   - "\U0001F949 \U0001F1E6\U0001F1F9 \U0001F4F6 Trojan | 212KB/s (#146)"
-  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 181KB/s (#147)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 168KB/s (#148)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 157KB/s (#149)"
   - "\U0001F949 \U0001F1EC\U0001F1F7 \U0001F4F6 Trojan | 154KB/s (#150)"
@@ -2877,8 +1700,6 @@ proxy-groups:
   - "\U0001F949 \U0001F1EC\U0001F1F7 \U0001F4F6 Trojan | 124KB/s (#168)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 122KB/s (#169)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 121KB/s (#170)"
-  - "\U0001F949 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 120KB/s (#171)"
-  - "\U0001F949 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 117KB/s (#172)"
   - "\U0001F949 \U0001F1EC\U0001F1F7 \U0001F4F6 Trojan | 117KB/s (#173)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 114KB/s (#174)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 110KB/s (#175)"
@@ -2891,8 +1712,6 @@ proxy-groups:
   - "\U0001F949 \U0001F1EB\U0001F1EE \U0001F4F6 Shadowsocks | 97KB/s (#182)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 96KB/s (#183)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 94KB/s (#184)"
-  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 92KB/s (#185)"
-  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 89KB/s (#186)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 89KB/s (#187)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 87KB/s (#188)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 86KB/s (#189)"
@@ -2905,7 +1724,6 @@ proxy-groups:
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 77KB/s (#196)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 77KB/s (#197)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 73KB/s (#198)"
-  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 72KB/s (#199)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 72KB/s (#200)"
   - "\U0001F949 \U0001F1E7\U0001F1F7 \U0001F4F6 Shadowsocks | 71KB/s (#201)"
   - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 70KB/s (#202)"
