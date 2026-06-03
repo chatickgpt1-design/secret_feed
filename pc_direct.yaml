@@ -1,26 +1,3 @@
-experimental:
-  quic-go-disable-gso: true
-  quic-go-disable-ecn: true
-tun:
-  enable: true
-  stack: gvisor
-  auto-route: true
-  auto-detect-interface: true
-  dns-hijack:
-  - any:53
-  mtu: 1200
-dns:
-  enable: true
-  ipv6: false
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  nameserver:
-  - https://dns.cloudflare.com/dns-query
-  - https://dns.google/dns-query
-  proxy-server-nameserver:
-  - 8.8.8.8
-  - 1.1.1.1
-  - 8.8.4.4
 proxies:
 - name: "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Trojan | 270KB/s (#2)"
   type: trojan
@@ -156,7 +133,7 @@ proxies:
     public-key: "vrBTRg3Wz1K_fxfk8B-lWS7ZUGwxCbeBUgTcWOkSqRY"
     short-id: "0fdfdcf08722a04f"
   network: tcp
-- name: "\U0001F947 \U0001F1EC\U0001F1E7 \U0001F4F6 VLESS | 215KB/s (#15)"
+- name: "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 VLESS | 215KB/s (#15)"
   type: vless
   server: "germ-node.datamove.online"
   port: 2040
@@ -1460,7 +1437,7 @@ proxy-groups:
   - "\U0001F947 \U0001F1E6\U0001F1F9 \U0001F4F6 VLESS | 236KB/s (#12)"
   - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 235KB/s (#13)"
   - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 225KB/s (#14)"
-  - "\U0001F947 \U0001F1EC\U0001F1E7 \U0001F4F6 VLESS | 215KB/s (#15)"
+  - "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 VLESS | 215KB/s (#15)"
   - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 214KB/s (#16)"
   - "\U0001F947 \U0001F1EE\U0001F1EA \U0001F4F6 VLESS | 213KB/s (#17)"
   - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 195KB/s (#18)"
@@ -1614,7 +1591,7 @@ proxy-groups:
   - "\U0001F947 \U0001F1E6\U0001F1F9 \U0001F4F6 VLESS | 236KB/s (#12)"
   - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 235KB/s (#13)"
   - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 225KB/s (#14)"
-  - "\U0001F947 \U0001F1EC\U0001F1E7 \U0001F4F6 VLESS | 215KB/s (#15)"
+  - "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 VLESS | 215KB/s (#15)"
   - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 214KB/s (#16)"
   - "\U0001F947 \U0001F1EE\U0001F1EA \U0001F4F6 VLESS | 213KB/s (#17)"
   - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 195KB/s (#18)"
