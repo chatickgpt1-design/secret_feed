@@ -1,46 +1,1503 @@
 proxies:
-- name: "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 414KB/s (#1)"
+- name: "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 Hysteria2 | 327KB/s (#1)"
   type: hysteria2
-  server: "161.104.88.46"
-  port: 443
-  password: "2d83ea00-2813-448d-bee6-14eaf7f52e13"
+  server: "193.122.12.150"
+  port: 50000
+  password: "755f32be-b3b7-420d-aead-6eecefe7042e"
   skip-cert-verify: true
   up: "200 Mbps"
   down: "200 Mbps"
   alpn:
   - h3
   fast-open: true
-  sni: "k71530.w-mebel.pro"
-- name: "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 382KB/s (#2)"
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 Hysteria2 | 321KB/s (#2)"
   type: hysteria2
-  server: "161.104.88.46"
-  port: 443
-  password: "2d83ea00-2813-448d-bee6-14eaf7f52e13"
+  server: "138.2.182.211"
+  port: 50000
+  password: "8e63efb2-0b7b-4c84-b40a-c219b4e06a02"
   skip-cert-verify: true
   up: "200 Mbps"
   down: "200 Mbps"
   alpn:
   - h3
   fast-open: true
-  sni: "k71530.w-mebel.pro"
-- name: "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 333KB/s (#3)"
-  type: hysteria2
-  server: "161.104.88.46"
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 304KB/s (#3)"
+  type: vless
+  server: "31.76.34.87"
   port: 443
-  password: "2d83ea00-2813-448d-bee6-14eaf7f52e13"
+  udp: true
+  skip-cert-verify: true
+  uuid: "9c387b24-56ea-458d-b113-ab750a4c9b7b"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "ya.ru"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "9LuMI1vI6vzfZZv-2A5D24YgdvXXTXja2qNtKT-TpBQ"
+    short-id: "355d76d8fe14a7df"
+  network: tcp
+- name: "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 Hysteria2 | 299KB/s (#4)"
+  type: hysteria2
+  server: "138.2.182.211"
+  port: 50000
+  password: "755f32be-b3b7-420d-aead-6eecefe7042e"
   skip-cert-verify: true
   up: "200 Mbps"
   down: "200 Mbps"
   alpn:
   - h3
   fast-open: true
-  sni: "k71530.w-mebel.pro"
-- name: "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 209KB/s (#6)"
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 Hysteria2 | 297KB/s (#5)"
+  type: hysteria2
+  server: "138.2.149.95"
+  port: 50000
+  password: "8e63efb2-0b7b-4c84-b40a-c219b4e06a02"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 279KB/s (#6)"
+  type: hysteria2
+  server: "62.210.10.108"
+  port: 22000
+  password: "dongtaiwang.com"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "www.microsoft.com"
+- name: "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 242KB/s (#7)"
+  type: vless
+  server: "bridge.pool.sssrvpn.pro"
+  port: 8454
+  udp: true
+  skip-cert-verify: true
+  uuid: "e73174da-bda1-4f71-ba7a-3f6bf08ba1df"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "jobinvest.ru"
+  client-fingerprint: "chrome"
+  reality-opts:
+    public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+    short-id: ""
+  network: tcp
+- name: "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 231KB/s (#8)"
+  type: hysteria2
+  server: "62.210.10.108"
+  port: 22000
+  password: "dongtaiwang.com"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "www.microsoft.com"
+- name: "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 211KB/s (#9)"
+  type: hysteria2
+  server: "89.168.32.96"
+  port: 50000
+  password: "8e63efb2-0b7b-4c84-b40a-c219b4e06a02"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "www.microsoft.com"
+- name: "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 210KB/s (#10)"
+  type: vless
+  server: "y51.cdns.su"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  uuid: "cfbfd307-1de9-49e1-8b8a-e1f831771c0e"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "api-maps.yandex.ru"
+  client-fingerprint: "chrome"
+  reality-opts:
+    public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
+    short-id: "428ef87fd47a3a32"
+  network: tcp
+- name: "\U0001F947 \U0001F1EA\U0001F1F8 \U0001F4F6 Hysteria2 | 206KB/s (#11)"
+  type: hysteria2
+  server: "158.179.214.33"
+  port: 50000
+  password: "8e63efb2-0b7b-4c84-b40a-c219b4e06a02"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 192KB/s (#12)"
+  type: vless
+  server: "178.236.17.86"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  uuid: "6fdfdb73-51b0-4a14-89a5-c9355a0e0397"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "google.com"
+  client-fingerprint: "chrome"
+  reality-opts:
+    public-key: "vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0"
+    short-id: "b318242471ba4f5b"
+  network: tcp
+- name: "\U0001F947 \U0001F1F8\U0001F1EA \U0001F4F6 VLESS | 185KB/s (#13)"
+  type: vless
+  server: "144.31.230.169"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  uuid: "94d7eefa-5c27-4c82-b159-6048c351fb9a"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "www.twitch.tv"
+  client-fingerprint: "chrome"
+  reality-opts:
+    public-key: "GhRS0DArxmmgxh0WYlA1vLu1HrS_1oiFmWRr0dZlPnk"
+    short-id: "0f4f5970da2af8d7"
+  network: tcp
+- name: "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 176KB/s (#14)"
+  type: vless
+  server: "178.236.17.86"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  uuid: "6fdfdb73-51b0-4a14-89a5-c9355a0e0397"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "google.com"
+  client-fingerprint: "chrome"
+  reality-opts:
+    public-key: "vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0"
+    short-id: "b318242471ba4f5b"
+  network: tcp
+- name: "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 170KB/s (#15)"
+  type: vless
+  server: "178.236.17.86"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  uuid: "6fdfdb73-51b0-4a14-89a5-c9355a0e0397"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "google.com"
+  client-fingerprint: "chrome"
+  reality-opts:
+    public-key: "vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0"
+    short-id: "b318242471ba4f5b"
+  network: tcp
+- name: "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 166KB/s (#16)"
+  type: hysteria2
+  server: "89.168.32.96"
+  port: 50000
+  password: "755f32be-b3b7-420d-aead-6eecefe7042e"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "www.microsoft.com"
+- name: "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 157KB/s (#17)"
+  type: vless
+  server: "178.236.17.86"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  uuid: "6fdfdb73-51b0-4a14-89a5-c9355a0e0397"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "google.com"
+  client-fingerprint: "chrome"
+  reality-opts:
+    public-key: "vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0"
+    short-id: "b318242471ba4f5b"
+  network: tcp
+- name: "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 149KB/s (#18)"
+  type: vless
+  server: "45.43.159.153"
+  port: 7443
+  udp: true
+  skip-cert-verify: true
+  uuid: "caad76bd-208b-4c5f-9c90-838c25d0bb3a"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "rbc.ru"
+  client-fingerprint: "chrome"
+  reality-opts:
+    public-key: "zOPjTJV8xgGMmD0Mg0jWsRYSOsa_2pp7SSs88EFK6nw"
+    short-id: ""
+  network: tcp
+- name: "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 142KB/s (#19)"
+  type: vless
+  server: "178.236.17.86"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  uuid: "6fdfdb73-51b0-4a14-89a5-c9355a0e0397"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "google.com"
+  client-fingerprint: "chrome"
+  reality-opts:
+    public-key: "vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0"
+    short-id: "b318242471ba4f5b"
+  network: tcp
+- name: "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 129KB/s (#20)"
+  type: vless
+  server: "178.236.17.86"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  uuid: "6fdfdb73-51b0-4a14-89a5-c9355a0e0397"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "google.com"
+  client-fingerprint: "chrome"
+  reality-opts:
+    public-key: "vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0"
+    short-id: "b318242471ba4f5b"
+  network: tcp
+- name: "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 116KB/s (#21)"
+  type: vless
+  server: "178.236.17.86"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  uuid: "6fdfdb73-51b0-4a14-89a5-c9355a0e0397"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "google.com"
+  client-fingerprint: "chrome"
+  reality-opts:
+    public-key: "vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0"
+    short-id: "b318242471ba4f5b"
+  network: tcp
+- name: "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 102KB/s (#22)"
+  type: trojan
+  server: "188.253.12.95"
+  port: 47909
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  tls: true
+  servername: "is.01.naiun.bilibili.com"
+  network: tcp
+- name: "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 102KB/s (#23)"
+  type: trojan
+  server: "188.253.12.99"
+  port: 45553
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  tls: true
+  servername: "ch.01.naiun.bilibili.com"
+  network: tcp
+- name: "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 100KB/s (#25)"
+  type: trojan
+  server: "188.253.12.96"
+  port: 48697
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  tls: true
+  servername: "gh.01.naiun.bilibili.com"
+  network: tcp
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 97KB/s (#26)"
+  type: hysteria2
+  server: "67.216.204.136"
+  port: 443
+  password: "5qz4iiOwyqm3bytToQnX"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "www.bing.com"
+- name: "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 97KB/s (#27)"
+  type: trojan
+  server: "188.253.12.90"
+  port: 45619
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  tls: true
+  servername: "fr.01.naiun.bilibili.com"
+  network: tcp
+- name: "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 94KB/s (#28)"
+  type: trojan
+  server: "188.253.12.97"
+  port: 47909
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  tls: true
+  servername: "is.01.naiun.bilibili.com"
+  network: tcp
+- name: "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 93KB/s (#29)"
+  type: trojan
+  server: "188.253.12.98"
+  port: 41943
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  tls: true
+  servername: "az.01.naiun.bilibili.com"
+  network: tcp
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 92KB/s (#30)"
+  type: hysteria2
+  server: "167.234.222.167"
+  port: 50000
+  password: "755f32be-b3b7-420d-aead-6eecefe7042e"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 91KB/s (#31)"
+  type: hysteria2
+  server: "134.195.101.199"
+  port: 443
+  password: "f872264a-664a-4b6a-84e8-516a39099860"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "134.195.101.199"
+- name: "\U0001F947 \U0001F1F2\U0001F1FD \U0001F4F6 Hysteria2 | 90KB/s (#32)"
+  type: hysteria2
+  server: "140.84.171.236"
+  port: 50000
+  password: "755f32be-b3b7-420d-aead-6eecefe7042e"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 89KB/s (#33)"
+  type: hysteria2
+  server: "208.87.242.77"
+  port: 35000
+  password: "f872264a-664a-4b6a-84e8-516a39099860"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "208.87.242.77"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 88KB/s (#34)"
+  type: hysteria2
+  server: "129.153.76.186"
+  port: 50000
+  password: "8e63efb2-0b7b-4c84-b40a-c219b4e06a02"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 88KB/s (#35)"
+  type: hysteria2
+  server: "129.153.76.186"
+  port: 50000
+  password: "755f32be-b3b7-420d-aead-6eecefe7042e"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 82KB/s (#36)"
+  type: hysteria2
+  server: "134.195.101.199"
+  port: 443
+  password: "f872264a-664a-4b6a-84e8-516a39099860"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "134.195.101.199"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 80KB/s (#37)"
+  type: hysteria2
+  server: "129.153.202.4"
+  port: 50000
+  password: "755f32be-b3b7-420d-aead-6eecefe7042e"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 77KB/s (#38)"
+  type: hysteria2
+  server: "129.153.207.22"
+  port: 33764
+  password: "34d398e1-add5-4f00-bdc6-2744fa3ad9f3"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "www.bing.com"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 76KB/s (#39)"
+  type: hysteria2
+  server: "129.153.126.254"
+  port: 34638
+  password: "337644fd-fb59-445a-9a65-33a5a3163fa1"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "www.bing.com"
+- name: "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 VLESS | 76KB/s (#40)"
+  type: vless
+  server: "t14.qifei.app"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  uuid: "b98d4c6e-6770-4a31-8256-a4750cdea0e7"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "www.amazon.com"
+  client-fingerprint: "chrome"
+  reality-opts:
+    public-key: "0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo"
+    short-id: "1a"
+  network: tcp
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 75KB/s (#41)"
+  type: hysteria2
+  server: "129.153.207.22"
+  port: 33764
+  password: "34d398e1-add5-4f00-bdc6-2744fa3ad9f3"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "www.bing.com"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 74KB/s (#42)"
+  type: hysteria2
+  server: "129.153.126.254"
+  port: 34638
+  password: "337644fd-fb59-445a-9a65-33a5a3163fa1"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "www.bing.com"
+- name: "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 Hysteria2 | 73KB/s (#43)"
+  type: hysteria2
+  server: "103.62.49.133"
+  port: 55000
+  password: "755f32be-b3b7-420d-aead-6eecefe7042e"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 73KB/s (#44)"
+  type: hysteria2
+  server: "129.153.126.254"
+  port: 34638
+  password: "337644fd-fb59-445a-9a65-33a5a3163fa1"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "www.bing.com"
+- name: "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 Hysteria2 | 72KB/s (#45)"
+  type: hysteria2
+  server: "103.62.49.133"
+  port: 55000
+  password: "755f32be-b3b7-420d-aead-6eecefe7042e"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 72KB/s (#46)"
+  type: hysteria2
+  server: "66.42.96.38"
+  port: 443
+  password: "formosa88.."
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "www.bing.com"
+- name: "\U0001F947 \U0001F1EE\U0001F1F3 \U0001F4F6 Hysteria2 | 72KB/s (#47)"
+  type: hysteria2
+  server: "68.233.105.39"
+  port: 50000
+  password: "755f32be-b3b7-420d-aead-6eecefe7042e"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 71KB/s (#48)"
+  type: hysteria2
+  server: "stable-usw-1.twcc.eu.org"
+  port: 18004
+  password: "71db5d6c-8a6f-4e72-af64-0090d700dd8d"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "i0.hdslb.com"
+- name: "\U0001F947 \U0001F1E6\U0001F1FA \U0001F4F6 Hysteria2 | 65KB/s (#49)"
+  type: hysteria2
+  server: "168.138.109.21"
+  port: 50000
+  password: "8e63efb2-0b7b-4c84-b40a-c219b4e06a02"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 64KB/s (#50)"
+  type: trojan
+  server: "155.117.198.86"
+  port: 45619
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  tls: true
+  servername: "fr.01.naiun.bilibili.com"
+  network: tcp
+- name: "\U0001F947 \U0001F1F2\U0001F1FD \U0001F4F6 Hysteria2 | 64KB/s (#51)"
+  type: hysteria2
+  server: "140.84.171.236"
+  port: 50000
+  password: "8e63efb2-0b7b-4c84-b40a-c219b4e06a02"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 64KB/s (#52)"
+  type: hysteria2
+  server: "89.251.26.111"
+  port: 55555
+  password: "e3a5bb40be52de65"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "apps.apple.com"
+- name: "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 64KB/s (#53)"
+  type: hysteria2
+  server: "89.251.26.111"
+  port: 55555
+  password: "e3a5bb40be52de65"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "apps.apple.com"
+- name: "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 63KB/s (#54)"
+  type: hysteria2
+  server: "hkt1.jueduibupao.top"
+  port: 45178
+  password: "b88495b9-7ba9-4165-8d8c-b37568f3ab3b"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "hkt1.jueduibupao.top"
+- name: "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 63KB/s (#55)"
+  type: hysteria2
+  server: "89.251.26.111"
+  port: 55555
+  password: "e3a5bb40be52de65"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "apps.apple.com"
+- name: "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 63KB/s (#56)"
+  type: hysteria2
+  server: "89.251.26.111"
+  port: 55555
+  password: "e3a5bb40be52de65"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "apps.apple.com"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 61KB/s (#57)"
+  type: hysteria2
+  server: "stable-ca-2.twcc.eu.org"
+  port: 18004
+  password: "71db5d6c-8a6f-4e72-af64-0090d700dd8d"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "i0.hdslb.com"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 60KB/s (#58)"
+  type: trojan
+  server: "155.117.198.88"
+  port: 47909
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  tls: true
+  servername: "is.01.naiun.bilibili.com"
+  network: tcp
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 60KB/s (#59)"
+  type: hysteria2
+  server: "167.234.222.167"
+  port: 50000
+  password: "8e63efb2-0b7b-4c84-b40a-c219b4e06a02"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 59KB/s (#60)"
+  type: trojan
+  server: "155.117.198.84"
+  port: 45553
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  tls: true
+  servername: "ch.01.naiun.bilibili.com"
+  network: tcp
+- name: "\U0001F947 \U0001F1E6\U0001F1EA \U0001F4F6 Hysteria2 | 58KB/s (#61)"
+  type: hysteria2
+  server: "139.185.49.195"
+  port: 50000
+  password: "755f32be-b3b7-420d-aead-6eecefe7042e"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 Hysteria2 | 58KB/s (#62)"
+  type: hysteria2
+  server: "103.62.49.76"
+  port: 35000
+  password: "f872264a-664a-4b6a-84e8-516a39099860"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "103.62.49.76"
+- name: "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 58KB/s (#63)"
+  type: hysteria2
+  server: "89.251.26.111"
+  port: 55555
+  password: "e3a5bb40be52de65"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "apps.apple.com"
+- name: "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 57KB/s (#64)"
+  type: hysteria2
+  server: "89.251.26.111"
+  port: 55555
+  password: "e3a5bb40be52de65"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "apps.apple.com"
+- name: "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 56KB/s (#65)"
+  type: hysteria2
+  server: "89.251.26.111"
+  port: 55555
+  password: "e3a5bb40be52de65"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "apps.apple.com"
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 56KB/s (#66)"
+  type: trojan
+  server: "155.117.198.90"
+  port: 45553
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  tls: true
+  servername: "ch.01.naiun.bilibili.com"
+  network: tcp
+- name: "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 Hysteria2 | 55KB/s (#67)"
+  type: hysteria2
+  server: "103.62.49.76"
+  port: 35000
+  password: "f872264a-664a-4b6a-84e8-516a39099860"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "103.62.49.76"
+- name: "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 Hysteria2 | 55KB/s (#68)"
+  type: hysteria2
+  server: "8.216.21.135"
+  port: 11009
+  password: "e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "jp2-node.farnet.top"
+- name: "\U0001F947 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#69)"
+  type: trojan
+  server: "103.177.136.42"
+  port: 47909
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  tls: true
+  servername: "is.01.naiun.bilibili.com"
+  network: tcp
+- name: "\U0001F947 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 53KB/s (#70)"
+  type: trojan
+  server: "103.177.136.42"
+  port: 41943
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  tls: true
+  servername: "az.01.naiun.bilibili.com"
+  network: tcp
+- name: "\U0001F947 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 52KB/s (#71)"
+  type: trojan
+  server: "103.177.136.42"
+  port: 45619
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  tls: true
+  servername: "fr.01.naiun.bilibili.com"
+  network: tcp
+- name: "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 50KB/s (#72)"
+  type: hysteria2
+  server: "129.153.202.4"
+  port: 50000
+  password: "8e63efb2-0b7b-4c84-b40a-c219b4e06a02"
+  skip-cert-verify: true
+  up: "200 Mbps"
+  down: "200 Mbps"
+  alpn:
+  - h3
+  fast-open: true
+  sni: "fastcdn.hoyoverse.com"
+- name: "\U0001F949 \U0001F1F7\U0001F1FA \U0001F4F6 Shadowsocks | 443KB/s (#76)"
+  type: ss
+  server: "46.17.43.149"
+  port: 20129
+  cipher: aes-256-gcm
+  password: "32c0ea6e823341a2"
+  udp: true
+- name: "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 266KB/s (#77)"
+  type: ss
+  server: "108.181.126.122"
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: "CJmTCCx7Ltud"
+  udp: true
+- name: "\U0001F949 \U0001F1EB\U0001F1EE \U0001F4F6 Shadowsocks | 254KB/s (#78)"
+  type: ss
+  server: "85.192.49.179"
+  port: 51523
+  cipher: chacha20-ietf-poly1305
+  password: "ABoEpxeU9FbQr7_Jn7KU4sUqD7RKjBs2"
+  udp: true
+- name: "\U0001F949 \U0001F1EE\U0001F1F9 \U0001F4F6 Shadowsocks | 247KB/s (#79)"
+  type: ss
+  server: "185.213.20.110"
+  port: 7001
+  cipher: aes-256-gcm
+  password: "RexnBgU7EV5ADxG"
+  udp: true
+- name: "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 239KB/s (#80)"
+  type: ss
+  server: "82.38.31.15"
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  udp: true
+- name: "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 225KB/s (#81)"
   type: ss
   server: "192.142.18.127"
   port: 443
   cipher: aes-256-gcm
-  password: "0767dc96-e68a-43ac-a929-68b664700267"
+  password: "e2949272-400e-4ef1-8657-6c2a994e5434"
+  udp: true
+- name: "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 222KB/s (#82)"
+  type: ss
+  server: "192.142.18.127"
+  port: 443
+  cipher: aes-256-gcm
+  password: "65a9e62f-93a6-40eb-b51d-0d832124eb31"
+  udp: true
+- name: "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 222KB/s (#83)"
+  type: ss
+  server: "82.38.31.15"
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  udp: true
+- name: "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 220KB/s (#84)"
+  type: ss
+  server: "192.142.18.127"
+  port: 443
+  cipher: aes-256-gcm
+  password: "d2890c8f-8d15-42b7-80e3-687fab8b2c7a"
+  udp: true
+- name: "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 219KB/s (#85)"
+  type: ss
+  server: "192.142.18.127"
+  port: 443
+  cipher: aes-256-gcm
+  password: "d2890c8f-8d15-42b7-80e3-687fab8b2c7a"
+  udp: true
+- name: "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 218KB/s (#86)"
+  type: ss
+  server: "192.142.18.127"
+  port: 443
+  cipher: aes-256-gcm
+  password: "7ad7df5a-23bd-459b-9bef-c428f26fff4a"
+  udp: true
+- name: "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 214KB/s (#87)"
+  type: ss
+  server: "192.142.18.127"
+  port: 443
+  cipher: aes-256-gcm
+  password: "c1fd0b29-6c18-4042-87a2-f5bd7878dc0a"
+  udp: true
+- name: "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 198KB/s (#88)"
+  type: ss
+  server: "192.142.18.127"
+  port: 443
+  cipher: aes-256-gcm
+  password: "d2890c8f-8d15-42b7-80e3-687fab8b2c7a"
+  udp: true
+- name: "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 192KB/s (#89)"
+  type: ss
+  server: "192.142.18.127"
+  port: 443
+  cipher: aes-256-gcm
+  password: "e2949272-400e-4ef1-8657-6c2a994e5434"
+  udp: true
+- name: "\U0001F949 \U0001F1EE\U0001F1F9 \U0001F4F6 Shadowsocks | 181KB/s (#90)"
+  type: ss
+  server: "185.213.20.110"
+  port: 7001
+  cipher: aes-256-gcm
+  password: "RexnBgU7EV5ADxG"
+  udp: true
+- name: "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 111KB/s (#91)"
+  type: ss
+  server: "192.142.18.127"
+  port: 443
+  cipher: aes-256-gcm
+  password: "c1fd0b29-6c18-4042-87a2-f5bd7878dc0a"
+  udp: true
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 101KB/s (#93)"
+  type: trojan
+  server: "188.253.12.90"
+  port: 45619
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 100KB/s (#94)"
+  type: trojan
+  server: "188.253.12.15"
+  port: 48697
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#95)"
+  type: trojan
+  server: "188.253.12.94"
+  port: 45553
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#96)"
+  type: trojan
+  server: "188.253.12.96"
+  port: 48697
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#97)"
+  type: trojan
+  server: "188.253.12.98"
+  port: 45619
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#98)"
+  type: trojan
+  server: "188.253.12.91"
+  port: 47909
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#99)"
+  type: trojan
+  server: "188.253.12.94"
+  port: 48697
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#100)"
+  type: trojan
+  server: "188.253.12.94"
+  port: 41943
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 98KB/s (#101)"
+  type: trojan
+  server: "188.253.12.90"
+  port: 45619
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 98KB/s (#102)"
+  type: trojan
+  server: "188.253.12.99"
+  port: 41943
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 98KB/s (#103)"
+  type: trojan
+  server: "188.253.12.91"
+  port: 41943
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 98KB/s (#104)"
+  type: trojan
+  server: "188.253.12.95"
+  port: 48697
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 96KB/s (#105)"
+  type: trojan
+  server: "188.253.12.90"
+  port: 47909
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 95KB/s (#106)"
+  type: trojan
+  server: "188.253.12.93"
+  port: 45553
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 95KB/s (#107)"
+  type: trojan
+  server: "188.253.12.94"
+  port: 47909
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 95KB/s (#108)"
+  type: trojan
+  server: "188.253.12.98"
+  port: 41943
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 94KB/s (#109)"
+  type: trojan
+  server: "188.253.12.96"
+  port: 46424
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 92KB/s (#110)"
+  type: trojan
+  server: "188.253.12.93"
+  port: 47909
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 91KB/s (#111)"
+  type: trojan
+  server: "188.253.12.94"
+  port: 47909
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Shadowsocks | 89KB/s (#112)"
+  type: ss
+  server: "96.9.211.183"
+  port: 8881
+  cipher: aes-128-gcm
+  password: "2bc77a3a-1a6a-49bd-987f-5368cca0f930"
+  udp: true
+- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Shadowsocks | 81KB/s (#113)"
+  type: ss
+  server: "198.98.53.130"
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: "eDfN7SODQceIOmIAbtJJtK"
+  udp: true
+- name: "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 79KB/s (#114)"
+  type: trojan
+  server: "119.246.1.143"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  password: "BxceQaOe"
+  network: tcp
+- name: "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 77KB/s (#115)"
+  type: trojan
+  server: "119.246.1.143"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  password: "BxceQaOe"
+  network: tcp
+- name: "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 77KB/s (#116)"
+  type: trojan
+  server: "119.246.1.143"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  password: "BxceQaOe"
+  network: tcp
+- name: "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#117)"
+  type: trojan
+  server: "119.246.1.143"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  password: "BxceQaOe"
+  network: tcp
+- name: "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#118)"
+  type: trojan
+  server: "119.246.1.143"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  password: "BxceQaOe"
+  network: tcp
+- name: "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#119)"
+  type: trojan
+  server: "119.246.1.143"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  password: "BxceQaOe"
+  network: tcp
+- name: "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#120)"
+  type: trojan
+  server: "119.246.1.143"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  password: "BxceQaOe"
+  network: tcp
+- name: "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#121)"
+  type: trojan
+  server: "119.246.1.143"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  password: "BxceQaOe"
+  network: tcp
+- name: "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#122)"
+  type: trojan
+  server: "119.246.1.143"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  password: "BxceQaOe"
+  network: tcp
+- name: "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 75KB/s (#123)"
+  type: trojan
+  server: "119.246.1.143"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  password: "BxceQaOe"
+  network: tcp
+- name: "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 74KB/s (#124)"
+  type: trojan
+  server: "119.246.1.143"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  password: "BxceQaOe"
+  network: tcp
+- name: "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 73KB/s (#125)"
+  type: trojan
+  server: "119.246.1.143"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  password: "BxceQaOe"
+  network: tcp
+- name: "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 72KB/s (#126)"
+  type: trojan
+  server: "119.246.1.143"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  password: "BxceQaOe"
+  network: tcp
+- name: "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 71KB/s (#127)"
+  type: trojan
+  server: "119.246.1.143"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  password: "BxceQaOe"
+  network: tcp
+- name: "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 70KB/s (#129)"
+  type: trojan
+  server: "119.246.1.143"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  password: "BxceQaOe"
+  network: tcp
+- name: "\U0001F949 \U0001F1F0\U0001F1FF \U0001F4F6 Shadowsocks | 69KB/s (#130)"
+  type: ss
+  server: "94.198.220.183"
+  port: 64674
+  cipher: chacha20-ietf-poly1305
+  password: "s8LbJCgUiGXeCKVc63tHJP"
+  udp: true
+- name: "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 67KB/s (#131)"
+  type: trojan
+  server: "119.246.1.143"
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  password: "BxceQaOe"
+  network: tcp
+- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 65KB/s (#132)"
+  type: trojan
+  server: "155.117.198.85"
+  port: 46424
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 65KB/s (#133)"
+  type: trojan
+  server: "155.117.198.84"
+  port: 47909
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 65KB/s (#134)"
+  type: trojan
+  server: "155.117.198.84"
+  port: 46424
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 64KB/s (#135)"
+  type: trojan
+  server: "155.117.198.89"
+  port: 48697
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 64KB/s (#136)"
+  type: trojan
+  server: "155.117.198.3"
+  port: 47909
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 63KB/s (#137)"
+  type: trojan
+  server: "155.117.198.89"
+  port: 48697
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 62KB/s (#138)"
+  type: trojan
+  server: "155.117.198.89"
+  port: 48697
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 59KB/s (#139)"
+  type: trojan
+  server: "155.117.198.85"
+  port: 46424
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 59KB/s (#140)"
+  type: trojan
+  server: "155.117.198.85"
+  port: 47909
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 59KB/s (#141)"
+  type: trojan
+  server: "155.117.198.88"
+  port: 47909
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 58KB/s (#142)"
+  type: trojan
+  server: "155.117.198.85"
+  port: 46424
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 58KB/s (#143)"
+  type: trojan
+  server: "155.117.198.85"
+  port: 45619
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F9\U0001F1FC \U0001F4F6 Shadowsocks | 57KB/s (#144)"
+  type: ss
+  server: "r3mrcg00129437x.cybervena.com"
+  port: 50099
+  cipher: chacha20-ietf-poly1305
+  password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+  udp: true
+- name: "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 55KB/s (#145)"
+  type: trojan
+  server: "103.177.136.42"
+  port: 46424
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 55KB/s (#146)"
+  type: trojan
+  server: "155.117.198.86"
+  port: 45619
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 55KB/s (#147)"
+  type: trojan
+  server: "103.177.136.45"
+  port: 41943
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 55KB/s (#148)"
+  type: trojan
+  server: "103.177.136.45"
+  port: 47909
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#149)"
+  type: trojan
+  server: "103.177.136.42"
+  port: 45619
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#150)"
+  type: trojan
+  server: "103.177.136.42"
+  port: 47909
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 54KB/s (#151)"
+  type: trojan
+  server: "155.117.198.85"
+  port: 45553
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#152)"
+  type: trojan
+  server: "103.177.136.42"
+  port: 46424
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#153)"
+  type: trojan
+  server: "103.177.136.42"
+  port: 45553
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#154)"
+  type: trojan
+  server: "103.177.136.44"
+  port: 45553
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 53KB/s (#155)"
+  type: trojan
+  server: "103.177.136.45"
+  port: 41943
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 53KB/s (#156)"
+  type: trojan
+  server: "103.177.136.42"
+  port: 46424
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 52KB/s (#157)"
+  type: trojan
+  server: "155.117.198.86"
+  port: 45619
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 52KB/s (#158)"
+  type: trojan
+  server: "103.177.136.45"
+  port: 41943
+  udp: true
+  skip-cert-verify: true
+  password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  network: tcp
+- name: "\U0001F949 \U0001F1F9\U0001F1FC \U0001F4F6 Shadowsocks | 51KB/s (#159)"
+  type: ss
+  server: "r3mrcg00129437x.cybervena.com"
+  port: 50099
+  cipher: chacha20-ietf-poly1305
+  password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
   udp: true
 proxy-groups:
 - name: 🚀 AUTO-BEST
@@ -49,17 +1506,315 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 414KB/s (#1)"
-  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 382KB/s (#2)"
-  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 333KB/s (#3)"
-  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 209KB/s (#6)"
+  - "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 Hysteria2 | 327KB/s (#1)"
+  - "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 Hysteria2 | 321KB/s (#2)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 304KB/s (#3)"
+  - "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 Hysteria2 | 299KB/s (#4)"
+  - "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 Hysteria2 | 297KB/s (#5)"
+  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 279KB/s (#6)"
+  - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 242KB/s (#7)"
+  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 231KB/s (#8)"
+  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 211KB/s (#9)"
+  - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 210KB/s (#10)"
+  - "\U0001F947 \U0001F1EA\U0001F1F8 \U0001F4F6 Hysteria2 | 206KB/s (#11)"
+  - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 192KB/s (#12)"
+  - "\U0001F947 \U0001F1F8\U0001F1EA \U0001F4F6 VLESS | 185KB/s (#13)"
+  - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 176KB/s (#14)"
+  - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 170KB/s (#15)"
+  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 166KB/s (#16)"
+  - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 157KB/s (#17)"
+  - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 149KB/s (#18)"
+  - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 142KB/s (#19)"
+  - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 129KB/s (#20)"
+  - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 116KB/s (#21)"
+  - "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 102KB/s (#22)"
+  - "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 102KB/s (#23)"
+  - "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 100KB/s (#25)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 97KB/s (#26)"
+  - "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 97KB/s (#27)"
+  - "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 94KB/s (#28)"
+  - "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 93KB/s (#29)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 92KB/s (#30)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 91KB/s (#31)"
+  - "\U0001F947 \U0001F1F2\U0001F1FD \U0001F4F6 Hysteria2 | 90KB/s (#32)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 89KB/s (#33)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 88KB/s (#34)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 88KB/s (#35)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 82KB/s (#36)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 80KB/s (#37)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 77KB/s (#38)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 76KB/s (#39)"
+  - "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 VLESS | 76KB/s (#40)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 75KB/s (#41)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 74KB/s (#42)"
+  - "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 Hysteria2 | 73KB/s (#43)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 73KB/s (#44)"
+  - "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 Hysteria2 | 72KB/s (#45)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 72KB/s (#46)"
+  - "\U0001F947 \U0001F1EE\U0001F1F3 \U0001F4F6 Hysteria2 | 72KB/s (#47)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 71KB/s (#48)"
+  - "\U0001F947 \U0001F1E6\U0001F1FA \U0001F4F6 Hysteria2 | 65KB/s (#49)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 64KB/s (#50)"
+  - "\U0001F947 \U0001F1F2\U0001F1FD \U0001F4F6 Hysteria2 | 64KB/s (#51)"
+  - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 64KB/s (#52)"
+  - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 64KB/s (#53)"
+  - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 63KB/s (#54)"
+  - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 63KB/s (#55)"
+  - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 63KB/s (#56)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 61KB/s (#57)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 60KB/s (#58)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 60KB/s (#59)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 59KB/s (#60)"
+  - "\U0001F947 \U0001F1E6\U0001F1EA \U0001F4F6 Hysteria2 | 58KB/s (#61)"
+  - "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 Hysteria2 | 58KB/s (#62)"
+  - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 58KB/s (#63)"
+  - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 57KB/s (#64)"
+  - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 56KB/s (#65)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 56KB/s (#66)"
+  - "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 Hysteria2 | 55KB/s (#67)"
+  - "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 Hysteria2 | 55KB/s (#68)"
+  - "\U0001F947 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#69)"
+  - "\U0001F947 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 53KB/s (#70)"
+  - "\U0001F947 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 52KB/s (#71)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 50KB/s (#72)"
+  - "\U0001F949 \U0001F1F7\U0001F1FA \U0001F4F6 Shadowsocks | 443KB/s (#76)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 266KB/s (#77)"
+  - "\U0001F949 \U0001F1EB\U0001F1EE \U0001F4F6 Shadowsocks | 254KB/s (#78)"
+  - "\U0001F949 \U0001F1EE\U0001F1F9 \U0001F4F6 Shadowsocks | 247KB/s (#79)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 239KB/s (#80)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 225KB/s (#81)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 222KB/s (#82)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 222KB/s (#83)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 220KB/s (#84)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 219KB/s (#85)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 218KB/s (#86)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 214KB/s (#87)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 198KB/s (#88)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 192KB/s (#89)"
+  - "\U0001F949 \U0001F1EE\U0001F1F9 \U0001F4F6 Shadowsocks | 181KB/s (#90)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 111KB/s (#91)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 101KB/s (#93)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 100KB/s (#94)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#95)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#96)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#97)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#98)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#99)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#100)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 98KB/s (#101)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 98KB/s (#102)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 98KB/s (#103)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 98KB/s (#104)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 96KB/s (#105)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 95KB/s (#106)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 95KB/s (#107)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 95KB/s (#108)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 94KB/s (#109)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 92KB/s (#110)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 91KB/s (#111)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Shadowsocks | 89KB/s (#112)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Shadowsocks | 81KB/s (#113)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 79KB/s (#114)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 77KB/s (#115)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 77KB/s (#116)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#117)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#118)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#119)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#120)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#121)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#122)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 75KB/s (#123)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 74KB/s (#124)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 73KB/s (#125)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 72KB/s (#126)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 71KB/s (#127)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 70KB/s (#129)"
+  - "\U0001F949 \U0001F1F0\U0001F1FF \U0001F4F6 Shadowsocks | 69KB/s (#130)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 67KB/s (#131)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 65KB/s (#132)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 65KB/s (#133)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 65KB/s (#134)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 64KB/s (#135)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 64KB/s (#136)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 63KB/s (#137)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 62KB/s (#138)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 59KB/s (#139)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 59KB/s (#140)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 59KB/s (#141)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 58KB/s (#142)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 58KB/s (#143)"
+  - "\U0001F949 \U0001F1F9\U0001F1FC \U0001F4F6 Shadowsocks | 57KB/s (#144)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 55KB/s (#145)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 55KB/s (#146)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 55KB/s (#147)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 55KB/s (#148)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#149)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#150)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 54KB/s (#151)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#152)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#153)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#154)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 53KB/s (#155)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 53KB/s (#156)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 52KB/s (#157)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 52KB/s (#158)"
+  - "\U0001F949 \U0001F1F9\U0001F1FC \U0001F4F6 Shadowsocks | 51KB/s (#159)"
 - name: 💻 PC DIRECT
   type: select
   proxies:
   - 🚀 AUTO-BEST
-  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 414KB/s (#1)"
-  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 382KB/s (#2)"
-  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 333KB/s (#3)"
-  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 209KB/s (#6)"
+  - "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 Hysteria2 | 327KB/s (#1)"
+  - "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 Hysteria2 | 321KB/s (#2)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 VLESS | 304KB/s (#3)"
+  - "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 Hysteria2 | 299KB/s (#4)"
+  - "\U0001F947 \U0001F1E9\U0001F1EA \U0001F4F6 Hysteria2 | 297KB/s (#5)"
+  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 279KB/s (#6)"
+  - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 242KB/s (#7)"
+  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 231KB/s (#8)"
+  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 211KB/s (#9)"
+  - "\U0001F947 \U0001F1F7\U0001F1FA \U0001F4F6 VLESS | 210KB/s (#10)"
+  - "\U0001F947 \U0001F1EA\U0001F1F8 \U0001F4F6 Hysteria2 | 206KB/s (#11)"
+  - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 192KB/s (#12)"
+  - "\U0001F947 \U0001F1F8\U0001F1EA \U0001F4F6 VLESS | 185KB/s (#13)"
+  - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 176KB/s (#14)"
+  - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 170KB/s (#15)"
+  - "\U0001F947 \U0001F1EB\U0001F1F7 \U0001F4F6 Hysteria2 | 166KB/s (#16)"
+  - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 157KB/s (#17)"
+  - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 149KB/s (#18)"
+  - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 142KB/s (#19)"
+  - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 129KB/s (#20)"
+  - "\U0001F947 \U0001F1F0\U0001F1FF \U0001F4F6 VLESS | 116KB/s (#21)"
+  - "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 102KB/s (#22)"
+  - "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 102KB/s (#23)"
+  - "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 100KB/s (#25)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 97KB/s (#26)"
+  - "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 97KB/s (#27)"
+  - "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 94KB/s (#28)"
+  - "\U0001F947 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 93KB/s (#29)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 92KB/s (#30)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 91KB/s (#31)"
+  - "\U0001F947 \U0001F1F2\U0001F1FD \U0001F4F6 Hysteria2 | 90KB/s (#32)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 89KB/s (#33)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 88KB/s (#34)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 88KB/s (#35)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 82KB/s (#36)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 80KB/s (#37)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 77KB/s (#38)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 76KB/s (#39)"
+  - "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 VLESS | 76KB/s (#40)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 75KB/s (#41)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 74KB/s (#42)"
+  - "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 Hysteria2 | 73KB/s (#43)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 73KB/s (#44)"
+  - "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 Hysteria2 | 72KB/s (#45)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 72KB/s (#46)"
+  - "\U0001F947 \U0001F1EE\U0001F1F3 \U0001F4F6 Hysteria2 | 72KB/s (#47)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 71KB/s (#48)"
+  - "\U0001F947 \U0001F1E6\U0001F1FA \U0001F4F6 Hysteria2 | 65KB/s (#49)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 64KB/s (#50)"
+  - "\U0001F947 \U0001F1F2\U0001F1FD \U0001F4F6 Hysteria2 | 64KB/s (#51)"
+  - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 64KB/s (#52)"
+  - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 64KB/s (#53)"
+  - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 63KB/s (#54)"
+  - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 63KB/s (#55)"
+  - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 63KB/s (#56)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 61KB/s (#57)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 60KB/s (#58)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 60KB/s (#59)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 59KB/s (#60)"
+  - "\U0001F947 \U0001F1E6\U0001F1EA \U0001F4F6 Hysteria2 | 58KB/s (#61)"
+  - "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 Hysteria2 | 58KB/s (#62)"
+  - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 58KB/s (#63)"
+  - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 57KB/s (#64)"
+  - "\U0001F947 \U0001F1ED\U0001F1F0 \U0001F4F6 Hysteria2 | 56KB/s (#65)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 56KB/s (#66)"
+  - "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 Hysteria2 | 55KB/s (#67)"
+  - "\U0001F947 \U0001F1EF\U0001F1F5 \U0001F4F6 Hysteria2 | 55KB/s (#68)"
+  - "\U0001F947 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#69)"
+  - "\U0001F947 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 53KB/s (#70)"
+  - "\U0001F947 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 52KB/s (#71)"
+  - "\U0001F947 \U0001F1FA\U0001F1F8 \U0001F4F6 Hysteria2 | 50KB/s (#72)"
+  - "\U0001F949 \U0001F1F7\U0001F1FA \U0001F4F6 Shadowsocks | 443KB/s (#76)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 266KB/s (#77)"
+  - "\U0001F949 \U0001F1EB\U0001F1EE \U0001F4F6 Shadowsocks | 254KB/s (#78)"
+  - "\U0001F949 \U0001F1EE\U0001F1F9 \U0001F4F6 Shadowsocks | 247KB/s (#79)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 239KB/s (#80)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 225KB/s (#81)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 222KB/s (#82)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 222KB/s (#83)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 220KB/s (#84)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 219KB/s (#85)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 218KB/s (#86)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 214KB/s (#87)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 198KB/s (#88)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 192KB/s (#89)"
+  - "\U0001F949 \U0001F1EE\U0001F1F9 \U0001F4F6 Shadowsocks | 181KB/s (#90)"
+  - "\U0001F949 \U0001F1F3\U0001F1F1 \U0001F4F6 Shadowsocks | 111KB/s (#91)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 101KB/s (#93)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 100KB/s (#94)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#95)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#96)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#97)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#98)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#99)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 99KB/s (#100)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 98KB/s (#101)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 98KB/s (#102)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 98KB/s (#103)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 98KB/s (#104)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 96KB/s (#105)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 95KB/s (#106)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 95KB/s (#107)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 95KB/s (#108)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 94KB/s (#109)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 92KB/s (#110)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Trojan | 91KB/s (#111)"
+  - "\U0001F949 \U0001F1F8\U0001F1EC \U0001F4F6 Shadowsocks | 89KB/s (#112)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Shadowsocks | 81KB/s (#113)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 79KB/s (#114)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 77KB/s (#115)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 77KB/s (#116)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#117)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#118)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#119)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#120)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#121)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 76KB/s (#122)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 75KB/s (#123)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 74KB/s (#124)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 73KB/s (#125)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 72KB/s (#126)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 71KB/s (#127)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 70KB/s (#129)"
+  - "\U0001F949 \U0001F1F0\U0001F1FF \U0001F4F6 Shadowsocks | 69KB/s (#130)"
+  - "\U0001F949 \U0001F1ED\U0001F1F0 \U0001F4F6 Trojan | 67KB/s (#131)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 65KB/s (#132)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 65KB/s (#133)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 65KB/s (#134)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 64KB/s (#135)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 64KB/s (#136)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 63KB/s (#137)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 62KB/s (#138)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 59KB/s (#139)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 59KB/s (#140)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 59KB/s (#141)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 58KB/s (#142)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 58KB/s (#143)"
+  - "\U0001F949 \U0001F1F9\U0001F1FC \U0001F4F6 Shadowsocks | 57KB/s (#144)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 55KB/s (#145)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 55KB/s (#146)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 55KB/s (#147)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 55KB/s (#148)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#149)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#150)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 54KB/s (#151)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#152)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#153)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 54KB/s (#154)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 53KB/s (#155)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 53KB/s (#156)"
+  - "\U0001F949 \U0001F1FA\U0001F1F8 \U0001F4F6 Trojan | 52KB/s (#157)"
+  - "\U0001F949 \U0001F1E8\U0001F1E6 \U0001F4F6 Trojan | 52KB/s (#158)"
+  - "\U0001F949 \U0001F1F9\U0001F1FC \U0001F4F6 Shadowsocks | 51KB/s (#159)"
 rules:
 - MATCH,💻 PC DIRECT
